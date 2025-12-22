@@ -3,21 +3,33 @@ import 'dart:math' as math;
 
 import 'package:chess/chess.dart' as chess;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:simple_chess_board/simple_chess_board.dart';
 
 import '../models/puzzle.dart';
+import '../models/puzzle_stats.dart';
+import '../models/run_result.dart';
+import '../services/storage_service.dart';
+import '../utils/format.dart';
+import 'run_summary_page.dart';
 
 class PuzzlePlayPage extends StatefulWidget {
   const PuzzlePlayPage({
     super.key,
     required this.puzzles,
     this.startIndex = 0,
-    this.setTitle,
+    required this.setId,
+    required this.setTitle,
+    required this.runMode,
   });
 
   final List<Puzzle> puzzles;
   final int startIndex;
-  final String? setTitle;
+
+  final String setId;
+  final String setTitle;
+
+  final bool runMode;
 
   @override
   State<PuzzlePlayPage> createState() => _PuzzlePlayPageState();
@@ -27,8 +39,6 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
   static const double _pagePadding = 16;
 
   late int _index;
-
-  int _wrong = 0;
 
   late chess.Chess _game;
   String _fen = '';
@@ -41,9 +51,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
   bool _autoPlaying = false;
 
   String? _statusText;
-  bool _hintRevealed = false;
 
-  // This now controls our custom coordinate labels (not the package's).
   bool _showCoordinates = true;
 
   // Rotation behavior:
@@ -54,13 +62,46 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
   BoardArrow? _lastMoveArrow;
   final Map<String, Color> _cellHighlights = <String, Color>{};
 
+  // Gamification state
+  late final int _runStartMs;
+  int _runElapsedMs = 0;
+
+  int _runScore = 0;
+  int _runWrongMoves = 0;
+  int _runHintsUsed = 0;
+  int _runSolvedCount = 0;
+
+  int _puzzleStartMs = 0;
+  int _puzzleElapsedMs = 0;
+  int _puzzleWrongMoves = 0;
+  bool _puzzleHintUsed = false;
+
+  Timer? _ticker;
+
   Puzzle get _puzzle => widget.puzzles[_index];
 
   @override
   void initState() {
     super.initState();
     _index = widget.startIndex.clamp(0, widget.puzzles.length - 1);
+
+    _runStartMs = DateTime.now().millisecondsSinceEpoch;
+
     _loadPuzzle();
+
+    _ticker = Timer.periodic(const Duration(milliseconds: 250), (_) {
+      final now = DateTime.now().millisecondsSinceEpoch;
+      setState(() {
+        _runElapsedMs = now - _runStartMs;
+        _puzzleElapsedMs = now - _puzzleStartMs;
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _ticker?.cancel();
+    super.dispose();
   }
 
   void _loadPuzzle() {
@@ -78,12 +119,16 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     _solved = false;
     _autoPlaying = false;
     _statusText = null;
-    _hintRevealed = false;
+
     _cellHighlights.clear();
     _lastMoveArrow = null;
 
-    setState(() {});
+    _puzzleStartMs = DateTime.now().millisecondsSinceEpoch;
+    _puzzleElapsedMs = 0;
+    _puzzleWrongMoves = 0;
+    _puzzleHintUsed = false;
 
+    setState(() {});
     unawaited(_autoPlayUntilSolverTurnOrDone());
   }
 
@@ -97,7 +142,8 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
 
   String _sideToMoveFromFen(String fen) {
     final parts = fen.trim().split(RegExp(r'\s+'));
-    if (parts.length >= 2 && (parts[1] == 'w' || parts[1] == 'b')) return parts[1];
+    if (parts.length >= 2 && (parts[1] == 'w' || parts[1] == 'b'))
+      return parts[1];
     return 'w';
   }
 
@@ -143,7 +189,8 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     final t = _normalizeSan(s);
 
     if (t == 'O-O' || t == 'O-O-O') return true;
-    if (t == 'O-O+' || t == 'O-O#' || t == 'O-O-O+' || t == 'O-O-O#') return true;
+    if (t == 'O-O+' || t == 'O-O#' || t == 'O-O-O+' || t == 'O-O-O#')
+      return true;
 
     final r = RegExp(
       r'^(?:[KQRBN])?(?:[a-h]|[1-8])?(?:[a-h]|[1-8])?x?[a-h][1-8](?:=[QRBN])?(?:\+{1,2}|#)?$',
@@ -151,14 +198,16 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     return r.hasMatch(t);
   }
 
-  List<String> _parseSolutionTextToSanList(String raw, {required String fallbackBestMove}) {
+  List<String> _parseSolutionTextToSanList(String raw,
+      {required String fallbackBestMove}) {
     final text = raw.trim();
     if (text.isEmpty) {
       final b = _normalizeSan(fallbackBestMove);
       return b.isEmpty ? <String>[] : <String>[b];
     }
 
-    final words = text.replaceAll('\n', ' ').replaceAll('\r', ' ').split(RegExp(r'\s+'));
+    final words =
+        text.replaceAll('\n', ' ').replaceAll('\r', ' ').split(RegExp(r'\s+'));
     final out = <String>[];
 
     String prevLower = '';
@@ -296,8 +345,8 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
 
       if (mFrom != from || mTo != to) continue;
 
-      final promoOk =
-          (promo == null && (mPromo == null || mPromo.isEmpty)) || (promo != null && mPromo == promo);
+      final promoOk = (promo == null && (mPromo == null || mPromo.isEmpty)) ||
+          (promo != null && mPromo == promo);
 
       if (!promoOk) continue;
       return item;
@@ -318,7 +367,8 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     final ok = _game.move(payload) == true;
     if (ok) {
       _fen = _game.fen;
-      _lastMoveArrow = BoardArrow(from: move.from.toLowerCase(), to: move.to.toLowerCase());
+      _lastMoveArrow =
+          BoardArrow(from: move.from.toLowerCase(), to: move.to.toLowerCase());
     }
     return ok;
   }
@@ -344,7 +394,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     return ok;
   }
 
-  void _resetToStart(String message) {
+  void _resetToStart(String message, {required bool countedWrong}) {
     _game = _safeFromFen(_puzzle.fen);
     _fen = _game.fen;
     _plyIndex = 0;
@@ -353,13 +403,17 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     _autoPlaying = false;
 
     _statusText = message;
-    _hintRevealed = false;
 
     _cellHighlights.clear();
     _lastMoveArrow = null;
 
-    setState(() {});
+    if (countedWrong) {
+      _puzzleWrongMoves += 1;
+      _runWrongMoves += 1;
+      HapticFeedback.vibrate();
+    }
 
+    setState(() {});
     unawaited(_autoPlayUntilSolverTurnOrDone());
   }
 
@@ -408,7 +462,58 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     }
   }
 
-  void _onUserMove(ShortMove move) {
+  int _computePuzzleScore() {
+    const base = 1000;
+
+    final seconds = (_puzzleElapsedMs / 1000).floor();
+    final timePenalty = seconds * 10;
+
+    final wrongPenalty = _puzzleWrongMoves * 200;
+    final hintPenalty = _puzzleHintUsed ? 150 : 0;
+
+    var score = base - timePenalty - wrongPenalty - hintPenalty;
+
+    if (_puzzleWrongMoves == 0 && !_puzzleHintUsed) {
+      score += 150;
+      if (seconds <= 10) score += 100;
+    }
+
+    if (score < 0) score = 0;
+    return score;
+  }
+
+  Future<void> _onSolved() async {
+    final puzzleScore = _computePuzzleScore();
+
+    _runScore += puzzleScore;
+    _runSolvedCount += 1;
+
+    HapticFeedback.lightImpact();
+
+    final nowIso = DateTime.now().toIso8601String();
+
+    final existing =
+        await StorageService.instance.getPuzzleStats(_puzzle.puzzleKey);
+    final updatedBest = (existing.bestTimeMs == null)
+        ? _puzzleElapsedMs
+        : math.min(existing.bestTimeMs!, _puzzleElapsedMs);
+
+    final updated = existing.copyWith(
+      attempts: existing.attempts + 1,
+      solves: existing.solves + 1,
+      bestTimeMs: updatedBest,
+      lastSolvedIso: nowIso,
+    );
+
+    await StorageService.instance.upsertPuzzleStats(updated);
+
+    setState(() {
+      _solved = true;
+      _statusText = 'Solved. +$puzzleScore';
+    });
+  }
+
+  void _onUserMove(ShortMove move) async {
     if (_solved || _autoPlaying) return;
 
     if (!_isSolverTurn()) {
@@ -417,10 +522,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     }
 
     if (_plyIndex >= _line.length) {
-      setState(() {
-        _solved = true;
-        _statusText = 'Solved.';
-      });
+      await _onSolved();
       return;
     }
 
@@ -428,8 +530,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
 
     final verbose = _findVerboseMoveByShortMove(move);
     if (verbose == null) {
-      _wrong += 1;
-      _resetToStart('Illegal move.');
+      _resetToStart('Illegal move.', countedWrong: true);
       return;
     }
 
@@ -437,15 +538,13 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     final played = _normalizeSan(playedSan);
 
     if (played != expected) {
-      _wrong += 1;
-      _resetToStart('Incorrect. Try again.');
+      _resetToStart('Incorrect.', countedWrong: true);
       return;
     }
 
     final ok = _applyShortMove(move);
     if (!ok) {
-      _wrong += 1;
-      _resetToStart('Illegal move.');
+      _resetToStart('Illegal move.', countedWrong: true);
       return;
     }
 
@@ -453,15 +552,11 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     _cellHighlights.clear();
 
     if (_plyIndex >= _line.length) {
-      setState(() {
-        _solved = true;
-        _statusText = 'Solved.';
-      });
+      await _onSolved();
       return;
     }
 
     setState(() => _statusText = 'Correct.');
-
     unawaited(_autoPlayUntilSolverTurnOrDone());
   }
 
@@ -469,18 +564,12 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     if (_solved) return;
 
     if (!_isSolverTurn()) {
-      setState(() {
-        _hintRevealed = true;
-        _statusText = 'Wait for the response.';
-      });
+      setState(() => _statusText = 'Wait for the response.');
       return;
     }
 
     if (_plyIndex >= _line.length) {
-      setState(() {
-        _hintRevealed = true;
-        _statusText = 'Solved.';
-      });
+      setState(() => _statusText = 'Solved.');
       return;
     }
 
@@ -495,127 +584,60 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
       if (to != null) _cellHighlights[to] = Colors.yellow.withAlpha(90);
     }
 
-    setState(() {
-      _hintRevealed = true;
-      _statusText = 'Hint: $expected';
-    });
+    if (!_puzzleHintUsed) {
+      _puzzleHintUsed = true;
+      _runHintsUsed += 1;
+    }
+
+    setState(() => _statusText = 'Hint shown.');
   }
 
-  void _goNext() {
+  Future<void> _finishRunIfNeeded() async {
+    if (!widget.runMode) return;
+    if (_index + 1 < widget.puzzles.length) return;
+
+    final now = DateTime.now();
+    final started = DateTime.fromMillisecondsSinceEpoch(_runStartMs);
+
+    final result = RunResult(
+      id: '${started.millisecondsSinceEpoch}_${widget.setId}',
+      setId: widget.setId,
+      setTitle: widget.setTitle,
+      startedIso: started.toIso8601String(),
+      finishedIso: now.toIso8601String(),
+      durationMs: _runElapsedMs,
+      puzzlesTotal: widget.puzzles.length,
+      puzzlesSolved: _runSolvedCount,
+      wrongMoves: _runWrongMoves,
+      hintsUsed: _runHintsUsed,
+      score: _runScore,
+    );
+
+    await StorageService.instance.addRun(result);
+
+    if (!mounted) return;
+
+    await Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (_) => RunSummaryPage(
+          result: result,
+          onPlayAgain: () {
+            Navigator.of(context).pop();
+          },
+        ),
+      ),
+    );
+  }
+
+  void _goNext() async {
     if (_index + 1 >= widget.puzzles.length) {
-      Navigator.of(context).pop();
+      await _finishRunIfNeeded();
+      if (!widget.runMode && mounted) Navigator.of(context).pop();
       return;
     }
+
     _index += 1;
     _loadPuzzle();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final title = widget.setTitle?.trim().isNotEmpty == true ? widget.setTitle!.trim() : 'Puzzle';
-
-    final currentSide = _currentSideToMove();
-    final blackAtBottom = _rotateToSideToMove ? (currentSide == 'b') : (_solverSide == 'b');
-
-    final whiteType = _solverSide == 'w' ? PlayerType.human : PlayerType.computer;
-    final blackType = _solverSide == 'b' ? PlayerType.human : PlayerType.computer;
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-        actions: [
-          TextButton(onPressed: _revealHint, child: const Text('Hint')),
-          TextButton(
-            onPressed: () => setState(() => _showCoordinates = !_showCoordinates),
-            child: Text(_showCoordinates ? 'Coords: On' : 'Coords: Off'),
-          ),
-          TextButton(
-            onPressed: () => setState(() => _rotateToSideToMove = !_rotateToSideToMove),
-            child: Text(_rotateToSideToMove ? 'Rotate: Turn' : 'Rotate: Solver'),
-          ),
-          TextButton(
-            onPressed: () => _resetToStart('Reset.'),
-            child: const Text('Reset'),
-          ),
-        ],
-      ),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(_pagePadding),
-          child: OrientationBuilder(
-            builder: (context, orientation) {
-              if (orientation == Orientation.landscape) {
-                return Row(
-                  children: [
-                    Expanded(child: _buildBoardArea(blackAtBottom, whiteType, blackType)),
-                    const SizedBox(width: 16),
-                    SizedBox(width: 320, child: _buildInfoPanel()),
-                  ],
-                );
-              }
-              return Column(
-                children: [
-                  _buildInfoPanel(),
-                  const SizedBox(height: 12),
-                  Expanded(child: _buildBoardArea(blackAtBottom, whiteType, blackType)),
-                ],
-              );
-            },
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildInfoPanel() {
-    final total = _line.length;
-    final step = total == 0 ? '-' : '${math.min(_plyIndex + 1, total)}/$total';
-
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(12),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Text(_puzzle.title, style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 6),
-            Text(
-              _isSolverTurn() ? 'Your move' : 'Response',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
-            const SizedBox(height: 6),
-            Text(
-              'Book page: ${_puzzle.bookPage ?? '-'}',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodySmall,
-            ),
-            const SizedBox(height: 10),
-            Wrap(
-              alignment: WrapAlignment.spaceBetween,
-              runSpacing: 8,
-              children: [
-                Text('Puzzle: ${_index + 1}/${widget.puzzles.length}'),
-                Text('Line: $step'),
-                Text('Wrong: $_wrong'),
-              ],
-            ),
-            const SizedBox(height: 10),
-            if (_statusText != null) ...[
-              Text(_statusText!, textAlign: TextAlign.center),
-              const SizedBox(height: 10),
-            ],
-            if (_autoPlaying)
-              const Center(child: Padding(padding: EdgeInsets.all(6), child: CircularProgressIndicator())),
-            if (_solved)
-              FilledButton(
-                onPressed: _goNext,
-                child: Text((_index + 1 >= widget.puzzles.length) ? 'Back to list' : 'Next puzzle'),
-              ),
-          ],
-        ),
-      ),
-    );
   }
 
   List<String> _files(bool blackAtBottom) {
@@ -634,7 +656,141 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     return base.copyWith(fontSize: fontSize, height: 1.0);
   }
 
-  Widget _buildBoardArea(bool blackAtBottom, PlayerType whiteType, PlayerType blackType) {
+  @override
+  Widget build(BuildContext context) {
+    final currentSide = _currentSideToMove();
+    final blackAtBottom =
+        _rotateToSideToMove ? (currentSide == 'b') : (_solverSide == 'b');
+
+    final whiteType =
+        _solverSide == 'w' ? PlayerType.human : PlayerType.computer;
+    final blackType =
+        _solverSide == 'b' ? PlayerType.human : PlayerType.computer;
+
+    final runTime = formatDurationMs(_runElapsedMs);
+    final puzzleTime = formatDurationMs(_puzzleElapsedMs);
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.setTitle),
+        actions: [
+          Center(
+              child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: Text('Run $runTime'))),
+          Center(
+              child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: Text('Score $_runScore'))),
+          IconButton(
+              onPressed: _revealHint,
+              icon: const Icon(Icons.lightbulb_outline)),
+          IconButton(
+            onPressed: () =>
+                setState(() => _showCoordinates = !_showCoordinates),
+            icon: Icon(_showCoordinates ? Icons.grid_on : Icons.grid_off),
+          ),
+          IconButton(
+            onPressed: () =>
+                setState(() => _rotateToSideToMove = !_rotateToSideToMove),
+            icon: const Icon(Icons.screen_rotation_alt_outlined),
+          ),
+          IconButton(
+            onPressed: () => _resetToStart('Reset.', countedWrong: false),
+            icon: const Icon(Icons.restart_alt),
+          ),
+        ],
+      ),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(_pagePadding),
+          child: OrientationBuilder(
+            builder: (context, orientation) {
+              final info = _buildInfoPanel(puzzleTime);
+              final board =
+                  _buildBoardArea(blackAtBottom, whiteType, blackType);
+
+              if (orientation == Orientation.landscape) {
+                return Row(
+                  children: [
+                    Expanded(child: board),
+                    const SizedBox(width: 16),
+                    SizedBox(width: 340, child: info),
+                  ],
+                );
+              }
+
+              return Column(
+                children: [
+                  info,
+                  const SizedBox(height: 12),
+                  Expanded(child: board),
+                ],
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildInfoPanel(String puzzleTime) {
+    final total = _line.length;
+    final step = total == 0 ? '-' : '${math.min(_plyIndex + 1, total)}/$total';
+
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Text(_puzzle.title, style: Theme.of(context).textTheme.titleMedium),
+            const SizedBox(height: 6),
+            Text(
+              _isSolverTurn() ? 'Your move' : 'Response',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+            const SizedBox(height: 6),
+            Text(
+              'Puzzle ${_index + 1}/${widget.puzzles.length}  Line $step',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            const SizedBox(height: 6),
+            Text(
+              'Puzzle time $puzzleTime  Wrong $_puzzleWrongMoves  Hint ${_puzzleHintUsed ? "Yes" : "No"}',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            const SizedBox(height: 8),
+            if (_statusText != null) ...[
+              Text(_statusText!, textAlign: TextAlign.center),
+              const SizedBox(height: 8),
+            ],
+            if (_autoPlaying)
+              const Center(
+                  child: Padding(
+                      padding: EdgeInsets.all(6),
+                      child: CircularProgressIndicator())),
+            if (_solved)
+              SizedBox(
+                width: double.infinity,
+                child: FilledButton(
+                  onPressed: _goNext,
+                  child: Text((_index + 1 >= widget.puzzles.length)
+                      ? (widget.runMode ? 'Finish Run' : 'Back')
+                      : 'Next Puzzle'),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildBoardArea(
+      bool blackAtBottom, PlayerType whiteType, PlayerType blackType) {
     return LayoutBuilder(
       builder: (context, constraints) {
         final maxW = constraints.maxWidth;
@@ -646,12 +802,8 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
             : 0.0;
         final gap = _showCoordinates ? 6.0 : 0.0;
 
-        // Board side is what's left after coordinates and gaps.
-        final boardSide = math.max(
-          220.0,
-          minSide - (coordThickness * 2) - (gap * 2),
-        );
-
+        final boardSide =
+            math.max(220.0, minSide - (coordThickness * 2) - (gap * 2));
         final totalSide = boardSide + (coordThickness * 2) + (gap * 2);
 
         final files = _files(blackAtBottom);
@@ -659,7 +811,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
 
         final coordFont = math.max(11.0, coordThickness * 0.55);
 
-        Widget boardWidget = Container(
+        final boardWidget = Container(
           width: boardSide,
           height: boardSide,
           decoration: BoxDecoration(
@@ -701,18 +853,12 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
           ),
         );
 
-
         if (!_showCoordinates) {
           return Center(
-            child: SizedBox(
-              width: boardSide,
-              height: boardSide,
-              child: boardWidget,
-            ),
-          );
+              child: SizedBox(
+                  width: boardSide, height: boardSide, child: boardWidget));
         }
 
-        // Custom coordinates that will not crop.
         return Center(
           child: SizedBox(
             width: totalSide,
@@ -730,10 +876,10 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
                           children: [
                             for (final f in files)
                               Expanded(
-                                child: Center(
-                                  child: Text(f, style: _coordTextStyle(context, coordFont)),
-                                ),
-                              ),
+                                  child: Center(
+                                      child: Text(f,
+                                          style: _coordTextStyle(
+                                              context, coordFont)))),
                           ],
                         ),
                       ),
@@ -752,15 +898,18 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
                           children: [
                             for (final r in ranks)
                               Expanded(
-                                child: Center(
-                                  child: Text(r, style: _coordTextStyle(context, coordFont)),
-                                ),
-                              ),
+                                  child: Center(
+                                      child: Text(r,
+                                          style: _coordTextStyle(
+                                              context, coordFont)))),
                           ],
                         ),
                       ),
                       SizedBox(width: gap),
-                      SizedBox(width: boardSide, height: boardSide, child: boardWidget),
+                      SizedBox(
+                          width: boardSide,
+                          height: boardSide,
+                          child: boardWidget),
                       SizedBox(width: gap),
                       SizedBox(
                         width: coordThickness,
@@ -768,10 +917,10 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
                           children: [
                             for (final r in ranks)
                               Expanded(
-                                child: Center(
-                                  child: Text(r, style: _coordTextStyle(context, coordFont)),
-                                ),
-                              ),
+                                  child: Center(
+                                      child: Text(r,
+                                          style: _coordTextStyle(
+                                              context, coordFont)))),
                           ],
                         ),
                       ),
@@ -790,10 +939,10 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
                           children: [
                             for (final f in files)
                               Expanded(
-                                child: Center(
-                                  child: Text(f, style: _coordTextStyle(context, coordFont)),
-                                ),
-                              ),
+                                  child: Center(
+                                      child: Text(f,
+                                          style: _coordTextStyle(
+                                              context, coordFont)))),
                           ],
                         ),
                       ),

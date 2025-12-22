@@ -19,10 +19,10 @@ class Puzzle {
   final String fen;
   final String bestMoveSan;
 
-  // Raw text from JSON. This may contain move numbers and commentary.
   final String solutionLine;
-
   final int? bookPage;
+
+  String get puzzleKey => '$chapter|$difficulty|$id';
 
   factory Puzzle.fromJson(Map<String, dynamic> json) {
     final id = (json['id'] ?? '').toString().trim();
@@ -35,7 +35,9 @@ class Puzzle {
     final solutionLine = (json['solutionLine'] ?? '').toString().trim();
 
     final bookPageRaw = json['bookPage'];
-    final bookPage = bookPageRaw is int ? bookPageRaw : int.tryParse(bookPageRaw?.toString() ?? '');
+    final bookPage = bookPageRaw is int
+        ? bookPageRaw
+        : int.tryParse(bookPageRaw?.toString() ?? '');
 
     return Puzzle(
       id: id,

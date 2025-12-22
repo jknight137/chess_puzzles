@@ -1,11 +1,27 @@
 import 'dart:convert';
-import 'dart:math' as math;
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../models/puzzle.dart';
+import '../models/puzzle_stats.dart';
+import '../services/storage_service.dart';
+import '../utils/format.dart';
+import 'leaderboard_page.dart';
 import 'puzzle_play_page.dart';
+
+class PuzzleSetDef {
+  PuzzleSetDef({
+    required this.id,
+    required this.title,
+    required this.assetPath,
+  });
+
+  final String id;
+  final String title;
+  final String assetPath;
+}
 
 class PuzzleListPage extends StatefulWidget {
   const PuzzleListPage({super.key});
@@ -15,32 +31,31 @@ class PuzzleListPage extends StatefulWidget {
 }
 
 class _PuzzleListPageState extends State<PuzzleListPage> {
-  static const _sets = <_PuzzleSetSpec>[
-    _PuzzleSetSpec(
-      key: 'easy',
-      title: 'Easy (Chapter 1)',
-      assetPath: 'assets/puzzles/chapter1_easy_puzzles.json',
-    ),
-    _PuzzleSetSpec(
-      key: 'intermediate',
-      title: 'Intermediate (Chapter 2)',
+  final _sets = <PuzzleSetDef>[
+    PuzzleSetDef(
+        id: 'c1_easy',
+        title: 'Chapter 1  Easy',
+        assetPath: 'assets/puzzles/chapter1_easy_puzzles.json'),
+    PuzzleSetDef(
+      id: 'c2_intermediate',
+      title: 'Chapter 2  Intermediate',
       assetPath: 'assets/puzzles/chapter2_intermediate_puzzles.json',
     ),
-    _PuzzleSetSpec(
-      key: 'advanced',
-      title: 'Advanced (Chapter 3)',
+    PuzzleSetDef(
+      id: 'c3_advanced',
+      title: 'Chapter 3  Advanced',
       assetPath: 'assets/puzzles/chapter3_advanced_puzzles.json',
     ),
   ];
 
+  int _setIndex = 0;
+  bool _shuffleRun = true;
+
+  List<Puzzle> _puzzles = <Puzzle>[];
+  Map<String, PuzzleStats> _stats = <String, PuzzleStats>{};
+
   bool _loading = true;
   String? _error;
-
-  final Map<String, List<Puzzle>> _puzzlesBySet = {};
-  String _selectedSetKey = _sets.first.key;
-
-  String _query = '';
-  int _runSize = 25;
 
   @override
   void initState() {
@@ -55,274 +70,187 @@ class _PuzzleListPageState extends State<PuzzleListPage> {
     });
 
     try {
-      for (final spec in _sets) {
-        final jsonStr = await rootBundle.loadString(spec.assetPath);
-        final raw = jsonDecode(jsonStr);
-
-        if (raw is! List) {
-          throw FormatException('Expected a JSON list at ${spec.assetPath}');
-        }
-
-        final list = raw
-            .cast<Map<String, dynamic>>()
-            .map(Puzzle.fromJson)
-            .toList(growable: false);
-
-        _puzzlesBySet[spec.key] = list;
+      final setDef = _sets[_setIndex];
+      final raw = await rootBundle.loadString(setDef.assetPath);
+      final decoded = jsonDecode(raw);
+      if (decoded is! List) {
+        throw Exception('Puzzle JSON must be a list.');
       }
 
-      setState(() => _loading = false);
+      final puzzles = decoded
+          .map((e) => Puzzle.fromJson(Map<String, dynamic>.from(e as Map)))
+          .toList();
+      final stats = await StorageService.instance.loadAllPuzzleStats();
+
+      setState(() {
+        _puzzles = puzzles;
+        _stats = stats;
+        _loading = false;
+      });
     } catch (e) {
       setState(() {
+        _error = e.toString();
         _loading = false;
-        _error = 'Failed to load puzzles.\n\n$e';
       });
     }
   }
 
-  List<Puzzle> get _currentPuzzles =>
-      _puzzlesBySet[_selectedSetKey] ?? const [];
-
-  List<Puzzle> get _filteredPuzzles {
-    final q = _query.trim().toLowerCase();
-    if (q.isEmpty) return _currentPuzzles;
-
-    return _currentPuzzles.where((p) {
-      final pageText = (p.bookPage ?? '').toString();
-      return p.title.toLowerCase().contains(q) ||
-          p.id.toLowerCase().contains(q) ||
-          pageText.contains(q);
-    }).toList();
+  Future<void> _refreshStats() async {
+    final stats = await StorageService.instance.loadAllPuzzleStats();
+    setState(() => _stats = stats);
   }
 
-  void _startRun({required bool shuffle}) {
-    final base = List<Puzzle>.from(_filteredPuzzles);
-    if (base.isEmpty) return;
+  void _openLeaderboard() async {
+    await Navigator.of(context)
+        .push(MaterialPageRoute(builder: (_) => const LeaderboardPage()));
+  }
 
-    if (shuffle) base.shuffle(math.Random());
+  void _startRun() async {
+    if (_puzzles.isEmpty) return;
 
-    final run =
-        base.take(_runSize.clamp(1, base.length)).toList(growable: false);
+    final setDef = _sets[_setIndex];
 
-    Navigator.of(context).push(
+    final list = List<Puzzle>.from(_puzzles);
+    if (_shuffleRun) {
+      list.shuffle(Random());
+    }
+
+    await Navigator.of(context).push(
       MaterialPageRoute(
         builder: (_) => PuzzlePlayPage(
-          puzzles: run,
-          setTitle: _setTitleForKey(_selectedSetKey),
+          puzzles: list,
+          startIndex: 0,
+          setId: setDef.id,
+          setTitle: setDef.title,
+          runMode: true,
         ),
       ),
     );
-  }
 
-  void _openSingle(Puzzle p) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => PuzzlePlayPage(
-          puzzles: [p],
-          setTitle: _setTitleForKey(_selectedSetKey),
-        ),
-      ),
-    );
-  }
-
-  String _setTitleForKey(String key) {
-    return _sets.firstWhere((s) => s.key == key).title;
+    await _refreshStats();
   }
 
   @override
   Widget build(BuildContext context) {
+    final setDef = _sets[_setIndex];
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Woodpecker Puzzles'),
+        title: const Text('Woodpecker Trainer'),
+        actions: [
+          IconButton(
+              onPressed: _openLeaderboard,
+              icon: const Icon(Icons.emoji_events_outlined)),
+          IconButton(onPressed: _loadAll, icon: const Icon(Icons.refresh)),
+        ],
       ),
-      body: SafeArea(
-        child: _loading
-            ? const Center(child: CircularProgressIndicator())
-            : _error != null
-                ? _buildError()
-                : _buildContent(),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: _loading ? null : _startRun,
+        icon: const Icon(Icons.play_arrow),
+        label: const Text('Start Run'),
       ),
-    );
-  }
-
-  Widget _buildError() {
-    return Center(
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: 560),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Card(
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: SelectableText(_error!),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildContent() {
-    final puzzles = _filteredPuzzles;
-
-    return Center(
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: 560),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            children: [
-              _buildHeaderCard(),
-              const SizedBox(height: 12),
-              _buildControlsCard(),
-              const SizedBox(height: 12),
-              Expanded(
-                child: puzzles.isEmpty
-                    ? const Center(child: Text('No puzzles found.'))
-                    : ListView.separated(
-                        itemCount: puzzles.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 8),
-                        itemBuilder: (context, i) =>
-                            _buildPuzzleTile(puzzles[i]),
-                      ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildHeaderCard() {
-    final total = _currentPuzzles.length;
-
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(14),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Text('Training set',
-                style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 10),
-            DropdownButtonFormField<String>(
-              value: _selectedSetKey,
-              items: _sets
-                  .map((s) =>
-                      DropdownMenuItem(value: s.key, child: Text(s.title)))
-                  .toList(growable: false),
-              onChanged: (v) {
-                if (v == null) return;
-                setState(() => _selectedSetKey = v);
-              },
-              decoration: const InputDecoration(
-                labelText: 'Choose set',
-                border: OutlineInputBorder(),
-              ),
-            ),
-            const SizedBox(height: 10),
-            Text('Puzzles: $total',
-                style: Theme.of(context).textTheme.bodyMedium),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildControlsCard() {
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(14),
+      body: Padding(
+        padding: const EdgeInsets.all(12),
         child: Column(
           children: [
-            TextField(
-              decoration: const InputDecoration(
-                labelText: 'Search by title, id, or book page',
-                border: OutlineInputBorder(),
-              ),
-              onChanged: (v) => setState(() => _query = v),
-            ),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                Expanded(
-                  child: TextField(
-                    decoration: const InputDecoration(
-                      labelText: 'Run size',
-                      border: OutlineInputBorder(),
-                    ),
-                    keyboardType: TextInputType.number,
-                    onChanged: (v) {
-                      final parsed = int.tryParse(v.trim());
-                      if (parsed == null) return;
-                      setState(() => _runSize = parsed);
-                    },
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: FilledButton(
-                    onPressed: _filteredPuzzles.isEmpty
-                        ? null
-                        : () => _startRun(shuffle: true),
-                    child: const Text('Start run'),
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildPuzzleTile(Puzzle p) {
-    final page = p.bookPage == null ? '' : 'Page: ${p.bookPage}';
-
-    return InkWell(
-      onTap: () => _openSingle(p),
-      child: Card(
-        child: Padding(
-          padding: const EdgeInsets.all(12),
-          child: Row(
-            children: [
-              SizedBox(
-                width: 70,
-                child: Text('#${p.id}',
-                    style: Theme.of(context).textTheme.titleMedium),
-              ),
-              const SizedBox(width: 8),
-              Expanded(
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(12),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(p.title,
-                        style: Theme.of(context).textTheme.titleSmall),
-                    if (page.isNotEmpty) ...[
-                      const SizedBox(height: 4),
-                      Text(page, style: Theme.of(context).textTheme.bodySmall),
-                    ],
+                    Row(
+                      children: [
+                        Expanded(
+                          child: DropdownButtonFormField<int>(
+                            value: _setIndex,
+                            decoration:
+                                const InputDecoration(labelText: 'Puzzle Set'),
+                            items: [
+                              for (var i = 0; i < _sets.length; i++)
+                                DropdownMenuItem(
+                                    value: i, child: Text(_sets[i].title)),
+                            ],
+                            onChanged: (v) async {
+                              if (v == null) return;
+                              setState(() => _setIndex = v);
+                              await _loadAll();
+                            },
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            const Text('Shuffle Run'),
+                            Switch(
+                              value: _shuffleRun,
+                              onChanged: (v) => setState(() => _shuffleRun = v),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    Row(
+                      children: [
+                        Text('Loaded: ${setDef.assetPath}'),
+                      ],
+                    ),
                   ],
                 ),
               ),
-              const SizedBox(width: 8),
-              const Text('Open'),
-            ],
-          ),
+            ),
+            const SizedBox(height: 10),
+            Expanded(
+              child: _loading
+                  ? const Center(child: CircularProgressIndicator())
+                  : _error != null
+                      ? Center(child: Text(_error!))
+                      : _puzzles.isEmpty
+                          ? const Center(child: Text('No puzzles found.'))
+                          : ListView.separated(
+                              itemCount: _puzzles.length,
+                              separatorBuilder: (_, __) =>
+                                  const SizedBox(height: 8),
+                              itemBuilder: (context, index) {
+                                final p = _puzzles[index];
+                                final st = _stats[p.puzzleKey];
+
+                                final best = st?.bestTimeMs == null
+                                    ? '-'
+                                    : formatDurationMs(st!.bestTimeMs!);
+                                final attempts = st?.attempts ?? 0;
+                                final solves = st?.solves ?? 0;
+
+                                return Card(
+                                  child: ListTile(
+                                    title: Text('${index + 1}. ${p.title}'),
+                                    subtitle: Text(
+                                      'Attempts $attempts  Solves $solves  Best $best  Page ${p.bookPage ?? '-'}',
+                                    ),
+                                    trailing: const Icon(Icons.chevron_right),
+                                    onTap: () async {
+                                      await Navigator.of(context).push(
+                                        MaterialPageRoute(
+                                          builder: (_) => PuzzlePlayPage(
+                                            puzzles: _puzzles,
+                                            startIndex: index,
+                                            setId: setDef.id,
+                                            setTitle: setDef.title,
+                                            runMode: false,
+                                          ),
+                                        ),
+                                      );
+                                      await _refreshStats();
+                                    },
+                                  ),
+                                );
+                              },
+                            ),
+            ),
+          ],
         ),
       ),
     );
   }
-}
-
-class _PuzzleSetSpec {
-  const _PuzzleSetSpec({
-    required this.key,
-    required this.title,
-    required this.assetPath,
-  });
-
-  final String key;
-  final String title;
-  final String assetPath;
 }
