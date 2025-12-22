@@ -1,0 +1,16 @@
+[
+  {
+    "id": "p001",
+    "title": "Mate in 1 (Qg7)",
+    "tags": ["mate", "queen"],
+    "fen": "6k1/7Q/5K2/8/8/8/8/8 w - - 0 1",
+    "line": ["h7g7"]
+  },
+  {
+    "id": "p002",
+    "title": "Back rank mate (Re8)",
+    "tags": ["mate", "rook", "back-rank"],
+    "fen": "6k1/5ppp/8/8/8/8/8/K3R3 w - - 0 1",
+    "line": ["e1e8"]
+  }
+]
