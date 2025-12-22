@@ -43,6 +43,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
   String? _statusText;
   bool _hintRevealed = false;
 
+  // This now controls our custom coordinate labels (not the package's).
   bool _showCoordinates = true;
 
   // Rotation behavior:
@@ -617,48 +618,191 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     );
   }
 
+  List<String> _files(bool blackAtBottom) {
+    final aToH = <String>['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+    return blackAtBottom ? aToH.reversed.toList() : aToH;
+  }
+
+  List<String> _ranksTopToBottom(bool blackAtBottom) {
+    final eightToOne = <String>['8', '7', '6', '5', '4', '3', '2', '1'];
+    final oneToEight = <String>['1', '2', '3', '4', '5', '6', '7', '8'];
+    return blackAtBottom ? oneToEight : eightToOne;
+  }
+
+  TextStyle _coordTextStyle(BuildContext context, double fontSize) {
+    final base = Theme.of(context).textTheme.labelSmall ?? const TextStyle();
+    return base.copyWith(fontSize: fontSize, height: 1.0);
+  }
+
   Widget _buildBoardArea(bool blackAtBottom, PlayerType whiteType, PlayerType blackType) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        final maxSide = math.min(constraints.maxWidth, constraints.maxHeight);
-        final outer = math.max(220.0, maxSide);
+        final maxW = constraints.maxWidth;
+        final maxH = constraints.maxHeight;
+        final minSide = math.min(maxW, maxH);
 
-        // Give the board a big virtual canvas so coordinates never clip.
-        final virtual = _showCoordinates ? 820.0 : 760.0;
+        final coordThickness = _showCoordinates
+            ? math.max(18.0, math.min(28.0, minSide * 0.07))
+            : 0.0;
+        final gap = _showCoordinates ? 6.0 : 0.0;
 
+        // Board side is what's left after coordinates and gaps.
+        final boardSide = math.max(
+          220.0,
+          minSide - (coordThickness * 2) - (gap * 2),
+        );
+
+        final totalSide = boardSide + (coordThickness * 2) + (gap * 2);
+
+        final files = _files(blackAtBottom);
+        final ranks = _ranksTopToBottom(blackAtBottom);
+
+        final coordFont = math.max(11.0, coordThickness * 0.55);
+
+        Widget boardWidget = Container(
+          width: boardSide,
+          height: boardSide,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(14),
+            border: Border.all(color: const Color(0xFF3B82F6), width: 2),
+            boxShadow: const [
+              BoxShadow(
+                color: Color(0x663B82F6),
+                blurRadius: 18,
+                spreadRadius: 2,
+              ),
+            ],
+          ),
+          padding: const EdgeInsets.all(6),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: SimpleChessBoard(
+              chessBoardColors: ChessBoardColors(),
+              fen: _fen,
+              engineThinking: _autoPlaying,
+              blackSideAtBottom: blackAtBottom,
+              whitePlayerType: whiteType,
+              blackPlayerType: blackType,
+              showPossibleMoves: true,
+              showCoordinatesZone: false,
+              cellHighlights: _cellHighlights,
+              lastMoveToHighlight: _lastMoveArrow,
+              onTap: ({required String cellCoordinate}) {},
+              onMove: ({required ShortMove move}) => _onUserMove(move),
+              onPromote: () async => PieceType.queen,
+              onPromotionCommited: ({
+                required ShortMove moveDone,
+                required PieceType pieceType,
+              }) {
+                moveDone.promotion = pieceType;
+                _onUserMove(moveDone);
+              },
+            ),
+          ),
+        );
+
+
+        if (!_showCoordinates) {
+          return Center(
+            child: SizedBox(
+              width: boardSide,
+              height: boardSide,
+              child: boardWidget,
+            ),
+          );
+        }
+
+        // Custom coordinates that will not crop.
         return Center(
           child: SizedBox(
-            width: outer,
-            height: outer,
-            child: FittedBox(
-              fit: BoxFit.contain,
-              alignment: Alignment.center,
-              child: SizedBox(
-                width: virtual,
-                height: virtual,
-                child: SimpleChessBoard(
-                  chessBoardColors: ChessBoardColors(),
-                  fen: _fen,
-                  engineThinking: _autoPlaying,
-                  blackSideAtBottom: blackAtBottom,
-                  whitePlayerType: whiteType,
-                  blackPlayerType: blackType,
-                  showPossibleMoves: true,
-                  showCoordinatesZone: _showCoordinates,
-                  cellHighlights: _cellHighlights,
-                  lastMoveToHighlight: _lastMoveArrow,
-                  onTap: ({required String cellCoordinate}) {},
-                  onMove: ({required ShortMove move}) => _onUserMove(move),
-                  onPromote: () async => PieceType.queen,
-                  onPromotionCommited: ({
-                    required ShortMove moveDone,
-                    required PieceType pieceType,
-                  }) {
-                    moveDone.promotion = pieceType;
-                    _onUserMove(moveDone);
-                  },
+            width: totalSide,
+            height: totalSide,
+            child: Column(
+              children: [
+                SizedBox(
+                  height: coordThickness,
+                  child: Row(
+                    children: [
+                      SizedBox(width: coordThickness),
+                      SizedBox(width: gap),
+                      Expanded(
+                        child: Row(
+                          children: [
+                            for (final f in files)
+                              Expanded(
+                                child: Center(
+                                  child: Text(f, style: _coordTextStyle(context, coordFont)),
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: gap),
+                      SizedBox(width: coordThickness),
+                    ],
+                  ),
                 ),
-              ),
+                SizedBox(height: gap),
+                Expanded(
+                  child: Row(
+                    children: [
+                      SizedBox(
+                        width: coordThickness,
+                        child: Column(
+                          children: [
+                            for (final r in ranks)
+                              Expanded(
+                                child: Center(
+                                  child: Text(r, style: _coordTextStyle(context, coordFont)),
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: gap),
+                      SizedBox(width: boardSide, height: boardSide, child: boardWidget),
+                      SizedBox(width: gap),
+                      SizedBox(
+                        width: coordThickness,
+                        child: Column(
+                          children: [
+                            for (final r in ranks)
+                              Expanded(
+                                child: Center(
+                                  child: Text(r, style: _coordTextStyle(context, coordFont)),
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(height: gap),
+                SizedBox(
+                  height: coordThickness,
+                  child: Row(
+                    children: [
+                      SizedBox(width: coordThickness),
+                      SizedBox(width: gap),
+                      Expanded(
+                        child: Row(
+                          children: [
+                            for (final f in files)
+                              Expanded(
+                                child: Center(
+                                  child: Text(f, style: _coordTextStyle(context, coordFont)),
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: gap),
+                      SizedBox(width: coordThickness),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
         );
