@@ -1,5 +1,5 @@
-name: chess_puzzles
-description: Woodpecker chess puzzle trainer
+name: knights_gambit
+description: A Chess Puzzle Trainer
 publish_to: "none"
 version: 1.0.0+1
 

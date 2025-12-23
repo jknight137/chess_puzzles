@@ -136,7 +136,7 @@ class _PuzzleListPageState extends State<PuzzleListPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Woodpecker Trainer'),
+        title: const Text('Knight\'s Gambit - a Chess Trainer'),
         actions: [
           IconButton(
               onPressed: _openLeaderboard,
