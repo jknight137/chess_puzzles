@@ -1,5 +1,5 @@
 name: knights_gambit
-description: A Chess Puzzle Trainer
+description: chess puzzle trainer
 publish_to: "none"
 version: 1.0.0+1
 
@@ -28,3 +28,6 @@ flutter:
     - assets/puzzles/chapter1_easy_puzzles.json
     - assets/puzzles/chapter2_intermediate_puzzles.json
     - assets/puzzles/chapter3_advanced_puzzles.json
+    - assets/puzzles/endgame_trainer_endings_cleaned.json
+    - assets/puzzles/endgame_trainer/
+    - assets/images/logo.png

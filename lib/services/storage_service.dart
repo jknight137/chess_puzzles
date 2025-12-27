@@ -12,6 +12,7 @@ class StorageService {
 
   static const String _kPuzzleStats = 'puzzle_stats_v1';
   static const String _kRuns = 'leaderboard_runs_v1';
+  static const String _kEndgameCompleted = 'endgame_completed_v1';
 
   Future<Map<String, PuzzleStats>> loadAllPuzzleStats() async {
     final prefs = await SharedPreferences.getInstance();
@@ -96,4 +97,30 @@ class StorageService {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_kRuns);
   }
+
+  Future<Set<int>> loadEndgameCompleted() async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getString(_kEndgameCompleted);
+    if (raw == null || raw.isEmpty) return <int>{};
+
+    final decoded = jsonDecode(raw);
+    if (decoded is! List) return <int>{};
+
+    return decoded
+        .whereType<num>()
+        .map((e) => e.toInt())
+        .toSet();
+  }
+
+  Future<void> saveEndgameCompleted(Set<int> completed) async {
+    final prefs = await SharedPreferences.getInstance();
+    final list = completed.toList()..sort();
+    await prefs.setString(_kEndgameCompleted, jsonEncode(list));
+  }
+
+  Future<void> clearEndgameCompleted() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(_kEndgameCompleted);
+  }
+
 }

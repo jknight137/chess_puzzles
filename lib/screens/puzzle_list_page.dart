@@ -9,6 +9,7 @@ import '../models/puzzle_stats.dart';
 import '../services/storage_service.dart';
 import '../utils/format.dart';
 import 'leaderboard_page.dart';
+import 'endgame_list_page.dart';
 import 'puzzle_play_page.dart';
 
 class PuzzleSetDef {
@@ -136,7 +137,7 @@ class _PuzzleListPageState extends State<PuzzleListPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Knight\'s Gambit - a Chess Trainer'),
+        title: const Text('Knight\'s Gambit'),
         actions: [
           IconButton(
               onPressed: _openLeaderboard,
@@ -153,6 +154,21 @@ class _PuzzleListPageState extends State<PuzzleListPage> {
         padding: const EdgeInsets.all(12),
         child: Column(
           children: [
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.flag),
+                title: const Text('Endgame Trainer'),
+                subtitle: const Text(
+                    'Study 200 classic endgames, reveal solutions, mark complete'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const EndgameListPage()),
+                  );
+                },
+              ),
+            ),
+            const SizedBox(height: 8),
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(12),
@@ -188,12 +204,6 @@ class _PuzzleListPageState extends State<PuzzleListPage> {
                             ),
                           ],
                         ),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    Row(
-                      children: [
-                        Text('Loaded: ${setDef.assetPath}'),
                       ],
                     ),
                   ],

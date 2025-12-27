@@ -112,6 +112,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
 
     _line = _parseSolutionTextToSanList(
       _puzzle.solutionLine,
+      startFen: _puzzle.fen,
       fallbackBestMove: _puzzle.bestMoveSan,
     );
 
@@ -198,8 +199,11 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
     return r.hasMatch(t);
   }
 
-  List<String> _parseSolutionTextToSanList(String raw,
-      {required String fallbackBestMove}) {
+  List<String> _parseSolutionTextToSanList(
+    String raw, {
+    required String startFen,
+    required String fallbackBestMove,
+  }) {
     final text = raw.trim();
     if (text.isEmpty) {
       final b = _normalizeSan(fallbackBestMove);
@@ -240,6 +244,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
         continue;
       }
 
+      // Handle cases where + or # gets separated into its own token.
       if ((t == '#' || t == '##') && out.isNotEmpty) {
         out[out.length - 1] = _normalizeSan(out.last + '#');
         prevLower = rawLower;
@@ -256,6 +261,7 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
         continue;
       }
 
+      // Avoid accidentally treating bare-square commentary like "on d6" as a move.
       if (_isBareSquareToken(t)) {
         final prevIsCommentWord = <String>{
           'on',
@@ -290,12 +296,50 @@ class _PuzzlePlayPageState extends State<PuzzlePlayPage> {
       prevLower = rawLower;
     }
 
-    if (out.isEmpty) {
-      final b = _normalizeSan(fallbackBestMove);
-      return b.isEmpty ? <String>[] : <String>[b];
+    // Verify candidates against the actual position so we do not include
+    // continuation moves from commentary (example: "after 9.Nxg4").
+    final verified = <String>[];
+    final probe = _safeFromFen(startFen);
+
+    Map<dynamic, dynamic>? findVerboseBySan(chess.Chess g, String expectedSan) {
+      final target = _normalizeSan(expectedSan);
+      final moves = g.moves(<String, dynamic>{'verbose': true});
+      if (moves is! List) return null;
+      for (final item in moves) {
+        if (item is! Map) continue;
+        final san = item['san']?.toString();
+        if (san == null) continue;
+        if (_normalizeSan(san) == target) return item;
+      }
+      return null;
     }
 
-    return out;
+    bool applyVerbose(chess.Chess g, Map<dynamic, dynamic> m) {
+      final from = m['from']?.toString().toLowerCase();
+      final to = m['to']?.toString().toLowerCase();
+      final promo = m['promotion']?.toString().toLowerCase();
+
+      if (from == null || to == null) return false;
+
+      final payload = <String, dynamic>{'from': from, 'to': to};
+      if (promo != null && promo.isNotEmpty) payload['promotion'] = promo;
+      return g.move(payload) == true;
+    }
+
+    for (final candidate in out) {
+      final m = findVerboseBySan(probe, candidate);
+      if (m == null) continue;
+      if (!applyVerbose(probe, m)) continue;
+
+      final san = m['san']?.toString();
+      if (san == null) continue;
+      verified.add(_normalizeSan(san));
+    }
+
+    if (verified.isNotEmpty) return verified;
+
+    final b = _normalizeSan(fallbackBestMove);
+    return b.isEmpty ? <String>[] : <String>[b];
   }
 
   String? _promotionToLetter(PieceType? promo) {

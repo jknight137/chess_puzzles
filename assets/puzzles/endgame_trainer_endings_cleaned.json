@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "section": "endgame_trainer",
+    "title": "Ending 1",
+    "header": "Afansiev, Duizov, 1 967",
+    "cue": "White to play and win",
+    "solutionText": "The obvious first move , 1 g4 + , winning the Rook, wo uld be\nmade by nine ty- nine out of a hundred playe rs. This powe rfulmove fails ! Afte r 1 g4 + Kg6! 2 gxh5 + Kh7 3 Bc3 (or anywhere\ne lse ) a1 = Q 4 Bxal, Black gets his draw by stale mate !\nThe right way:\nKf\nNow the threat of 2 g4 + is acute .\n•\n•\n•\nRh\nCertainly not 1 . . . R g5 2e4 mate .\ne4+\nKg\nBf6+\nKh\n4 g4 mate\nA brilliant ending.",
+    "image": "assets/puzzles/endgame_trainer/ending_001.png",
+    "sourcePdfPage": 11
+  },
+  {
+    "id": 2,
+    "section": "endgame_trainer",
+    "title": "Ending 2",
+    "header": "Afansiev, Duizov, 1 969",
+    "cue": "White to play and draw",
+    "solutionText": "Quiet moves can be as forceful as moves that smite, as we seehere.\nNf6+\nKd\nNot\n. .\n. Ke7, when 2 Ng6 + wins the Queen.\ne7+ !\nNxe\nForced, since capturing with King or Queen loses to a Knightfork.\nKb7!\nQuiet, but effective.\n. . .\nQg\nThe only possible reply; the King may not move, the Knightdare not, since 4 Nc6 mate would follow, while the Queen hasno other safe move.\nKb8!\nWhite is content to wait or repeat moves.\n. . .\nQf\nThe Queen (alas! ) has no other safe square open.\nKb\nDrawn.\nWhite's King quietly forces a draw by repetition of position.\n-- 12 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_002.png",
+    "sourcePdfPage": 12
+  },
+  {
+    "id": 3,
+    "section": "endgame_trainer",
+    "title": "Ending 3",
+    "header": "Afansiev, Duizov, 1 970",
+    "cue": "White to play and draw",
+    "solutionText": "Despite his precarious situation-a Rook under attack, and an\nadverse Pawn rushing down to become a Queen-White drawsby an enchanting little combination.\nRxg\nAttacks the Bishop, and threatens 2 Rf6 +, winning the dangerous Pawn.\nBg7+\nA clever, surprising resource.\nRxg\ne\nf\nf1 = Q\nO r 3 . .\n. dxe6 4 Rg8 + Kf7 5 Rg7 + Kf6 6 Kg8, and the threat of\nRf7 + is decisive.\nRf7+\ne7+\nQxf\nanyStalemate.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_003.png",
+    "sourcePdfPage": 13
+  },
+  {
+    "id": 4,
+    "section": "endgame_trainer",
+    "title": "Ending 4",
+    "header": "Apschenek, 1 933",
+    "cue": "White to play and win",
+    "solutionText": "Black's King suffers from being hemmed in by his ownarmy.\nRelbl = Q\nRxbl\nBxbl\ne\na\nOn 3 . . . Bg6 instead to stop the Pawn, the reply 4 Be3 matewo uld be embarrassing.\nBe3+\ng\nForced, since 4 .\n.\n.\nKg6 lets White promote to a Queen withcheck.\nBd\nRestrains Black's a-Pawn, and threatens to Queen his ownpassed Pawn.\n. . .\nBg\nBg7 mate!\nThe unfortunate King has no egress!",
+    "image": "assets/puzzles/endgame_trainer/ending_004.png",
+    "sourcePdfPage": 14
+  },
+  {
+    "id": 5,
+    "section": "endgame_trainer",
+    "title": "Ending 5",
+    "header": "Babic, 1 901",
+    "cue": "White to play and draw",
+    "solutionText": "Exact timing characterizes this study.\nBe5!\nA sacrifice that must be accepted.\n•\n•\n.\nBxe\nOn 1 . . . d4 instead, there follows 2 Bxd4 Bxd4 3 KdS b2 4 Kxd\nb1 = Q 5 Be4 + and the Queen falls.\nKxd\nKf\nNo better is 2 . . . Bf6 3 Ke6 and White controls the square e\nwith his Bishop.\nBc\nBa\nBc2+\nStalemate.\nb\nb1 = Q\nQxc\n15 -",
+    "image": "assets/puzzles/endgame_trainer/ending_005.png",
+    "sourcePdfPage": 15
+  },
+  {
+    "id": 6,
+    "section": "endgame_trainer",
+    "title": "Ending 6",
+    "header": "Badaj, 1 967",
+    "cue": "White to play and draw",
+    "solutionText": "Skillful maneuvering by White's King enables him to escapefrom what seems certain loss.\nKe\nNh\nIf Black tries 1 . . . Nxh2 instead, there follows 2 Kxf4 Rg4 +\nKf5 Rxa4 4 Nxh2 and the position is drawn.\nOr if 1 . . . Rg1 2 Kxf4 Rxf1 3 Bb5 Rf2 4 Kg3 Rb2 5 Bd3 + followedby 6 Kxf3 and draws.\nKxf\nRf5+\nKg\nRxfl\nBc2+\nNot at once 4 Kxh4, since the reply 4 . . . Rf4 + wins the Bishop.\nNg\nKh\nRf\nh\nKg\nBxg6!\nRxg\nStalemate.\n,\n-- 16 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_006.png",
+    "sourcePdfPage": 16
+  },
+  {
+    "id": 7,
+    "section": "endgame_trainer",
+    "title": "Ending 7",
+    "header": "Belokon, 1 968, First Prize",
+    "cue": "White to play and win",
+    "solutionText": "White ends this with a checkmate as exquisite as any you'lleversee. Both White Rooks are threatened, so he must attack immediately.\nRd5+\nBf\nIf 1 . . . Kh6, 2 Rxg4, allthree of Black'spieces are in danger.\nRglBetter than 2 Rxf5 + Kg6.\nNe\nfxg4+\nKh\nRd\nBh\nRxh\nNg\nShuts in the Rook and threatens to remove it by 6 . . . Kg7.\ng5+\nKg\ng\nNow if 7 . .. Bxg6 8 Rxg8 + KxgB 9 Rxg6 + wins at once.\n•\n•\n•\nKxh\ng7 mate\nAn elegant coup-de-grace.",
+    "image": "assets/puzzles/endgame_trainer/ending_007.png",
+    "sourcePdfPage": 17
+  },
+  {
+    "id": 8,
+    "section": "endgame_trainer",
+    "title": "Ending 8",
+    "header": "Bent",
+    "cue": "White to play and draw",
+    "solutionText": "After seven moves, White has given away a Knight and allfive\nPawns-as fast as Black cantake them-to force a clever drawby stalemate.\nNacS+\nKb\nNd6+ .\nKxcS\nb4+\nRxb\nd4+\nRxd\nb4+\nRxb\nd4+\nRxd\ncxd4+\nKxd\nStalemate.\nNeither the King nor the pinned Knight maymove.\nA simple but pleasing endgame.\n-- 18 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_008.png",
+    "sourcePdfPage": 18
+  },
+  {
+    "id": 9,
+    "section": "endgame_trainer",
+    "title": "Ending 9",
+    "header": "Bent, 1 967",
+    "cue": "White to play and win",
+    "solutionText": "Mr. Bent, England'sleading composer of chess endings, provides a treat with this rare and beautiful finish.\nKf\nWith the powerful threat of 2 Nf1-mate on the move.\nRxe\nIf instead 1 .\n.\n.\nRxg5, then 2 Nf3 + Kh3 3 Nxg5 + Kh4 4 Bxe\nwins.\nNdf3+\nNxe\nKh\nAgain threatening mate on the move.\nNf\nNc5!\nWhite wins.\nBlack is curiously helpless. His King may not move, and neitherhis Knight nor his Bishop canmove without being instantlycaptured.\n19 -",
+    "image": "assets/puzzles/endgame_trainer/ending_009.png",
+    "sourcePdfPage": 19
+  },
+  {
+    "id": 10,
+    "section": "endgame_trainer",
+    "title": "Ending 10",
+    "header": "Bent, 1 970",
+    "cue": "White to play and win",
+    "solutionText": "Underpromotion is the key to a win, whereas promoting to a\nQueen could meet with a startling reply. An original study by a\ngreat English composer.\nQc8+\nBg\nQh3+\nBut not the hasty 2 f7 when 2 . . . Qe7 + followed by 3 .\n.\n.\nQxf\nremoves alldanger.\n.\n.\n.\nQh\nOn 2 . . . Bh7 instead, White wins by 3 fxg7 + , since if Blacksaves his Queen by 3 . . . Kg8 then 4 Qe6 is mate.\nQxh6+\ngxh\nf7+\nKh\nf8 = Nmate\nWhite could ruin everything (as Roycroft points out) by playing\n5 f8 = Q, when Black turns the tables by replying 5 .\n. . Nc\nmate.\n-- 20 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_010.png",
+    "sourcePdfPage": 20
+  },
+  {
+    "id": 11,
+    "section": "endgame_trainer",
+    "title": "Ending 11",
+    "header": "Bernhardt, 1 961",
+    "cue": "White to play and draw",
+    "solutionText": "White canavert the threat of 1 . .\n. BdSmate on the move onlyby generously sacrificing everything he owns.\nb3!\nBxb\nc\nBxc\ng8 = Q+\nBxg\nThe Pawn sacrifices are reminiscent of Atalanta's ruse, where\nMilanion overcame Atalanta'sswiftness of foot by tempting herwith three golden apples that he threw in her path .\nNf7!\nBh\nObviously 4 .\n.\n.\nBxf7 is stalemate.\nNg5!\nBf\nNf\nThreatens to draw by taking the Pawn.\n. . .\nBe\nStalemate.\n----------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_011.png",
+    "sourcePdfPage": 21
+  },
+  {
+    "id": 12,
+    "section": "endgame_trainer",
+    "title": "Ending 12",
+    "header": "Birnov, 1 970",
+    "cue": "White to play and win",
+    "solutionText": "A simple, straightforward position-yet it requires care!\nKe2!\nThe plausible 1 f5 fails after 1 . . . aS 2 f6 a4 3 f7 a3 4 f8 = Q a\nQa3 + Kb1 , and the position is a book draw.\n. . .\naS\nKd\nKb\nOn 2 . . . a4, 3 Kc3 wins easily.\nf\na\nf\na\nf\na\nf8 = Q\na1 = Q\nQb4+\nKc\nOn 7 . . . Ka2, 8 Kc2 forces mate.\nQd2+\nKb\nQc2 mate\n-- 22 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_012.png",
+    "sourcePdfPage": 22
+  },
+  {
+    "id": 13,
+    "section": "endgame_trainer",
+    "title": "Ending 13",
+    "header": "Birnov, 1 947",
+    "cue": "White to play and win",
+    "solutionText": "White lets the Pawn become a Queen with check, but hisgallant Knight saves the day!\nThe plausible 1 Rg1 fails after 1 . . . Kb7 and Black draws easily.\nThe proper procedure is:\nRg7+\nKb\na8 = N+\nKa\nOf course not 2 . .\n. Kc6, when 3 Rc7 is mate.\nNc7+\nKa\nOn\n.\n. . Kb7, 4 Ne6 + Kb6 5 Rg1 followed by 6 Rc1 wins thedangerous Pawn.\nRgl\nBg5!\nBlack must stop 5 Rc1 , even at the cost of a Bishop.\nRxg5+\nd5+\nA clever interposition.\nRxd5+\nKa\nOn 6 . . . Kb6, 7 RbS + Kxc7 (or 7 . . . Ka7 8 Ra5 + and 9 Ra1 )\nReS + and 9 Kd4 wins for White.\ncontinued\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_013.png",
+    "sourcePdfPage": 23
+  },
+  {
+    "id": 14,
+    "section": "endgame_trainer",
+    "title": "Ending 14",
+    "header": "Can't stop the Pawn? No matter!",
+    "cue": "",
+    "solutionText": "Nb5!\nc1 =Q+\nNc3+\nKa\nRa5+\nKb\n1 0 Ra2 mate!\nE N D I N G\nBirnov,\nWhite to play and win\nThe Knight is chased way up the board and out of play, so that\nWhite canexecute a pretty mate with Knight and Bishop.\nBa\ne5+\nThis will enable Black's Knight to escape-temporarily.\nNxe\nNf\nOf course 2 . . . Nb2 fails; 3 Bb3 and 4 Kc3 win the Knight.\nKe\nNh\nThe alternative 3 . . . Nh1 is hopeless after the reply 4 Kf3.\nBd\nNg\nKf\nNh\nNg6+\nKg\nBe6 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_014.png",
+    "sourcePdfPage": 24
+  },
+  {
+    "id": 15,
+    "section": "endgame_trainer",
+    "title": "Ending 15",
+    "header": "Birnov, 1 954",
+    "cue": "White to play and draw",
+    "solutionText": "t\nWhite creates a drawing device as strange as any I'veever seen !\nBel !\n\"Unsacrificio a prima vista misterioso,\" says Porrera's book on\nthe ending.\n. . .\nNxcl\nNe\nApparently intent on stopping the Pawn by 3 Nc4 or 3 Nd1 .\n.\n•\n.\nb\nNc4!\nBut not 3 Nf5 Nc7 4 Nd6 Nd5 ! , which stops White from checking at e7.\nbl = Q\nNd6!\nDraw!\nBlack, a full Queen ahead, cannot stop White'sperpetualcheck; 5 Ne7 + Kf8 (of course not 5 . . . Kh8 6 Nf7 mate)\nNg6 + Kg8 7 Ne7 + , and White draws by repeating the position.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_015.png",
+    "sourcePdfPage": 25
+  },
+  {
+    "id": 16,
+    "section": "endgame_trainer",
+    "title": "Ending 16",
+    "header": "Bondarenko, Kuznetsov",
+    "cue": "White to play and win",
+    "solutionText": "A cute little ending that is sure to charm amateur or expert.\nThe King flees up the board-and then is forced down to meethis fate.\nKf\nThreatens 2 fxgS-instant mate.\n. . .\nBg\nIf instead 1 . .\n. gxf4, 2 gS + KhS 3 g4 mate.\nfxg5+\nKh\nfxg6+\nKh\ng7+\nKh\ng6+\nKh\ng5+\nKh\n7 g4 mate\nWho says quadrupled Pawns are weak?\n-- 26 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_016.png",
+    "sourcePdfPage": 26
+  },
+  {
+    "id": 17,
+    "section": "endgame_trainer",
+    "title": "Ending 17",
+    "header": "Botvinnik, 1 925",
+    "cue": "White to play and win",
+    "solutionText": "3.\nBotvinnik composed this study early in his career. The idea is\nbased on a game he won from Livtov. The sudden mate musthave come as a shock to Black.\ng4+\nKh\nFor this and his next three moves Black has no alternatives.\nBh\nQxh\nForced, since other moves by the Queen allow 3 Qh2 mate.\nQh2+\nKg\nQd2+\nNf\nQd8 mate\nA pretty little combination, almost the equal of Botvinnik's\nmany beautiful combinations brought about in actual play.\n----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_017.png",
+    "sourcePdfPage": 27
+  },
+  {
+    "id": 18,
+    "section": "endgame_trainer",
+    "title": "Ending 18",
+    "header": "Botvinnik, 1 939",
+    "cue": "",
+    "solutionText": "An instructive ending. One would think that allWhite has to do\nis win the d-Pawn and it'sallover. Let's see.\nIf 1 Kf6 Kb6! 2 Ke5 Kc7 3 Kxd5 (or 3 Ke6 Kc6) Kd7 4 Kc5 Kc7 5 d\nKd7 6 Kb6 (or 6 d6 Kd8 7 Kc6 Kc8) Kd6 7 Kxa5 Kxd5 8 Kxa6 Kc6,\ndrawn.\nThe winning idea is to capture the d-Pawn, but only at a moment when Black cannot take the opposition by moving to d7.\nT he way to do it is to maneuver the King to a8, and remove the\nPawns stationed on the a-file, thus:\nKf5!\nKf6!\nKf\nKb\nKb\nKb\nOn 3 . . . Kb6, 4 Ke8 is the keymove.\nKe\nKc\nOr 4 . . . Kc8 5 Kd6!\nKe\nKc\nKd\nKd\nKc\nKc\nKb\nKb\nKa\nWhite wins.\nOnce the a-Pawns have gone, Black is helpless, since his Kingcannot get to a6 to maintain the opposition.\n-- 28 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_018.png",
+    "sourcePdfPage": 28
+  },
+  {
+    "id": 19,
+    "section": "endgame_trainer",
+    "title": "Ending 19",
+    "header": "Bron, 1 926",
+    "cue": "White to play and draw",
+    "solutionText": "A witty miniature in Bron'susual clever style.\nf\nThis seems simple and strong-push on to the Queeningsquare!\n. . .\nNc\nPrevents anyfurther advance. Now if 2 Kc4 e1 = Q 3 f8= Q Qc\nmate.\nNf\nReady to meet 2 . .\n. e1 = Qwith 3 Nd3 +\nÀ\nNd\nKxd\nKd\nel = Q\nf8 = Q\nQb4 +\nKe\nQd4 +\nOr 6 .\n. . Qxf8, stalemate.\nKf\nKe\nStalemate.\nQf2 +\nQxf\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_019.png",
+    "sourcePdfPage": 29
+  },
+  {
+    "id": 20,
+    "section": "endgame_trainer",
+    "title": "Ending 20",
+    "header": "Bron, 1 958",
+    "cue": "White to play and draw",
+    "solutionText": "Would you expect a stalemate from this weird position?\nWah:; h Bron'smaster hand manipulate the pieces to the propersquares !\nBf7 +\nBxa\nKh\nBe2 +\nWith the noble object of promoting the Pawn .\nKc\nBd3 +\nOf course not 3 . . . f1 = Q 4 Bxc3 + followed by mate.\nKb\nBc4 +\nHere if 4 . . . f1 = Q 5 Bxc3 + Kg8 6 Kb4 + Kf8 7 Rf7 + Qxf7 Kxf\nBd4, and a drawn result.\nKa\nBxa\nIf 5 .\n. . f1 = Q, there is an ingenious draw by 6 Bxc3 + Kg\nRg7 + Kf8 8 Bxc4! ! Qxc4 + 9 Bb4 + K eB (if 9 .\n.\n.\nKxg7, White is\nstalemated) 10 Re7 + Kd8 11 Rd7 + Kc8 12 Rd8 + Kc7 13 Rd7 +\nand White forces the draw by perpetual check.\nBxc3 +\nKg\nRg7 +\nKf\nRg\nNg\n-- 30 ৫----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_020.png",
+    "sourcePdfPage": 30
+  },
+  {
+    "id": 21,
+    "section": "endgame_trainer",
+    "title": "Ending 21",
+    "header": "9",
+    "cue": "",
+    "solutionText": "f1 = Q\n10 Rf4 +\nQxf4 +\n1 1 Bb4 +\nKmoves\nStalemate.\nE N D I N G\nBron,\nWhite to play and winBron demonstrates the power of a double check, against whicheven the gods cannot prevail.\nc\nReBBxhB\nRxhB\nNe\nThreatens 4 Nxd6 followed by 4 c8 = Q.\n.\n•\n•\nKb\nBetter than 3 .\n.\n.\nReB 4 Nxd6 Rxc7 5 NbS+ and the Rook goes.\nRxh\nReB\nNxd\nRxc\nNcBmate\n---------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_021.png",
+    "sourcePdfPage": 31
+  },
+  {
+    "id": 22,
+    "section": "endgame_trainer",
+    "title": "Ending 22",
+    "header": "D I N G 22",
+    "cue": "White to play and win",
+    "solutionText": "White demonstrates the power of a Queen, who so oftenneeds no help to bring about checkmate.\nKf5!\nThe attractive 1 a7 fails in its object, for after 1 . . . c2 2 a8 = Q\nc1 = Q + 3 Kf5 Qg5 + ! , and Black has the better of it.\n. . .\nKxh\nThis time on 1 . . . c2 there follows 2 Nf4 c1 = Q 3 g3 + Kxg3 +\nNe2 + Kf2 5 Nxc1 g3 6 a7 g2 7 a8 = Q g1 = Q 8 Qa2 + Kf3 (forced)\n9 Qe2 + Kg3 10 Qg4 + and wins.\na\nc\na8 = Q\nc1 = Q\nQh8 +\nQh\nQe8 +\nKh\nQe1 +\nKh5 or g\nQh1 mate\n-- 32 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_022.png",
+    "sourcePdfPage": 32
+  },
+  {
+    "id": 23,
+    "section": "endgame_trainer",
+    "title": "Ending 23",
+    "header": "Chekhover, 1 937",
+    "cue": "White to play and win",
+    "solutionText": "A unique King wandering is the the me of this beautiful composition.\nWhite'spieces in the l ower right-hand corner must stay wherethey are. So must Black's-if the Bishop moves, Qxg2 matefollows.\nIt devolves upon White's King therefore to subdue Bl ack 'sactive Knight. He may not move to a White square, since check by\nthe Bishop followed by Queening the f-Pawn would follow.\nHowever, moving on black squares onl y wil l not permit the\nKing to approach the Knight.\nThe key: The King must move on b lack squares onl yuntil he\nreaches a White square, which allows him to lose a move, but a\nWhite square that does not permit the Bishop to check.\nKb\nKc\nKd\nKcS\nKb\nNf\nNh\nNg\nNh\nOn 5 Kd6 instead, 5 . . . Ng6 follows, and the King maynotapproach the Knight.\ncontinued\n--\nKa\nKa8!!\nNg\nNh\nThe magic square, which enables the King to lose a move.\nKb\nKc\n1 0 Kb\nKc\n1 2 Kd\n1 3 Ke\n14 Kf\n1 5 Kg\n1 6 h8 = Q!\nNg\nNh\nNf7!\nNh\nNg\nNh\nNf7 +\nNh\nNf\nOf course not the hasty 16 Kxf7 when 16 .\n.\n.\nBc4 + turns thetables.\nNxh\n1 7 Kxh\n8 moves\nQxg2 mate\n-- 34 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_023.png",
+    "sourcePdfPage": 33
+  },
+  {
+    "id": 24,
+    "section": "endgame_trainer",
+    "title": "Ending 24",
+    "header": "Chekhover, 1 948",
+    "cue": "White to play and draw",
+    "solutionText": "The idea of a draw seems hopeless in the face of two passed\nPawns, but an ingenious first move initiates the proper pro\ncedure.\nKg8!\nStartling, as one would expect the King to advance instead of\nretreating. If instead 1 Kg6 h4 2 Rh7 Kg2, and the position of\nWhite's King prevents him from checking at g7.\nh\nRh\nh\nRxh\nKg\nRh7!\nf1 = Q\nRg7 +\nKh\nRh7 +\nKg\nRg7 +\nKh\nRh7 +\nKg\nRg7 +\nKh\nDrawn.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_024.png",
+    "sourcePdfPage": 35
+  },
+  {
+    "id": 25,
+    "section": "endgame_trainer",
+    "title": "Ending 25",
+    "header": "Chlubna, 1 968",
+    "cue": "White to play and win",
+    "solutionText": ".\nThis is one of those delightful compositions where a Knightand Bishop (the Rook is sacrificed on the first move) overcometwo Rooks, twoKnights, a Bishop, and three Pawns (to saynothing of the King, who is checkmated).\nRh8 +\nKxh\nNxe8 +\nKg\nNf6 +\nKh\nOf course 3 .\n.\n.\nKf8 allows 4 Bd6 mate.\nNg4 +\nNh6 +\nBd6 +\nNg\nKg\nKf\nKe\nRdc\nThe King needs a flight square.\nNf6 +\nKd\nKf\nClosing in.\n1 0 Ne\nBe7 +\n1 2 Nd6 mate\nRa\nRcc\nKc\n-- 36 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_025.png",
+    "sourcePdfPage": 36
+  },
+  {
+    "id": 26,
+    "section": "endgame_trainer",
+    "title": "Ending 26",
+    "header": "Cohn, 1 928",
+    "cue": "White to play and draw",
+    "solutionText": "O nemust know when to capture the Queen and when not to\ndo so !\nKf\nO bviously 1 Rxe4 + Kxe4 2 Kf2 Kd6 3 K e1 K c2 loses easily.\n.\n•\n•\nb\nKe\nO nceagain 2 Rxe4 + Kxe4 1oses after 3 Ke2 Kd4 4 Kd2 b3! 5 Kd\n(or 5 K c1 Kc3) Kd3 ! 6 K c1 K c3 and wins.\n.\n•\n•\nb\nKd\nThe finesse that saves the game.\n.\n•\n.\nQxe\nStalemate.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_026.png",
+    "sourcePdfPage": 37
+  },
+  {
+    "id": 27,
+    "section": "endgame_trainer",
+    "title": "Ending 27",
+    "header": "Cortlever",
+    "cue": "White to play and win",
+    "solutionText": "This ending combines twothemes of which I amfond, a Kingwandering, and mate by a Pawn. Reason enough to recommend this composition.\nQf\nWith the brutal threat of 2 Qc6 + and mate next.\n.\n.\n•\nQc6 +\nRg\nRxc\nForced, since 2 . . . Ka7 3 b6 + cxb6 4 cxb6 + Ka6 5 b7 + is\ndecisive.\ndxc6 +\nKe\nKa\nh\nHoping White will chase the Pawn, when this would follow:\nKf5 h4 6 Kg4 h3 7 Kxh3, and Black gets a draw by stalemate.\nKd5!\nDisregards the passed Pawn and the possibility that it will turninto a Queen.\nKc\nKb\nKa\nb6 +\n1 0 cxb6 mate\nh\nh\nh\nhl = Q\ncxb\n-- 38 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_027.png",
+    "sourcePdfPage": 38
+  },
+  {
+    "id": 28,
+    "section": "endgame_trainer",
+    "title": "Ending 28",
+    "header": "Dorogov, 1 969, First Prize",
+    "cue": "White to play and win",
+    "solutionText": "A remarkable ending! After a great deal of feverish scurrying by\nthe Queens, White decides the issue by two little Pawn moves !\nRe4 +\nKxe\nBetter than 1 . . . Kg5 2 g7.\ng7 +\nKd\nc3 +\nBut not 3 gB = Q, when 3 . . . Qe3 + 4 K e1 h1 = Qismate.\nKc\nBg8 +\nBf\nb8 = Q\nThreatens 6 Qc7 + KdS 7 Bxf7 + Ke4 8 Bg6 + KdS 9 g8 = Q + andmate next move.\nh1 = Q\nBxf7 +\nQxf\nQc7 +\nQxc\ng8 = Q +\nQd5 +\nKc2!\nQxg\n1 0 e4!\nBlack's twoQueens are helpless to prevent mate by an insignificant Pawn.\nany\n1 1 b3 mate\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_028.png",
+    "sourcePdfPage": 39
+  },
+  {
+    "id": 29,
+    "section": "endgame_trainer",
+    "title": "Ending 29",
+    "header": "Drumaren, Lowenton, 1 962",
+    "cue": "White to play and win",
+    "solutionText": "s\nA bitold-fashioned in concept, this still makes a pleasing study.\nd8 = Q +\nNxd\nQa3 +\nKe\nBxf\nThreatens 4 Qe7 mate.\nBd7 +\nNd\nThreatens mate in two ways.\nRxf\nBxd\n. . .\nQxe\nGuards against both-but only for the moment!\nQe7 +\nQxe\nNxc7! mate\nThe smothered mate is always attractive.\n-- 40 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_029.png",
+    "sourcePdfPage": 40
+  },
+  {
+    "id": 30,
+    "section": "endgame_trainer",
+    "title": "Ending 30",
+    "header": "NG 30",
+    "cue": "White to play and win",
+    "solutionText": "Wi thboth Rooks attacked, and with Black t h reat ening to\nQueen a Pawn, Whi tereli es (justifiably) on t he amaz ingpowerof double check to smite the enemy hip and thigh.\nRg\nh\nOn\n.\n.\n.\naxb4 2 Kx h3 bxc3 3 Bxa3 leaves an easy win.\nRb\nhxg1 = Q\nBb\nThe Bishop is en p rise, but then so is Black's Queen.\nQxb\nNd5 +\nKg\nNe7 +\nKh\nNg8 +\nKg\nh5 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_030.png",
+    "sourcePdfPage": 41
+  },
+  {
+    "id": 31,
+    "section": "endgame_trainer",
+    "title": "Ending 31",
+    "header": "Duras, 1 939",
+    "cue": "White to play and win",
+    "solutionText": "Known primar ily for his strength as a player, Duras managed to\nconstr uct a number of fine endings. In this one, Black'spiecesfight vainly to keep the Rook from getting to the King, but eachtime onedoor shuts, another oneopens.\nf\nBxf\nForced, to prevent 2 f8 o: Q + .\nRg\nBb\nStops 3 Ra4 mate.\nRglThreatens 4 Rxal + and mate next.\n•\n.\n.\nRg\nNowaims at 5 RaSmate.\n. . .\nKb\nCover s the square g8.\nKc\nNc\nd\nd\nTo which there is no defense.\nWhite wins.\n-- 42 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_031.png",
+    "sourcePdfPage": 42
+  },
+  {
+    "id": 32,
+    "section": "endgame_trainer",
+    "title": "Ending 32",
+    "header": "Evreinov, 1959, First Prize",
+    "cue": "White to play and win",
+    "solutionText": "A magnificent combination; the surprise moves in this endingremind one of a blazing Alekhine brilliancy.\nWhite'schief weapon is the Bishop modestly placed at a1 , andthe threat of discovered check. But howdoes White start themachinery going?\nRe\nKg\nKglexf\nf8= Q + !\nf7 +\nKh\nWhite wins.\ndxe4 +\ne3 +\nBf\nQxc\nQxf\nQg7 +\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_032.png",
+    "sourcePdfPage": 43
+  },
+  {
+    "id": 33,
+    "section": "endgame_trainer",
+    "title": "Ending 33",
+    "header": "Evreinov, 1 962",
+    "cue": "White to play and win",
+    "solutionText": "So me pretty play forces the win.\nRf7!\nA startling first move! The natural 1 Rxf8 fails after 1 . . . Rxbt\nNd4 Rb1 + 3 Kxf2 Rf1 + 4 Kxf1 stalemate.\n. . .\nRhxf\nQuick lo ss follows 1 . . . Rfxf7: i.e. 2 Ne7 + Rf3 3 Bxf3 mate.\nNe7 +\nRf\nNcB!\nR8f\nBe\nRf\nNd\nR6f\nBxf3 +\nRxf\nNe\nWhite wins.\nThe Knight will inflict mate next mov e.\n-- 44 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_033.png",
+    "sourcePdfPage": 44
+  },
+  {
+    "id": 34,
+    "section": "endgame_trainer",
+    "title": "Ending 34",
+    "header": "Evreinov, 1 966",
+    "cue": "White to play and win",
+    "solutionText": "White spurns a Roo k that is offered, but this material inferiorityis compensated fo r by his superior position. This turns out to\nbe decisive.\nNf5!\nInvo lves a beautiful winning idea: 2 NgSRxeS 3 Nh6 + Kh\nNgf7 + Rxf7 5 Nxf7 + Kg8 6 NxeS and wins.\n. . .\nRxe\nNh6 +\nBetter than the immediate capture 2 Rxe4, when 2 .\n.\n.\nRxf\ndraws easily.\n.\n•\n.\nKh\nR g\nThreat: 4 Rg8 + Rxg8 5 Nf7 mate.\nÁ3 +\nKh\nÁ4 +\nKh\nReS\nRxe\nRxf\nRe B+\nK g\nR g8 mate\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_034.png",
+    "sourcePdfPage": 45
+  },
+  {
+    "id": 35,
+    "section": "endgame_trainer",
+    "title": "Ending 35",
+    "header": "Filaterov, 1 926",
+    "cue": "White to play and win",
+    "solutionText": "Like a good thriller, the issue is in do ubt until the very lastmo ment.\nb\nRb\nNbS!\nNow if 2 . .\n. RxbS, 3 RxdS pins the Roo k and wins.\n• . .\nNh\nIntend ing 3 .\n.\n.\nNf3 followed by 4 .\n.\n.\nRxh2 mate.\nRdl\nNf\nRal +\nKb\nRblRxbl +\nK g\nRgl +\nKxf\nR g\nNa\nThreatens 9 NcB, blocking the Roo k.\nRb\nNc6 +\nWhite wins.\n-- 46 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_035.png",
+    "sourcePdfPage": 46
+  },
+  {
+    "id": 36,
+    "section": "endgame_trainer",
+    "title": "Ending 36",
+    "header": "Fritz, 1 939",
+    "cue": "White to play and draw",
+    "solutionText": "Fritz demo nstrates that a piece may be irretrievably lost, butnot the game.\nA neat rendering in miniature of an oldTroitzky theme.\nB g\nR g\nThere'snothing in\n. . . Rf3 after 2 Be6 + in reply.\nBxh\nRh\nBfl +\nKb\nBal !\nRhl\nKb\nRxfl\nDrawn by stalemate.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_036.png",
+    "sourcePdfPage": 47
+  },
+  {
+    "id": 37,
+    "section": "endgame_trainer",
+    "title": "Ending 37",
+    "header": "Fritz, 1 947",
+    "cue": "White to play and win",
+    "solutionText": "The pieces are spread far and wide, but White manages to\ncreate an artistic arrangement of the fo ur Knights in j ust a fewmoves.\nRh\nKd\nOr\n.\n.\n.\nKe7 2 Rh7 + Nf7 3 Nc6 + and the Bisho pfalls.\nBlack is playing to trap the Roo k.\nRh7 +\nKc\nRxa\nNc\nThreatens 4 . . . Kb8.\nNdc\nRb7 +\nKb\nNxb\nA King move allows 6 Nb6 mate.\nNc6 +\nKc\nNb6 mate\nA pretty picture.\n-- 48 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_037.png",
+    "sourcePdfPage": 48
+  },
+  {
+    "id": 38,
+    "section": "endgame_trainer",
+    "title": "Ending 38",
+    "header": "rritz, 1 950",
+    "cue": "White to play and win",
+    "solutionText": "Wherein the modest little Pawn proves irresistible.\nRa\nThreatens mate as well as 2 Rc1 winning a piece.\nBb\nRa\nNbS\nAn ingenio usdefense.\nRxb\nKe\nb\nWhite wins.\nNd6 +\nNxb\nThe King simply walks over to the paralyzed Knight, removes it,\nand then Queens his Pawn. Simple, like alltruly great schemes.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_038.png",
+    "sourcePdfPage": 49
+  },
+  {
+    "id": 39,
+    "section": "endgame_trainer",
+    "title": "Ending 39",
+    "header": "N G 39",
+    "cue": "White to play and win",
+    "solutionText": "A surprise sacrifice provides a target fo r White-but strangelyeno ugh his aim is directed in a different direction !\nK g\nK g\nKf\nKfS\ne4 + !\ndxe4 +\nK g3!\nK gS\ne\nKfS\nKh\nKeS\nK gS\nKdS\nKfSKcS\nKeS!\nBut not 9 Kxe4 Kc4, and the position is drawn.\nKbS\n1 0 KdS!\nKb\n1 1 Kd\nKbS\n1 2 Kc\nKa\n1 3 Kc\nWhite wins.\n-- 50 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_039.png",
+    "sourcePdfPage": 50
+  },
+  {
+    "id": 40,
+    "section": "endgame_trainer",
+    "title": "Ending 40",
+    "header": "Giningev, 1 930",
+    "cue": "White to play and draw",
+    "solutionText": "Wherein the Bisho pzooms down the length of the board to\nbury himself, and save the life of the King.\nh\nBblOtherwise the Pawn will beco me a Queen.\nd\nNxe\nIf 2 . . . Nxd3 + 3 exd3 Bxd3 4 Be5 Bxh7 5 Bxg3, and the positio n\nis drawn.\nBal !\nKa\nNxd3 +\nBc5 +\nForces the King to a white square where the Knight at d3 cancheck him, and meanwhile clear the way fo r 6 .\n. . Bxh7.\nKb3!\nBut not 5 Ka4 Nb2 + 6 Bxb2 Bxh7 and Black wins.\nKb2!\nStalemate.\nAn artistic finish.\nN3c1 +\nBxh\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_040.png",
+    "sourcePdfPage": 51
+  },
+  {
+    "id": 41,
+    "section": "endgame_trainer",
+    "title": "Ending 41",
+    "header": "Gogberashvili, 1 973",
+    "cue": "White to play and win",
+    "solutionText": "After tenforcing moves that leave Black no choice, Whitesacrifices a Knight to finish with a pretty Pawn mate.\nN g\nKh\ng\nKh\nIf 2 . .\n. Rh7 o r 2 .\n.\n.\nBh7, then 3 g5 mate.\nNh\nKh\nNf\nKh\nAgain if 4 .\n. . Rh7 o r 4 . .\n. Bh7, then 5 g5 is mate.\nNxh\nKh\nNf\nK h\nh3!\nKh\nh\nKh\nh\nKh\ng5 +\nKh\nN g6!\nhx g\n1 2 hx g6 mate\n-- 52 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_041.png",
+    "sourcePdfPage": 52
+  },
+  {
+    "id": 42,
+    "section": "endgame_trainer",
+    "title": "Ending 42",
+    "header": "Gorgiev, 1 929",
+    "cue": "White to play and win",
+    "solutionText": "Gorgiev composes a beautiful variatio n o n the famo usSaavedra theme, distinguished by three sacrifices of pieces.\nc\nRc6 + !\nOn 1 . . . Rh8 instead, White plays 2 Bc5, followed by 3 Bd4 + ,\nand removes the Roo k.\nA pretty try is 1 . . . Rxe4 2 c8 = Q Rc6 + 3 Qxc6 Rc4 + 4 Nc3!\nRxc6 5 Bb2 mate.\nBxc\nKd\nBd6!\nNd4!\nRc4 +\nRxc\nRxd6 +\nOnebrilliant move follows another!\n. . .\nKc\nThreatening 7 . . . Rc1 + .\nKc\nc8 = R\nRxd4 +\nRdl\nRd\ncontinued\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_042.png",
+    "sourcePdfPage": 53
+  },
+  {
+    "id": 43,
+    "section": "endgame_trainer",
+    "title": "Ending 43",
+    "header": "Black's reply is fo rced, to prevent mate on the a-file:",
+    "cue": "",
+    "solutionText": ".\n.\n•\nRa\nKb3!\nAttacking the Roo k, and threatening mate; toomuch fo r Black.\nE N D I N . G\nGorgiev,\nWhite to play and win\nGo rgiev needs little material to create a witty interplay of piecesin this much-admired ending.\nCapturing Roo k or Bisho pleads to a simple draw. So Whiteplays\nRb3 +\n. . . which, being check, takes precedence over every othermove, and threatens, if the King moves, 2 Bxf6. Black's hand is\nforced :\nRx b6+\nRb6!\nKc\nAfter which two of White'spieces are attacked.\nBd8 + !",
+    "image": "assets/puzzles/endgame_trainer/ending_043.png",
+    "sourcePdfPage": 54
+  },
+  {
+    "id": 44,
+    "section": "endgame_trainer",
+    "title": "Ending 44",
+    "header": "3",
+    "cue": "",
+    "solutionText": "Rb8 +\nKe\nK g&!\nWhite wins by the power of zugzwang-Biack is compelled to\nmove, but every move loses !\nE N D I N G\nGorgiev,\nWhite to play and draw\nSo me startling moves punctuate this fine productio n!\nb7 +\nKa\nbB = Q +\nKxb\nc7 +\nKb\nc8 = Q +\nKxc\nd7 +\nKc\ndB = Q +\nKxd\n7 Nf7 +\nKe\nNxh\nKf\nThe smo ke of battle has cleared; White has wo n the Queen ,\nbut his Knight is in mortal danger. Can he still save the Knight,\nand the game?\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_044.png",
+    "sourcePdfPage": 55
+  },
+  {
+    "id": 45,
+    "section": "endgame_trainer",
+    "title": "Ending 45",
+    "header": "f5",
+    "cue": "",
+    "solutionText": "Nd8 +\n1 2 Nb\nKxf\nKe\nKd\nKc\n\"The villain still pursued her.\"\n1 3 Na\nKb\n1 4 c5 + !\nAvoids 14 Nb3, when the reply 14 . .\n. Nc3 is mate.\n.\n•\n•\nNxc5 +\nOther moves allow the Knight to escape by way of b3.\n1 5 Kb\nNb7 +\n16 Ka\nNxa\nStalemate .\nE N D I N G 45 ------\nGorgiev,\nWhite to play and winWhite attacks and maintains the pressure until mate is forced.\nRh\nThreatens nothing less than 2 Nf3- mate o n the move.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_045.png",
+    "sourcePdfPage": 56
+  },
+  {
+    "id": 46,
+    "section": "endgame_trainer",
+    "title": "Ending 46",
+    "header": "2",
+    "cue": "",
+    "solutionText": "N g4!\nRh\nRh\nAgain with a powerful threat: if 3 . . . Rxh1 then 4 BfS is mate.\n•\n•\n•\nRf8 +\nKxf\nRxh\nBlack avoidsdisaster, though White still has the attack.\nBf5 +\nKh\nNe\nNewthreat of mate by 7 Nf7.\n.\n•\n•\nRh\nReady to reply to 7 Nf7 + with 7 . . . Rxf7 + 8 Kxf7, stalemate.\nN g6 mate\nE N D I\nN\nGorgiev,\nWhite to play and win\nH is King is cornered, but Black still manages to put up a fight.\nR g7 +\nKh\ng\ncontinued\n-----------------\n--\nNowWhite's idea is to bring his King to f7, and o n a Roo kcheckto interpose his Knight at f6.\n.\n•\n•\nNb& +\nKe\nBut not 3 Ke6 Nd5 4 Kxd5 Rd1 + 5 Ke6 Re1 + 6 Kd7 Rxe8, and\nWhite'swinning chances are go ne.\n. . .\nRel +\nIf instead 3 . .\n. Nd5 + , then 4 Kf8 Rf1 + 5 Rf7 Rxf7 + , and Whitewins with 6 Kxf7.\nKf\nBut not 4 Kf8 Rxe8 + .\nNf&\nKxf\nKf\nRfl +\nRxf6 +\nNd5 +\nNf&\nNow if 8 Kf8, Nd7 + is the reply, but . . .\nRh7 +\nNxh\ng7 mate\n-- 58 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_046.png",
+    "sourcePdfPage": 57
+  },
+  {
+    "id": 47,
+    "section": "endgame_trainer",
+    "title": "Ending 47",
+    "header": "Gorgiev, 1 968",
+    "cue": "White to play and win",
+    "solutionText": "Delightful maneuvering by the mino rpieces characterizes thisfascinating ending. The final co up is a bitunexpected.\nh&\nNf5 +\nKd\nNxh\nBxh\nBlack is content to give up his Knight fo r the advanced Pawn, as\nhe seems to have a draw in sight.\n. . .\nd\nBut it's White's turn to move, and as Bronstein oncesaid, \"Themo stpowerful weapo n in chess is to have the next move!\"\nNe5 +\nKd\nBf\nNxb2 +\nKc\nNa4 +\nOn 6 . . . Nd1 + , 7 Kd2 forces the Knight to b2 o r f2, ·where\nWhite canwin it by 8 Nd3 + .\nKb\nNb\nSafety at last?\nNc4 + +\nNa5 mate\nKc\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_047.png",
+    "sourcePdfPage": 59
+  },
+  {
+    "id": 48,
+    "section": "endgame_trainer",
+    "title": "Ending 48",
+    "header": "Gorgiev, Rudenko, 1 957",
+    "cue": "White to play and win",
+    "solutionText": "White's twoBisho psdisplay frightening power in their pursuitof the enemy King.\nB g\nThe Pawn must be stopped from advancing.\nBf2 +\nKa\nBd\nNd\nc1 = Q!\nNxc\nBxb\nOrdinarily, twomino rpieces candraw against three, but theterrible Bishops are ready to bear down o n the King.\nBd7 +\nKb\nBe7 +\nKc\nBe& +\nKc\nBf6 +\nKc\nHe tries to protect his Bishop,\nBb3 +\nKxcl\n. . . but it's at the co st of his life.\nB g5 mate\nA pretty finish !\n-- 60 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_048.png",
+    "sourcePdfPage": 60
+  },
+  {
+    "id": 49,
+    "section": "endgame_trainer",
+    "title": "Ending 49",
+    "header": "Gorgiev, Rudenko, 1 960",
+    "cue": "White to play and win",
+    "solutionText": "Even morebrilliant than White's Queen sacrifice (which leadsto mate) is the march of his King alo ng the black diago nal to h4,\nback to e1 , and once again to h4. A startling conceptio n.\nBf8 +\nQxf\nThe alternative 1 . . . Kf6 2 Qh4 + QgS 3 QxgS + KxgS 4 Nxh\nleads to a prosaic win.\n2 Nxf\nKf\nBaS +\nThe King must not move to a White square, as a Knight checkwill uncover an attack o n his Queen .\nK g\nKh\ne7!!\nBb6 +\nBc7 +\nBd8 +\nWhite needs the square e6, as we shall see.\nK g\nKf\nBxe7 +\nBd6 +\nBcS +\ncontinued\n---------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_049.png",
+    "sourcePdfPage": 61
+  },
+  {
+    "id": 50,
+    "section": "endgame_trainer",
+    "title": "Ending 50",
+    "header": "Ke1",
+    "cue": "",
+    "solutionText": "1 1 Kf\n1 2 Kg\n1 3 Kh4!\n14 Kg4!\n15 KhS\n16 Ne6 mate\nE N 0 I\nN\nG\nGrigoriev,\nWhite to play and win\nBb4 +\nBxc3 +\nBd4 +\nBeS +\nBf6 +\nNe3 +\nBxh\nSubtle timing of moves is a characteristic of Grigo riev'spawnendings. This is o ne of myfavo rites.\ng\nKf\nKfS!\nOn the obvio us 2 KxeS Kxg7 3 KfS Kf7 4 KxgS Ke6 draws.\n•\n•\n•\nKg\nHere if Black plays 2 . .\n. Kxg7 then 3 KxgS wins fo r White.\nKg4!\nOn 3 KxgS e4! 4 dxe4 Kxg7 and draws, but not 3 . .\n. Kxg7 4 KfS\ne4 5 Kxe4 and White wins.\n-- 62 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_050.png",
+    "sourcePdfPage": 62
+  },
+  {
+    "id": 51,
+    "section": "endgame_trainer",
+    "title": "Ending 51",
+    "header": ". . .",
+    "cue": "",
+    "solutionText": "If 3 . . . Kh7 4 Kxg5 e4 5 Kf6 and White wins. Or 3 . . . Kxg\nKxg5 and White wins.\nKxg\ne\nKh\nBut not 5 dxe4 Kxg7 and Black escapes.\n. . .\nKg\nOn 5 . . . exd3 6 Kh7, and 7 g8 = Q + is lethal.\ndxe\nWhite wins.\nE N D I N G\nGrigoriev,\nWhite to play and win\nIf there is an undisputed master of King-and-Pawn endings, it is\nGrigo riev.\nHe manages to find unusual ideas in the mo stmundane po si\ntio ns.\nKd4!\nb\ncontinued\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_051.png",
+    "sourcePdfPage": 63
+  },
+  {
+    "id": 52,
+    "section": "endgame_trainer",
+    "title": "Ending 52",
+    "header": "The natural co ntinuatio n. Defending instead against White's",
+    "cue": "",
+    "solutionText": "7 Kf7 b5 8 Kg? and White wins.\nf\nb\nfS\nb\nKc3!\nThis is the impo rtant move, fo r 4 f61eads o nly to a draw.\nKa\nf\nb\nf\nbl = Q\nf8 = Q +\nKa\nOr 7 . . . Ka5, when 8 Qa8 + wins the Queen.\nQa8 mate!\nE. N 0 I\nN\nG\nGrigoriev,\nWhite to play and winGrigo rie\"V 'sartist.ryextends beyo ndPawn endings, of which he\nis an acknowledged master. In this innocent-looking Roo kending, he springs a surprise checkmate.\nKc2!\n,\n64 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_052.png",
+    "sourcePdfPage": 64
+  },
+  {
+    "id": 53,
+    "section": "endgame_trainer",
+    "title": "Ending 53",
+    "header": "(o r 4 b6 Ra5 + ) 4 . .",
+    "cue": "",
+    "solutionText": "KfS\nbS\nKf\nb\nRh\nKc\nRb\nRb\nKe\nKc\nKd\nKbS\nKc\nRc1 + !\nBut not 8 Kc6 Rb7 9 Ra1 Rc7 + !\nRc7 +\n1 0 Ra7 mate\nE N 0 I\nN\nG\nGrigoriev,\nWhite to play and win\nKb\nKa\nDespite a hidden Black reso urce, White finds an ingenio uswayto win. -\nh\nKb\nKa\ncS\nc\ncontinued\n----------------\n--\nThis looksdecisive, but Black has a little trick up his sleeve.\n•\n•\n.\nc3!\nKb3!\nBut not the tempting 4 Kxa3 when Black draws by the famo usReti idea: 4 . . . Kg3 ! 5 fS Kf4 6 f6 Ke3 7 f7 c2 8 f8 = Q c1 =Q +\nand draws.\n•\n.\n•\na\nKxa\nWhite makes sure that the c-Pawn does not Queen with check.\nf\nf\nf\nf8 = Q\n1 0 Qh6 +\nBlack's Queen is lo st.\nWhite wins.\nKg\nKf\nKe\nc\ncl =Q\n-- 66 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_053.png",
+    "sourcePdfPage": 65
+  },
+  {
+    "id": 54,
+    "section": "endgame_trainer",
+    "title": "Ending 54",
+    "header": "N",
+    "cue": "White to play and win",
+    "solutionText": "White'sproblem is that he has to stave offpossible mate by theflo ck of Black's Queenside Pawns coming down the bo ard.\nThe effo rt to create a passed Pawn o n the Kingside wo uld be\nrefuted thus: 1 g3 Ka4 2 Kc1 (forced) Ka3 3K b1 b2 4 h4 Kb3 5 hS\naS 6 h6 a4 7 h7 a3 8 hB = Q a2 mate.\nTherefo re:\nKc\nKb\ng\nh\nS\ngxh\nKa\nbS\naS\ngxh\ndS!\nTrying fo rstalemate, of course.\nKb\nKa\nhS\nb\nh\na\nh\nb3!\nWith the same no bleobject.\n1 0 h8 = N!\nb\nNg6!\nfxg\n1 2 f\ngxfS\n1 3 f8 = N!\nf\n14 Ne\nf\n1 S Nc\nf\nNbS! mate\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_054.png",
+    "sourcePdfPage": 67
+  },
+  {
+    "id": 55,
+    "section": "endgame_trainer",
+    "title": "Ending 55",
+    "header": "N",
+    "cue": "White to play and win",
+    "solutionText": "In this fascinating miniature, White manages to entangle the\nRoo k (in two lines of play). A shrewd Bisho psacrifice serves to\nadvance the career of the Pawns.\nBe3 +\nh\nKdS\nRh\nOr 2 .\n.\n.\nRa8 3 Bh6! Ke6 4 Bxg7 Kf5 5 Bf8! Rxf8 6 g7 wins.\nBgS!\nRhl +\nKg\nRhS\nBf6!\nKe\nOf course not 5 . . . gxf6, 6 g7 wins.\nBxg\nKfS\nBh6!\nThe keymove!\nRxh\n8 . g\nWhite wins.\n-- 68 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_055.png",
+    "sourcePdfPage": 68
+  },
+  {
+    "id": 56,
+    "section": "endgame_trainer",
+    "title": "Ending 56",
+    "header": "Gurgenidze, 1 972",
+    "cue": "White to play and draw",
+    "solutionText": "An abso lutely delightful ending, with White's Knights alternating in an attack o n the King, who is cornered on an edge of thebo ard.\nb\nKf\nh\nhl =Q\nDelay is dangero us : if 2 .\n.\n.\nh3, 3 b8 = Q h1 =Q 4 Qb7 mate.\nb8 = N +\nKdS\nNc7 +\nKeS\nNd7 +\nKf\nNe6 +\nKg\nNf6 +\nKh\nNxgS +\nKh\nNg4 mate\nNo ble wo rk by the Knights!\n-------------·-----\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_056.png",
+    "sourcePdfPage": 69
+  },
+  {
+    "id": 57,
+    "section": "endgame_trainer",
+    "title": "Ending 57",
+    "header": "___________",
+    "cue": "White to play and win",
+    "solutionText": "In this weird positio n White evolves an unusual smotheredmate.\nNa6!\nRa7!\n'If he tries 1 . . . Re7, then 2 Ng6 R7xe8 3 Rxe8 Rxe8 4 Nc7 + and\nWhite wins the remaining Roo k.\nBxc6 + !\nRxc\nNd7 +\nKb\nRb8 +\nKxa\nRb6 +\nRxb\nNxcS mate\n-- 70 ----------",
+    "image": "assets/puzzles/endgame_trainer/ending_057.png",
+    "sourcePdfPage": 70
+  },
+  {
+    "id": 58,
+    "section": "endgame_trainer",
+    "title": "Ending 58",
+    "header": "Gurvich, 1 927",
+    "cue": "White to play and win",
+    "solutionText": "A delightful Knight gallo ping sets the King up fo r the kill.\nKb\nMoving the threatened Knight away wouldallow\n.\n. . Ne4 + ,\nwinning the mo revaluable Bisho p.\n. . .\nBg3 +\nKxe\nKd\nIn this, and the following moves, the King must stay clo se to\nthe Knight.\nNf6 +\nKc\nNd7 +\nKd\nNb6 +\nKc\nNa4 +\nKd\nNc3 +\nKc\nBf2 mate\nAn elegant finish.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_058.png",
+    "sourcePdfPage": 71
+  },
+  {
+    "id": 59,
+    "section": "endgame_trainer",
+    "title": "Ending 59",
+    "header": "Gurvich, 1 955",
+    "cue": "White to play and win",
+    "solutionText": "just as Black's King is abo ut to save the game by capturing the\nBisho p, the Knights gallo p over and ruin his plans.\nBhl\nBd\nGoes after the most dangero usunit.\nNa\nBxb\nOtherwise 3 b5 follows.\nNc6 +\nKf\nBlack ho pes to capture o ne of the pieces in the corner.\nNxb\nKg\nNfl +\nKf\nNd\nNg\nIf Black canget rid of the Bisho p (who has no way of escape),\nhis·troubles will be over.\nNd3 +\nNf3 +\nKglKxhl\nWins the Bisho p, but at great co st.\nNf2 mate\n-- 72 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_059.png",
+    "sourcePdfPage": 72
+  },
+  {
+    "id": 60,
+    "section": "endgame_trainer",
+    "title": "Ending 60",
+    "header": "Gurvich, 1 959",
+    "cue": "White to play and win",
+    "solutionText": "Lowly Pawn indeed ! This o ne justifies its existence.\nKf\nNh3 +\nKg\nNg\nBelThreatens to win the pinned Knight by 4 Nf7 + .\n. . .\nBe\nBetter than 3 .\n.\n.\nKhS 4 BxgS KxgS 5 Ne6 + and White wins the\nBisho p.\nNf7 +\nBxg\nKh3!\nA quiet, waiting move.\ng4 mate\nKh\nBxg\n8 moves\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_060.png",
+    "sourcePdfPage": 73
+  },
+  {
+    "id": 61,
+    "section": "endgame_trainer",
+    "title": "Ending 61",
+    "header": "Gurvich, 1 960",
+    "cue": "White to play and draw",
+    "solutionText": "This might be called \"drawing by perpetual threat of mate.\"\nRa3 +\nBa\nRxf\nNd6 + +\nOn\n.\n. . Ne7 + + instead, the reply 3 Kd8 Bg4 4 Rf4 wins a\npiece.\nKc\nKxc6!\nNbS +\nCo sts a Roo k, but White has a little plan to offset the lo ss.\nNd4 +\nKc7!\nNxf\nBg8!\nThe po int! White threatens mate o n the move.\nBb8 +\nKb6!\nBa7 +\nKc\nBlack can no longer affo rd to trywinning.\nDrawn.\n-- 74 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_061.png",
+    "sourcePdfPage": 74
+  },
+  {
+    "id": 62,
+    "section": "endgame_trainer",
+    "title": "Ending 62",
+    "header": "Hadac, Machal, 1 967",
+    "cue": "White to play and win",
+    "solutionText": "It is unusual to seeboth Kings trapped by the opposing Pawns.\nWhite (the good guy) co mes off the victo r in the double zugzwang.\neSMakes way fo r the King to centralize fo r the attack-and fo rthedefense.\n•\n•\n.\ngSBlack naturally tries fo r the breakthro ugh by 2 .\n.\n.\ng4.\nKe\ng\nfxg\nhxg\nhxg\nh\nKf\nKc\ngS\nKdS\ng\nKxe\nb\nNeither King maymove, so White turns to the Queenside.\n. . .\naS\na\nbxa\nIf 9 . .\n. axb4, 10 axbS wins at once.\n1 0 bxaS\na\n1 1 a\nWhite wins.\nBlack's King must eventually move, and allow the g-Pawn to\nadvance and beco me a Queen.\n------------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_062.png",
+    "sourcePdfPage": 75
+  },
+  {
+    "id": 63,
+    "section": "endgame_trainer",
+    "title": "Ending 63",
+    "header": "Herbstman, 1 928",
+    "cue": "White to play and draw",
+    "solutionText": ".\nWhite squeezes o ut of a tight situatio n just when everythingseems hopeless.\nKb\nBxe\nUnable to save his Knight, Black in turn attacks a Knight, andalso threatens 2 . . . Bxd4 + .\nNf\nProtects the Pawn, and in turn attacks the Bisho p.\nNxc\nKxc\nBg\nKd\nBgl\nKe\nBh\nThis seems conclusive, as 6 dS is met by 6 . . . Bd6 and White is\no ut of moves.\nKdS!\nHe abando ns the Knight to its fate.\n. . .\nBxf\nStalemate.",
+    "image": "assets/puzzles/endgame_trainer/ending_063.png",
+    "sourcePdfPage": 76
+  },
+  {
+    "id": 64,
+    "section": "endgame_trainer",
+    "title": "Ending 64",
+    "header": "Herbstman, 1 936",
+    "cue": "White to play and draw",
+    "solutionText": "In which the Queen is lured into a cul-de-sac.\nRe4 +\nKa\nWith mating threats.\nRxa4 +\nQxa\nNaturally 2 . .\n. Kxa4 is inferio r o n acco unt of 3 a8 = Q + in\nreply.\na8 = Q\nQxa\nRa7 +\nNxa\nb7!\nHowembarrassing!\n. . .\nQxb\nStalemate.\n------------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_064.png",
+    "sourcePdfPage": 77
+  },
+  {
+    "id": 65,
+    "section": "endgame_trainer",
+    "title": "Ending 65",
+    "header": "Herbstman, 1 939",
+    "cue": "White to play and draw",
+    "solutionText": "There are so me lovely Roo k and Queen sacrifices in this innocent-looking positio n.\nc\nRf4 +\nThe instinctive\n.\n.\n.\nRc4 is met by 2 Rxa4, and the threat of\nmate is decisive.\nKg\nRxa4!\nRc\nRg4 + !\nA desperate move, but what else i s there?\nRxg\ncl = Q\nc8 = Q + !\nQxc\nKf\nQd8!\nRg\nKh\nRh6 +\nKxh\nStalemate.\n-- 78 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_065.png",
+    "sourcePdfPage": 78
+  },
+  {
+    "id": 66,
+    "section": "endgame_trainer",
+    "title": "Ending 66",
+    "header": "Herbstman, 1 953",
+    "cue": "White to play and draw",
+    "solutionText": "Black's Pawn cannot be stopped from Queening, but ingeniousplay lets White escape with a draw.\nRb5 +\nKe\nMoving to the fifth rank by, say, 1 . . . Ke4 is met by 2 Rxb4 +\nfollowed by 3 Ra4, and Black canwin the Rook, but not thegame.\nRaS\nBg\nReS +\nS\nRfS +\nReS +\nRdS + !\nBa\na1 = Q\nKf\nKe\nKd\nKc\nIf 7 . . . KxdS, 8 c4 + wins the Queen.\nReS +\nKb\nNow if 8 . . . KxcS, 9 cxb4 + wins the Queen.\nRb5 +\nKa\nOr 9 .\n. . KxbS, 10 c4 + .\n1 0 Ra5 +\nFinally, if 10 . . . KxaS, 11 cxb4 + is the reply. The perpetualcheck lets White off the hook.\nDrawn.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_066.png",
+    "sourcePdfPage": 79
+  },
+  {
+    "id": 67,
+    "section": "endgame_trainer",
+    "title": "Ending 67",
+    "header": "Herbstman, 1 961",
+    "cue": "White to play and draw",
+    "solutionText": ".\nThe fight centers on Black's Pawn. Winning it would assure\nWhite of a draw.\nRd7 +\nKb8!\nNaturally 1 . . . Bxd7, leaving White stalemated, is unthinkable.\nRd8 + !\nRc\nRd\nKb7!\nClever defense. If 4 Rxh4, RaB + 5 Kb4 Ra4 + wins the Rook andthe game.\nRb4 +\nKc\nRc4 +\nBc\nClearly, if 5 . . . Kb7, 6 Rb4 + , and White is content to repeatmoves.\nRxh\nKb\nRa8 +\nRa4 +\nThis wins the Rook, but not the game.\nKcS\nRxh\nStalemate.",
+    "image": "assets/puzzles/endgame_trainer/ending_067.png",
+    "sourcePdfPage": 80
+  },
+  {
+    "id": 68,
+    "section": "endgame_trainer",
+    "title": "Ending 68",
+    "header": "Herbstman, Nadareishvili, 1 968, First Prize",
+    "cue": "White to play and draw",
+    "solutionText": "White'smaterial advantage is offset by Black'sthreats :\ng3 + , and mate next move, and 1 . . . b1 = Q. It needs cleverplay for White to escape with a draw.\nBxd\ng3 +\nKg\nOf course not 2 Kh1 Bxg2 + 3 Kg1 b1 = Q + and mates.\nh2 +\nKh\nBxg2 +\nKxg\nf3 +\nKh\nb1 = Q +\nBg1 +\nQb\nBest, as\n. . . KhS 7 Qg4 + Kh3 B QgS + Kh7 9 Qg7 + Kxg\ndraws by stalemate.\nQxb4 +\nKh\n(Black is actually threatening mate! )\nBxh\nf\nAnd once again !\nQh4 + !\nKxh\nBxg3 +\nKxg\nStalemate!\n---------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_068.png",
+    "sourcePdfPage": 81
+  },
+  {
+    "id": 69,
+    "section": "endgame_trainer",
+    "title": "Ending 69",
+    "header": "Hevacker, 1 936",
+    "cue": "White to play and win",
+    "solutionText": "White'spieces are under attack, and he has to head off a\ndangerous passed pawn. In spite of this, he forces Black's Kingup the board and into checkmate.\nThe plausible 1 Re6 fails after 1 . . . Kxa4 2 Kc7 Kb4 3 Kxb8 a\nKb7 a4 5 Kb6 Kc3 6 Rxe3 + Kb2, and Black manages to draw.\nRc\ne\nNb2!\nel = Q\nO r 2 . . . Nc6 + 3 Kc7 e1 = Q 4 ReS + Kb4 5 Nd3 + protects the\nRook and wins the Queen.\nReS +\nKb\nHere too 3 . . . Kb4 yields to 4 Nd3 + .\nNa4 +\nKb\nRc7 +\nKa\nNb6 mate\n-- 82 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_069.png",
+    "sourcePdfPage": 82
+  },
+  {
+    "id": 70,
+    "section": "endgame_trainer",
+    "title": "Ending 70",
+    "header": "Holst, 1 903",
+    "cue": "White to play and win",
+    "solutionText": "The Queen whirls around the board to achieve her objectivewinning the enemy Queen.\nQh8 +\nQf6!\nCertainly not\n. . . Kd6 when 2 Qf6 + wins the Queen.\nQb8 +\nQd\nBut not 2 . . . Kd4 when 3 Qb2 + wins the Queen by x-rayattack.\nQb2 +\nQh2 +\nQh8 +\nWhite wins.\nQd\nf4 (or 4 .\n•\n.\nNg3)\nBlack's King must step aside, and his Queen falls.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_070.png",
+    "sourcePdfPage": 83
+  },
+  {
+    "id": 71,
+    "section": "endgame_trainer",
+    "title": "Ending 71",
+    "header": "lsenegger, 1 927",
+    "cue": "White to play and draw",
+    "solutionText": "Though outnumbered in material, White gives up four of hisfive Pawns to achieve a satisfactory result.\nb6!\nBegins an attempt to break through.\n. . .\ncxb\nForced, since 1 . . . c6 2 dxc6 bxc6 3 b7 wins for White.\nc5!\nThreatens 3 cxd6 exd6 4 e7.\n. . .\nbxc\nAgain forced, as after 2 . .\n. dxcS 3 d6 is decisive.\nbxc\nRenews the threat of 4 cxd6.\nc\ndxc\nKf5!\nBa\nbxc\nd5 +\nClearly 6 KxdS Bd6 is fatal for White.\nBd\nc\nBxc\nStalemate!\n-- 84 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_071.png",
+    "sourcePdfPage": 84
+  },
+  {
+    "id": 72,
+    "section": "endgame_trainer",
+    "title": "Ending 72",
+    "header": "lsenegger, 1 940",
+    "cue": "White to play and win",
+    "solutionText": "A lovely Bishop move prepares the combination that sends\nBlack's King on a long journey whence he never returns.\nb\nOtherwise 1 . . . Bc8 ends anywinning chances White mighthave.\n.\n•\n.\nd\nA powerful defense. Now if 2 b8 = Q + , Kxa1 draws easily, since\nWhite cannot win the d-Pawn with check, and a quiet move lets\nBlack Queen his Pawn.\nBh8!\nBeautiful, and the only way to win.\n•\n.\n•\nd1 =Q\nb8 = Q +\nThe rest, as we shall see, goes o nwheels.\nÀ\nQb2 +\nKd\nQc3 +\nKe\nQe3 +\nKf\nQe5 +\nKg\nQf6 +\nKh\nQg7 mate\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_072.png",
+    "sourcePdfPage": 85
+  },
+  {
+    "id": 73,
+    "section": "endgame_trainer",
+    "title": "Ending 73",
+    "header": "lsenegger, 1 950",
+    "cue": "White to play and win",
+    "solutionText": "Howdoes White hope to advance his Pawn without abandoning it? For that matter, howdoes White protect it against thecombined attack of King and Bishop?\nKd\nKa\nKc\nBa\nThe only safe move. If for example 2 . . . Ka5 3 Re8 Bxa7 4 Ra\nand wins.\nHowdoes White proceed now? If 3 Kc7 Bc5 is the reply, while\nKd5 is met by 3 . . . Kb7.\nRb8!\nKxa\nRbl !\nBf\nThe only safe square for the harassed Bishop!\nRhl !\nWhite wins.\nThe Bishop is trapped ! If 5 . . . Bg7 (or 5 . . . Be7), 6 Rh7 wins; if\n5 . . . Bb4 6 Ra1 + Kb8 7 Rb1 wins. Finally, if the King moves to\na8 or b8, 6 Rh8 pins and wins the Bishop.\n-- 86 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_073.png",
+    "sourcePdfPage": 86
+  },
+  {
+    "id": 74,
+    "section": "endgame_trainer",
+    "title": "Ending 74",
+    "header": "lsenegger, 1 959",
+    "cue": "White to play and win",
+    "solutionText": "That there is a checkmate is far from obvious. lsenegger pulls a\nfewstrings and the pieces jump magically to his bidding.\nBd7 +\nKg\nRxh4!\nBrilliant and surprising.\ng3 +\nKg7!\nKxh\nKg\nWith a dire threat-mate by 5 f4.\n•\n•\n•\nh\nThe only possible defense.\nf4 +\nKh\ng4 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_074.png",
+    "sourcePdfPage": 87
+  },
+  {
+    "id": 75,
+    "section": "endgame_trainer",
+    "title": "Ending 75",
+    "header": "N G ;i'9 -------------",
+    "cue": "White to play and win",
+    "solutionText": "Simple endings are not always simple. In this one, the firstmove is decisive.\nKe2!!\nThe threat (after 1 . . . gS) is 2 Kf3. Therefore Black must movehis King, but not to the g-file, which would block his Pawn.\n. . .\nKh\nThe point is that this move is forced. NowWhite canQueen his\nPawn with check ! The continuation :\n·\nb\nb\nb\nb\nb8 = Q +\ng\ng\ng\ng\nKh\nIf instead 6 .\n.\n.\nKh3, 7 Kf2 wins the Pawn, or if 6 . .\n. Kg1 , 7 Qg\nKh1 8 Kf2 and mate next move.\nQh8 +\nKf\nQa1 mate\nKg\nKf\n-- 88 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_075.png",
+    "sourcePdfPage": 88
+  },
+  {
+    "id": 76,
+    "section": "endgame_trainer",
+    "title": "Ending 76",
+    "header": "Ivanov, 1 966",
+    "cue": "White to play and win",
+    "solutionText": "A subtle waiting move assures White of a neat win.\ng\nKe\nKf\nKg\nKh\nKh6!\nRg\nKc\nKd\nKe\nRxf\nVery pretty! Nothing comes of 6 gxf8 = Q + Kxf8 7 Kh6 Kg8, and\nBlack draws the ending.\nRg\nKxh\nKf\ng6 +\nAfter which the King must abandon the Rook.\nWhite wins.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_076.png",
+    "sourcePdfPage": 89
+  },
+  {
+    "id": 77,
+    "section": "endgame_trainer",
+    "title": "Ending 77",
+    "header": "Joita, 1 954, First Prize",
+    "cue": "White to play and win",
+    "solutionText": "Though Black constructs what seems to be a bombproof position, White proceeds to immobilize the King, and then win the\nBishop by the means demonstrated by loyd in his famousthree-move problem \"The love Chase.\"\ng\na\nBe\nBd\nIt is clear that the Bishop cannot hold back both Pawns. One of\nthem must become a Queen.\ng\na\na8 = Q\nQa\nBxg\nBd\nBf\nKc\nless promising is 6 . . . Ke2, when 7 Qc3 Kd1 8 Qb2 Ke1 9 Qc\nKf1 10 Qd1 + Bel 11 Qd3 + Kf2 12 Qf3 is mate.\nQf\nQd\nQe\n10 Qd\n1 1 Qc\nKb\nKc\nKb\nKa\nBoth Kings are in stalemate positions!\n-- 90 ------------------",
+    "image": "assets/puzzles/endgame_trainer/ending_077.png",
+    "sourcePdfPage": 90
+  },
+  {
+    "id": 78,
+    "section": "endgame_trainer",
+    "title": "Ending 78",
+    "header": "If 11 . . . Be1 (or . . . Bg1 ) 12 Qc1 + .",
+    "cue": "White to play and win",
+    "solutionText": "Working with only the skimpiest of materials, White fashions a\nclever win. He keeps Black on the run by a series of checks,\nand forces the King into the clutches of a Knight fork whichcosts Black his Queen.\nNa5!\nThere is nothing in 1 Nc5 b2 2 c7 b1 = Q 3 c8 = Q + Ka7 4 Qa6 +\nKb8 5 Nd7 + Kc7, and the position is drawn.\nc\nc8 = Q +\nb\nb1 = Q\nQb\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_078.png",
+    "sourcePdfPage": 91
+  },
+  {
+    "id": 79,
+    "section": "endgame_trainer",
+    "title": "Ending 79",
+    "header": "Queen falls.",
+    "cue": "",
+    "solutionText": "Qa6 +\nQa\nQc6 +\nKb\nQe8 +\nKc\nQe7 +\nKb\nNc4 +\nKa\nQa3 +\nKb\n10 Nd6 +\nKa\nOn 10 .\n. . Kb8, 11 Qb3 + forces the King to move to a8.\n1 1 Qf3 +\nKb\n1 2 Qf8 +\nKc\n1 3 Nb5 +\nWhite wins.\nE N D I N G\nKabiev,\nWhite to play and winWhite offers a lesson in accurate timing.\nNc\ng\nThreatens 2 .\n. . g4 and a quick draw.\nKf\nKe\n-- 92 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_079.png",
+    "sourcePdfPage": 92
+  },
+  {
+    "id": 80,
+    "section": "endgame_trainer",
+    "title": "Ending 80",
+    "header": "and White wins.",
+    "cue": "",
+    "solutionText": "Kg\nNd\nNe\nKf\nNf6 +\nNg4 +\nKf\nKg\nKh\nKh\nKh\nKh\nThe King is now held fast, and helpless to prevent mate. So\nWhite candisregard the passed Pawn.\nKf\nd\n10 Kg\nd1 = Q\nNf6 mate\nE N D I N G\nKalandatze,\nWhite to play and draw\nDrastic action is required, since Black threatens 1 . . . Qe2 +\nKxg3 Qg2 + 3 Kh4 Qg4mate. There is also a dangerous-looking\nPawn on h3 to be disposed of.\nRa5 +\nQxa\nRa1 +\nKb\ncontinued\n------------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_080.png",
+    "sourcePdfPage": 93
+  },
+  {
+    "id": 81,
+    "section": "endgame_trainer",
+    "title": "Ending 81",
+    "header": ".",
+    "cue": "",
+    "solutionText": "Kb4 instead, 3 RxaS KxaS 4·Kxg3 is easy for White.\nRxa\nh\nNow what?\nRb5 +\nRc5 +\nRd5 +\n7 . Re5 +\nKc\nKd\nKelKfl\nBlack is happy; the checks have ceased.\nKxg\nhl Ĝ Q\nRel + !\nKxel\nStalemate.\nE N D I N G\nKalandatze,\nWhite to play and winWhite weaves a mating netaround the enemy King. Every piecein his little army takes part in the encirclement.\nRd8 +\nKg\nh6 +\nKf\nNow what? If 3 BgS + KeS 4 Bf4+ Kxe4, and the King slips out.\n-- 94 -----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_081.png",
+    "sourcePdfPage": 94
+  },
+  {
+    "id": 82,
+    "section": "endgame_trainer",
+    "title": "Ending 82",
+    "header": "Rd6 + !",
+    "cue": "",
+    "solutionText": "Bg5 +\nBf4 +\ne5 + !\nQxd\nKe\nKf\nOf course not the hasty 6 Bxd6, when Black is stalemated.\n•\n•\n•\nQxe\nBg5 mate\nA nice finish.\nE N D I N G\nKalandatze,\nWhite to play and winTrapped in a corner, the Rook must be lost; but a neat mate is\nthe best revenge.\nRg\nNh\nObviously, if 1 .\n. . Nf3 2 Rf4 + wins the Knight.\nNd7 +\nKf\nNe5 +\nThe Knight is now strongly placed for an attack on the King.\nKf\nRh\nNg\ncontinued",
+    "image": "assets/puzzles/endgame_trainer/ending_082.png",
+    "sourcePdfPage": 95
+  },
+  {
+    "id": 83,
+    "section": "endgame_trainer",
+    "title": "Ending 83",
+    "header": "5",
+    "cue": "",
+    "solutionText": "Nh\nConfines the Rook, and threatens to win it by 6 . . . Kg7.\nNd\nKg\nNf5 +\nKxh\nNg6 mate!\nE N D I N G\nKalandatze,\nWhite to play and winWhite'slittle combination ties Black up completely, and the twoKnights speedily dispatch the King.\nRa5 +\nKb\nRa7 +\nKc\nOn 2 . . . Kc6 instead, 3 Nd4 + is uncomfortable for Black.\nRxa\nRa2 +\nKb\nRxa\nb7 +\nKxb\nNd6 +\nKa\nAlas, there is no choice!\nNe",
+    "image": "assets/puzzles/endgame_trainer/ending_083.png",
+    "sourcePdfPage": 96
+  },
+  {
+    "id": 84,
+    "section": "endgame_trainer",
+    "title": "Ending 84",
+    "header": "7",
+    "cue": "White to play and win",
+    "solutionText": "To win this, White must inveigle Black's King and Queen into a\ncul-de-sac.\nh8 =Q+\nThis leaves Black n ochoice.\n. . .\nKf5 +\nQxh\nKh\nThis too is forced, as after the interposition 2 . . . g6 + , thecapture 3 Rxg6 + wins the Queen.\nRh6 +\ng5 +\ng6 +\nKxh\nKh\nKg\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_084.png",
+    "sourcePdfPage": 97
+  },
+  {
+    "id": 85,
+    "section": "endgame_trainer",
+    "title": "Ending 85",
+    "header": ".",
+    "cue": "",
+    "solutionText": "Kh6, 6 Be3 mate wouid not do.\nBc\nQh\nBel\nQh\nKe\nKf\nKd\nQg\nWith a view to escape, as 9 . . . Kg8 10 Ke7 is hopeless.\n1 0 Bc5 mate\nE N D I N G\nKaplan,\nWhite to play and win\nThe winning move is a Knight fork, that useful tool of thecombination player.\nh\nc\nBb\nA pretty move, but Black has resources too.\nBxc\nNf\nBb\nc1 = Q\nBh\nKf\nBe\nAiming indirectly at the Pawn.\n-- 98 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_085.png",
+    "sourcePdfPage": 98
+  },
+  {
+    "id": 86,
+    "section": "endgame_trainer",
+    "title": "Ending 86",
+    "header": "Bxh8",
+    "cue": "",
+    "solutionText": "Nd\nNf6 +\nKg\nBxh\nWins the Bishop and the game.\nE N D I N G\nKashdan,\nWhite to play and winWhite must Queen allthree of his Pawns before he can subduehis opponent.\nKxg\nKd4!\nFollows the Reti maneuver: Black is ready to aid his Pawn by\n2 .\n.\n.\nKe3, and also prepared to stop White'sadvanced Pawn by\n2 .\n.\n.\nKe5.\nh\nh\nh8 = Q\nQe5 +\nQf4 +\nKxf\nh\nKe\nf\nfl = Q\nKd2!\nQxf4 +\nb\nb\nnmrinued\n--\nh\n1 0 h\n1 1 h8 = Q\n1 2 Qd4 +\nb\nb\nb1 = Q\nKe2!\nAs good as any; Black cannot avoid an exchange of Queens.\n1 3 Qe4 +\nQxe4 +\n14 Kxe\nb\n1 5 h\nBlack's Pawn is more advanced than his opponent's, but now he\nmust lose a move or two with his King to insure it against loss.\nIf, for example, 15 .\n.\n.\nb4 16 Kd4, and the Pawn is not long forthis world.\n1 6 Kd\n1 7 Kc\nKd\nKc\nKc3!!\nAgain the beautiful Reti idea. If 18 K x bS Kd4, and Black catchesthe Pawn.\n18 h\nb\n1 9 h\nb\nh\nb\nh8 = Q +\nWhite wins.\nThe rest is a book win.\n-- 1 00 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_086.png",
+    "sourcePdfPage": 99
+  },
+  {
+    "id": 87,
+    "section": "endgame_trainer",
+    "title": "Ending 87",
+    "header": "Kasparyan, 1 934",
+    "cue": "White to play and win",
+    "solutionText": "There are various forms of mate involving allfour Knights. Thisone is quite attractive.\nBa\nNa3 +\nThe alternative is 1 . . . Na7, when there follows 2 Bf1 Ne\nNc3 + Kd2 4 Ne4 + Kd1 5 Ne3 mate.\nKb\nBfl\nNc3 +\nN34 +\nNfg\nNc\nNgel\nKd\nKdlThreatens mate by the Bishop.\nNd\nBe2 + !\nNxe\nNf2 +\nKd\nNflmate\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_087.png",
+    "sourcePdfPage": 101
+  },
+  {
+    "id": 88,
+    "section": "endgame_trainer",
+    "title": "Ending 88",
+    "header": "------",
+    "cue": "White to play and win",
+    "solutionText": "A brilliant miniature in which the Knights' dancing around is\nreminiscent of Vandercrotele'smasterpiece, as well as of Capablanca'scelebrated maneuver in his game against Yates at NewYork in 1924.\nThe plausible 1 Bxb5 allows 1 . . . bxa3 and Black escapes with a\ndraw, while 1 Nc5 + Kc4 is no better.\na4!\nNc3 +\nObviously the dangerous Pawn must be removed, but not by\n1 . . . Kxa4 2 Nd6 Ka3 3 Nxb5 + Ka2 4 Be6 + b3 5 Nd4 and Whitewins.\nKcl\nNxa\nNa5 +\nThe white Knight wheels around like an eagle, aiming to set up\nthe King for the kill, while the Bishop forces him to defend hisown Knight.\nKa\nNc4 +\nKb\nNd2 +\nKa\nNbl +\nKb\nBe& mate\nA lovely finish.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_088.png",
+    "sourcePdfPage": 102
+  },
+  {
+    "id": 89,
+    "section": "endgame_trainer",
+    "title": "Ending 89",
+    "header": "Kasparyan, 1 955",
+    "cue": "White to play and win",
+    "solutionText": "e .\nA pleasing miniature, wherein Kasparyan creates an art1st1c\neffect by what problem composers describe as a \"model mate,\"\nin the middle of the board. The moves are clear-cut and needno commentary.\nBf\nKd\nNe6 +\nKe\nBh\nBc\nd4 +\nKd\nKb\nBh\nKb\nBg\nKc\nBxe\nBg2 matellH",
+    "image": "assets/puzzles/endgame_trainer/ending_089.png",
+    "sourcePdfPage": 103
+  },
+  {
+    "id": 90,
+    "section": "endgame_trainer",
+    "title": "Ending 90",
+    "header": "Kasparyan, 1 958",
+    "cue": "White to play and win",
+    "solutionText": "1\\nattractive little two-Bishop mate-at close quarters.\nReB +\nKb\nRe7 +\nKaB\nKc\nClosing in for the kill.\n. . .\nQbB!\nOn 3 . . . Qf2 instead, White continues 4 Bb6 Qc2 + 5 Bc5 Qa4 +\n5 b5, and there is no defense.\nReB\nBut not the seductive 4 Bxf3 Qb7 + 5 Rxb7, and Black is stalemated.\nBxeB\nKc\nBe& +\nBb6 +\nb5 +\n1 0 Bb7 mate\nQxeB\nf\nf1 = Q\nKa\nKa\nQxb\n-- 1 04 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_090.png",
+    "sourcePdfPage": 104
+  },
+  {
+    "id": 91,
+    "section": "endgame_trainer",
+    "title": "Ending 91",
+    "header": "Kasparyan, 1 962",
+    "cue": "White to play and win",
+    "solutionText": "White drives the opposing Knights from pillar to post, and thenconcludes with a combination that effects checkmate by a picturesque arrangement of Knights.\nBh\nNh6 +\nThe alternative is 1 .\n.\n.\nNh2, when there w9uld follow 2 Bc\nNd8 3 Nf6 + Ke7 4 NdS + Ke8 5 Nd6 mate.\nKg\nNf\nBc\nNbd\nNf& +\nKe\nNd5 +\nKe\nNcb&\nThreatens 7 Bd7 mate, and forces the reply.\n•\n•\n•\nNe\nBd7 +\nWhite is not to be denied.\nNc7 +\nNcBmate\nBeautiful !\nNxd\nKe\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_091.png",
+    "sourcePdfPage": 105
+  },
+  {
+    "id": 92,
+    "section": "endgame_trainer",
+    "title": "Ending 92",
+    "header": "Kastnelson, 1 966",
+    "cue": "White to play and draw",
+    "solutionText": "White begins with a surprise move and ends with a surprisemove.\nRa\nAttacks the a-Pawn and forces the reply.\nbxa\na8 = Q\na1 = Q\nQc6 +\nKb\nBlack holds on to the important Pawn without which he couldnot win.\nQc3 +\nKxc\nClearly, if 4 .\n.\n.\nQxc3 5 BxaS + regains the Queen and draws.\nBxa5 +\nKmoves\nStalemate.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_092.png",
+    "sourcePdfPage": 106
+  },
+  {
+    "id": 93,
+    "section": "endgame_trainer",
+    "title": "Ending 93",
+    "header": "Kastnelson, 1971",
+    "cue": "White to play and win",
+    "solutionText": "A pleasurable ending, but practical as well, since it illustratesan idea that comes up often in actual play.\ng\nKg\nIf 1 . . . hxg3 2 hxg3, and the Pawn cannot be overtaken.\ng\nKxh\ng\nh\ng\nKh\nOn 4 . . . Kg1 instead, the continuation would be 5 g8 = Q + Kf\n6 Qf7 + Kg2 7 Qg6 + Kf2 8 Qf5 + Kg2 9 Qg4 + Kh2 10 Kd6, and\nWhite wins the Pawn.\nKd6!\nKe\ng8 = Q +\nh\nKg\nKf\nThe alternative is 7 . . . Kh1 8 Qa2 Kg1 9 Kf4 h1 = Q 10 Kg3 and\nWhite wins.\nQa2 +\nKf\n1 0 Kg\nWhite wins.\nMate is forced.\nKg\nh1 = Q",
+    "image": "assets/puzzles/endgame_trainer/ending_093.png",
+    "sourcePdfPage": 107
+  },
+  {
+    "id": 94,
+    "section": "endgame_trainer",
+    "title": "Ending 94",
+    "header": "Kastnelson, 1 972",
+    "cue": "White to play and win",
+    "solutionText": "A surprise sacrifice, letting Black take a piece with check, leadsto an elegant mate.\nNe5!\nRxe5 +\nRefusing the offer by 1 .\n.\n.\nRg5 lets White winslowly but surelyby 2 Kb4 + .\nKd4 +\nRc\nForced, as after 2 . .\n. Kd6 3 Qa6 + wins a Rook.\nQf7 +\nKd\nQf6 +\nRe\nQd8 mate\nA pretty form of epaulet mate.\n-- 108 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_094.png",
+    "sourcePdfPage": 108
+  },
+  {
+    "id": 95,
+    "section": "endgame_trainer",
+    "title": "Ending 95",
+    "header": "Kazantsev, 1953",
+    "cue": "White to play and win",
+    "solutionText": "A beautiful smothered mate by a Pawn ! Roycroft says, \"Thecomposer worked for fifteen years on this theme before thiswonderful version was produced.\" (Another revision of thisidea appears in The Fireside Book of Chess, by Chernev and\nReinfeld.)\nRb\nThreatens 2 Bd1 + KaS 3 b4 + Ka6 4 Be2 + and mate next move.\nBd1 +\nb4 +\nBe2 + !\nHe goes there anyway!\nKb\nKc\nKc\nQe\nKa\nKab\nQxe\nQe5 +\nQe8 +\nBxd\nNo better is 7 .\n.\n.\nQeS + 8 d6 Qxd6 + (if\n.\n.\n.\nQc3 + 9 Khnwins) 9 Kxd6 Kxb7 10 bS Kxa7 11 Kc7 and White wins.\na8 = Q + !\nRb& +\n1 0 b\nQxa\nKa\ncontinued\nI tJ'J",
+    "image": "assets/puzzles/endgame_trainer/ending_095.png",
+    "sourcePdfPage": 109
+  },
+  {
+    "id": 96,
+    "section": "endgame_trainer",
+    "title": "Ending 96",
+    "header": "1 0 . . .",
+    "cue": "White to play and win",
+    "solutionText": "Bxa\nKazantsev is at his best in this splendid creation.\ne\nQa3 +\nRb\nQa7 +\nThe dangerous Pawn must be removed.\nKxc\nQxe\nNxg6 + !\nfxg\nBf& + !\nQxf\nKd5 +\nKgS\nh4 +\nKf\ng4 +\nhxg\nRf4 + !\nBxf\n1 0 e4 mate\n1 10 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_096.png",
+    "sourcePdfPage": 110
+  },
+  {
+    "id": 97,
+    "section": "endgame_trainer",
+    "title": "Ending 97",
+    "header": "Kiselev, 1 965",
+    "cue": "White to play and win",
+    "solutionText": "A little combination disposes of Black's Queen. When a newQueen appears, a little combination removes the newQueen.\nNf6 +\nKf\nQuick loss follows 1 . . . Kh8 2 Rh2 Qb8 3 Rh3 Qc8 4 RhSandthe coming discovered check will be decisive.\nNdS +\nKg\nObviously 2 . . . Ke8 or 2 . . . Ke6 allows a Knight fork, winningthe Queen.\nNe7 +\nNg6 +\nRf8 +\nNxf\nKh\nKg\nQxf\nd\nClearly Black has no time for 6 . . . Kxf8.\na\nd\na8 = Q\nd 1 = Q\nNd7 +\nKf\n1 0 Qf8 +\nKe\nNxcS +\nKe\nMoving to the d-file allows 12 Qd8 + , winning tlw < )•w•·n\n12 Qe7 +\nKf\ncontinued\nI l l",
+    "image": "assets/puzzles/endgame_trainer/ending_097.png",
+    "sourcePdfPage": 111
+  },
+  {
+    "id": 98,
+    "section": "endgame_trainer",
+    "title": "Ending 98",
+    "header": ", . . KfS, when 13 QgS is",
+    "cue": "White to play and win",
+    "solutionText": "Kf\nA miniature that charms us with its simple, crystal-dear solution. A study that deserves to be called classic.\nBb\nBg8 +\nKd\nKd\nBxd\nBxd\nTrusting that this will draw, since twominor pieces cannot winagainst oneminor piece.\nNd4!\nForms a nice little column with this beautiful winning move.\n•\n•\n•\nBany\nWhite wins.\nWhite's Knight mates at e6 or c6, depending on Black's move.",
+    "image": "assets/puzzles/endgame_trainer/ending_098.png",
+    "sourcePdfPage": 112
+  },
+  {
+    "id": 99,
+    "section": "endgame_trainer",
+    "title": "Ending 99",
+    "header": "Kofman, 1 937",
+    "cue": "White to play and win",
+    "solutionText": "There may be a technical term for the wayBlack is mated, but I\nwould describe it as a \"double epaulet\" mate. Black is hemmedin by his own Pawns and a faithless Queen.\nNe\nThreatens to stop the Pawn by 2 Rg1 .\nc1 = Q\nNd5 +\nKe\nKc7!\nThreat: mate on the move.\n. . .\nRf8!\nThreat: mate on the move.\n.\n•\n.\nc4!\nThreat: mate on the move.\nRf6 +\nRd6 mate\nf\nfxe\nQxc\nKxd\n, ,..,",
+    "image": "assets/puzzles/endgame_trainer/ending_099.png",
+    "sourcePdfPage": 113
+  },
+  {
+    "id": 100,
+    "section": "endgame_trainer",
+    "title": "Ending 100",
+    "header": "Kopac, 1 965",
+    "cue": "White to play and win",
+    "solutionText": "Yes, twoKnights canmate-given the opportunity.\nNf5 +\nKe\nIf\n.\n.\n.\nKe8, 2 Nd6 + costs Black his Rook, while\n.\n. . Kf\nallows 2 Rh8 mate, costing him his King.\nNd4 +\nKe\nNc6 +\nKe\nNow 3 . . . Ke6 allows 4 Nd8 +, while 3 .\n. . Kf8 falls into instantmate.\nRh8 +\nRf\nOr 4 . . . Kd7 5 NceS + NxeS 6 NxeS + , and White snaps off the\nRook next move.\nKg\nThreat: 6 Rxf8 mate.\n. . .\nRxh\nNf6 mate!\nA pretty finish.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_100.png",
+    "sourcePdfPage": 114
+  },
+  {
+    "id": 101,
+    "section": "endgame_trainer",
+    "title": "Ending 101",
+    "header": "Kopac, Sindelev, 1 972",
+    "cue": "White to play and win",
+    "solutionText": "The Bishop just about reaches safety, but in doing so unfortunately imperils the King.\nRg3 +\nBf\nBxg6 +\nKf\nKxh\nBf\nBxg\nBe\nThe Bishop flees to the only safe square.\nRg\nBd\nRd\nBg\nFor the third time the Bishop has no choice, but now the blowfalls.\nRh8 mate!\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_101.png",
+    "sourcePdfPage": 115
+  },
+  {
+    "id": 102,
+    "section": "endgame_trainer",
+    "title": "Ending 102",
+    "header": "Kopaiev, 1 967",
+    "cue": "White to play and win",
+    "solutionText": ".\nBlack seems to be holding his own in an ending that looks easy,\nbut is helpless against a move that combines an attack on his\nRook with a threat of mate.\nd\nRd\nKe\ng\nRg\nRe4 +\nKd\nRd4 +\nKc\nRc4 +\nKd\nRc\nd8 = Q\nRd2 +\nKc\nRxd\nKc\nWhite wins.",
+    "image": "assets/puzzles/endgame_trainer/ending_102.png",
+    "sourcePdfPage": 116
+  },
+  {
+    "id": 103,
+    "section": "endgame_trainer",
+    "title": "Ending 103",
+    "header": "Korolkov, 1 950",
+    "cue": "White to play and draw",
+    "solutionText": "Refined endgame play is required until the very last move!\ne6!\nThe attractive 1 d6 loses after 1 . . . d2 2 d7 d1 = Q 3 Kc7 Qa\nd8 = Q QxaS + 5 Kd7 Qxd8 + (brutal, but efficient) 6 Kxd8 KdS\nKe7 KxeS, and Black wins.\ne\nKc\nd6 +\nd\nd8 = Q\nKxd\nKc8!\nKd\nKxe\nd\nKe6!\nd1 = Q\nQxd8 +\nKd\nAdvancing the Pawn would cost its life.\n. . . .\nKb8!\nKc\nKb\nNow it would seem the Pawn is lost.\n1 0 Kb7!\nStrong, as it forces Black to take the Pawn.\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_103.png",
+    "sourcePdfPage": 117
+  },
+  {
+    "id": 104,
+    "section": "endgame_trainer",
+    "title": "Ending 104",
+    "header": "Kxa5",
+    "cue": "White to play and win",
+    "solutionText": "As unlikely a position as you will ever see! The solution is\nreminiscent of Steinitz's most beautiful game. It was played at\nHastings in 1895 against Bardeleben and was highlighted by fiveoffers of the Rook on the seventh rank.\nRh5 +\nRxh7 +\nQh\nKg\nOn 2 . . . Kxh7 there follows 3 Bd3 + Kh6 4 Bxf2 and White winsdespite the flock of Pawns at Black'sdisposal .\nRxg7 +\nKf\nIf 3 . . . Kxg7, 4 Bc3 + and 5 Bxg2 wins for White, or if 3 . . . Kh8,\n4 Rh7 + Kg8 5 Rh8 + wins.\n-- 1 18 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_104.png",
+    "sourcePdfPage": 118
+  },
+  {
+    "id": 105,
+    "section": "endgame_trainer",
+    "title": "Ending 105",
+    "header": "Rxf7 +",
+    "cue": "",
+    "solutionText": "Rxe7 +\nRxd7 +\nRxc7 +\nRxb7 +\nKe\nKd\nKc\nKb\nKc\nHere if 8 . . . Ka8, 9 Bxg2 fxe1 = Q 10 Rb1 + wins for White.\nRc7 +\nKb\n1 0 Rc8 +\nKa\nRa8 +\nKxa\n1 2 Bxg2 +\nWhite wins.\nE N D I N G\nKorolkov, Mitrofanov, First Prize\nWhite to play and draw\nThis is one of the most remarkable compositions I have evercome across. Not the least of its attractions is the possibility of\nsacrificing the Queen by oneside or the other. The possibility,\nrevealed in the notes, occurs no less than seven times! Onlythe word \"wonderful\" can dojustice to this superb creation.\nQe\ncontinued\n--\nThreatens 2 Qh8 + followed by mate. If instead 1 g7 (or 1 e7)\nQa5 + ! 2 Kxa5 Kb7 followed by 3 . . . e1 = Qmate, unless Whiteplays 3 Qh4, whereupon Black replies 3 . . . Nd2, and mateswith the Knight.\nKxa\nQb2 +\nQb8 + !\nQa5 + !\nKb\nKa\nOnegood sacrifice deserves another! Note that 4 Qxe2 wouldhave lost by 4 . . . Nd2 and the Knight mates.\nKxb\nKa\ne1 = Q\ng7!\nNow if 6 . . . Qg3 (to restrain the g-Pawn), 7 e7 wins for White.\nQa5 + !\nKxa\nKb\ng8 = Q\ne\nQa8 +\nKxa\n1 0 Ka\ne1 = Q\n1 1 e\nQa5 + !\n1 2 Kxa\nKb\n1 3 e8 = Q\nNd\nThreatens 14 . . . Nb3 mate, as well as 14 . . . Nxc4 mate.\n1 4 Qa8 + !\nCareful with the Queen sacrifice! If instead 14 Qb8 + Kxb\nKa6 Kc8 stops White'spassed Pawn, while his ownmoves on to\ne1 .\n1 4 . . .\n1 5 Ka\nKxa\nOf course not 15 f6 Kb7 followed by mate with the Knight.\n1 5 . . .\nNxc\nf6!\nAvoids 16 aS, when this would follow: 16 . . . Ne5 17 f6 Nd\nf7 Nb8 mate.\n-- 120 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_105.png",
+    "sourcePdfPage": 119
+  },
+  {
+    "id": 106,
+    "section": "endgame_trainer",
+    "title": "Ending 106",
+    "header": "17 f7",
+    "cue": "White to play and win",
+    "solutionText": "The heavy pieces do the threatening, but it remains for a\nhumble Pawn to administer the coup degrace. A nice renditionof a pretty theme.\nRf5 +\nd5 +\nNecessary, since\n.\n.\n.\nKb6 allows 2 Rxg8.\nRxd5 +\nKa\nRxg\nRc2 +\nKd\nRd2 +\nKc3!\nSacrifices the Rook! If instead 5 Ke4, Rxb2 draws easily.\nRxd\nKc\ncontinued\n121 ·",
+    "image": "assets/puzzles/endgame_trainer/ending_106.png",
+    "sourcePdfPage": 121
+  },
+  {
+    "id": 107,
+    "section": "endgame_trainer",
+    "title": "Ending 107",
+    "header": "6",
+    "cue": "",
+    "solutionText": "Rg\nNewthreat of mate.\nRaJ +\nb3 mate\nRa\nBf\nBxa\nE N D I N G\nKralin, Kuznetsov,\nWhite to play and winFascinating play occurs when the three Pawns passed on theseventh rank allbecome Queens!\nWhite may not Queen his Pawn, since after 1 a8 = Qtherefollows 1 . . . h1 = Q + 2 Kg3 Qh2 + 3 Kf3 Qf2 mate. Therefore:\nBf\nal = Q\na8 = Q!\nNow if 2 . . . Qxa8 3 Re1 + Kf2 4 Bxa8 Kxe1 5 Kg3 and Whitewins.",
+    "image": "assets/puzzles/endgame_trainer/ending_107.png",
+    "sourcePdfPage": 122
+  },
+  {
+    "id": 108,
+    "section": "endgame_trainer",
+    "title": "Ending 108",
+    "header": "3",
+    "cue": "",
+    "solutionText": "Rel +\nBe4!\nhl = Q +\nQxa\nKh\nOf course not 5 Bxa8, stalemate. Meanwhile White threatensmate.\n. . .\nQalPlaying for 6 Rxa1 , stalemate.\nRbl !\nWhite wins.\nE N D I N C\nKricheli,\nWhite to play and draw\nBlack has a flock of dangerous-looking Pawns on their way to\nbecome Queens. Howdoes White head them off? Howdoeshe save the game?\nBc8 +\nFailure would follow 1 Bg7 g2 2 Bd4 g1 = Q 3 Bxg1 Bxg1 4 Bc8 +\nKe4 5 Bxh3 a3, and the Pawn cannot be stopped.\ncontinued",
+    "image": "assets/puzzles/endgame_trainer/ending_108.png",
+    "sourcePdfPage": 123
+  },
+  {
+    "id": 109,
+    "section": "endgame_trainer",
+    "title": "Ending 109",
+    "header": ". . .",
+    "cue": "",
+    "solutionText": "Bxh\nKg\ng\nA nice sacrifice to gain the initiative. If instead 2 . . . Bg1 , 3 Bg\nis the effective reply.\nBxg\nKg\nBe4 +\nBb\nNcSBeS +\na\nKhs\nc\nc2!\nOn 7 . . . a2 8 Bxa2 c2 9 Nd3 draws.\nBxc\nNb\n10 Na1 !\nBg6 + !\na\na\nBxa\nKxg\nOf course if 1 1 . . . Kg4, 12 Bf7 is easy.\n1 2 Bg7!\nBxg\nStalemate.\nE N D I N G\nKruchkov,\nWhite to play and draw\nIt takes unusual skill to.escape with a draw in this position.\n1 d\n-- 124 -----------------\nWhite's only threat, of course.\nNg6 +\nBlack must play to eliminate the dangerous Pawn.\nKh\nOn 2 Kg3 Bf4 + 3 Bxf4 Ke7 wins the Pawn; so also after 2 Kg\nNeS + 3 BxeS + Ke7.\n.\n•\n.\nNf4 +\nBxf\nOtherwise 3 . . . Ne6 restrains the Pawn.\n. . .\nBa\nb6!\nAn important link in the combination.\n•\n.\n•\nBxb\nBe3 +\nA tempo that gains an important diagonal.\nĝ\nd8 = Q +\nBxd\nBd4 +\nKe\nBc5 +\nForces the King away from the black squares.\n. .\n•\nKe\nBgl !\nThe point! The threat is now 10 Kg2, winning the Rook.\n. . .\nRxgl\nStalemate.",
+    "image": "assets/puzzles/endgame_trainer/ending_109.png",
+    "sourcePdfPage": 124
+  },
+  {
+    "id": 110,
+    "section": "endgame_trainer",
+    "title": "Ending 110",
+    "header": "Kubbel, 1 916",
+    "cue": "White to play and draw",
+    "solutionText": ".\nKubbel'sartistry is evident in this little offering where twoPawns outwit a Rook. \"A little jewel,\" says Staudte.\nf\nRf\ne\nb\nPrevents 3 e7, when 3 .\n. . Rxf7 pins the remaining Pawn, andwins.\nKb\nKc\nThe plan 4 Kc7 KdS 5 Kd7 KeS 6 Ke7 fails after 6 .\n. . Ra8 in reply.\ne7!\nRxf\nKa\nRxe\nForced.\nStalemate.",
+    "image": "assets/puzzles/endgame_trainer/ending_110.png",
+    "sourcePdfPage": 126
+  },
+  {
+    "id": 111,
+    "section": "endgame_trainer",
+    "title": "Ending 111",
+    "header": "Kubbel, 1 927",
+    "cue": "White to play and draw",
+    "solutionText": "White sacrifices all his worldly goods to escape with a wholeskin!\nThe ambitious 1 f7 is refuted\n. .\n. cxd6 + 2 Ke8 Nf6 + 3 Ke\nNh7, and Black wins. Therefore :\nb6!\nThreatens 2 dxc7 + and finis.\naS\nf\nc7 +\nKd\nKc\nf8 = Q\nStalemate.\nBxb\nBxa\ncxd6 +\nBxc7 +\nNf6 +\nNh\nNxf",
+    "image": "assets/puzzles/endgame_trainer/ending_111.png",
+    "sourcePdfPage": 127
+  },
+  {
+    "id": 112,
+    "section": "endgame_trainer",
+    "title": "Ending 112",
+    "header": "Kubbel, 1 931",
+    "cue": "White to play and win",
+    "solutionText": "That Black's King and Queen can be crowded into mate seemshard to believe, but watch Kubbel's fine Italian hand!\nQc3 +\nKb\nBa7 +\nKxa\nQa5 +\nKb\nQxb5 +\nKc\nQb7 +\nKd\nQb8 +\nQc\nQb\nHeading for gB.\ne\nQb\nh\nKf\nh\nQb\nWhite wins.\n-- 128 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_112.png",
+    "sourcePdfPage": 128
+  },
+  {
+    "id": 113,
+    "section": "endgame_trainer",
+    "title": "Ending 113",
+    "header": "Kubbel, 1 937",
+    "cue": "White to play and draw",
+    "solutionText": "Kubbel illustrates twoneat drawing ideas in the short space of\nfour moves!\ne7!\nSacrifices a lovely Pawn !\n. . .\nNgxe\nIf 1 . . . Ncxe7 2 Be5 Bg1 3 Bd4 Bh2 4 Be5 White draws by\nrepeating the position, since if Black exchanges Bishops, he\ncannot force mate with two Knights.\nBh6 + !\nKe\nBf\nThe same idea? Not at all !\nBe\nStalemate.\nBg\nBxe",
+    "image": "assets/puzzles/endgame_trainer/ending_113.png",
+    "sourcePdfPage": 129
+  },
+  {
+    "id": 114,
+    "section": "endgame_trainer",
+    "title": "Ending 114",
+    "header": "Kujoth, 1 972",
+    "cue": "White to play and draw",
+    "solutionText": "Kujoth has contributed some clever miniature games to theliterature of chess. Here he turns his hand to endgame composition with an attractive study.\nRxa7 + !\nWhite must play energetically, since he is threatened with mateat g1 and g2. So he begins with a sacrifice.\n. . .\nNxa\nIf 1 . .\n. Kb6 2 Qc7 + KxbS 3 Rxb7 + , and White draws easily.\nNc7 +\nKb\nNaB +\nQxa\nWhite must capture, or submit to perpetual check by 3 . . . Ka\n4 Nc7 + Kb6 5 NaB + , etc.\nQb8!\nQxb\nStalemate.\n-- 130 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_114.png",
+    "sourcePdfPage": 130
+  },
+  {
+    "id": 115,
+    "section": "endgame_trainer",
+    "title": "Ending 115",
+    "header": "Kuznetsov, 1 967",
+    "cue": "White to play and win",
+    "solutionText": "A simple-looking position, but there are subtleties concealed.\nb\nThere is nothing in 1 c7, when 1 . . . Rd6 + 2 KaS Kb7 refutes themove.\n. . .\nRd\nBut not 1 .\n. . axb6 2 c7 ReB 3 Bd5 mate.\nBd5!\nOn 2 Bb5 instead there follows 2 . . . Kb8 3 c7 + Kc8 4 Kxa7 Rxb\n5 Kxb6 and Black is stalemated.\nc\nKxa\nRxd\nRa5 +\nKb\nOf course, 4 . . . axb6 + is met by 5 Ka6, and mate next.\nbxa\nKxa\nc8 = R!\nWhite wins.",
+    "image": "assets/puzzles/endgame_trainer/ending_115.png",
+    "sourcePdfPage": 131
+  },
+  {
+    "id": 116,
+    "section": "endgame_trainer",
+    "title": "Ending 116",
+    "header": "Liburkin, 1 931",
+    "cue": "White to play and win",
+    "solutionText": "A couple of clever underpromotions do the trick.\nd8 = N\nOf course not 1 dB = Q, when 1 . . . Nc6 + ends the Queen'sshort career. The actual move holds Black's King fast. The threatis now 2 f6, Queening the Pawn.\nNxf\nKxa\nNd\nc\nNb\nc6!\nNxd\nc\nNb\nNow if 6 cB = Q, Black is stalemated.\nc8 = R\nNxa\nRc\nNb\nAlas, the only move!\nRc6 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_116.png",
+    "sourcePdfPage": 132
+  },
+  {
+    "id": 117,
+    "section": "endgame_trainer",
+    "title": "Ending 117",
+    "header": "Liburkin, 1 939",
+    "cue": "White to play and win",
+    "solutionText": "Pawns may be the soul of chess, but lovely ideas mayoften be\nexpressed without them. Liburkin contributes this beauty:\nKg\nReleases the Bishop for active duty.\nNf\nNo better is\nBb3 2 Bxd5 Bxd5 3 Ne3 + , followed by\nNxd5, and the three pieces against one is a theoretical win.\nNe3 +\nNxd\nKf\nKf\nKh\nNe2 +\nNg3 +\nWhite returns the piece, since moving to g1 instead leads to\nperpetual check and a draw.\n. . .\nNxhl + +\nKg\nBf\nOf course not the natural move 6 .\n. . Ng3, when the reply 7 Nf\nis checkmate.\nKxh\nBd\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_117.png",
+    "sourcePdfPage": 133
+  },
+  {
+    "id": 118,
+    "section": "endgame_trainer",
+    "title": "Ending 118",
+    "header": "his other pieces cannot move without loss. But there is a",
+    "cue": "",
+    "solutionText": "Nf5!\nBxh\nNf2 mate!\nE N D I N G\nLommer,\nWhite to play and winWherein Black's King is betrayed by his good friends.\nQa3 +\nKe\nRd8 +\nRxd\nQf8 +\nKxf\ncxd8 = Q +\nBe\nQd6 +\nQe\nQh6 mate\n-- 134 ------------",
+    "image": "assets/puzzles/endgame_trainer/ending_118.png",
+    "sourcePdfPage": 134
+  },
+  {
+    "id": 119,
+    "section": "endgame_trainer",
+    "title": "Ending 119",
+    "header": "Mann, 1 91 3",
+    "cue": "White to play and win",
+    "solutionText": "A masterpiece of precise endgame play with Queens on theboard. It is fascinating throughout its length.\nQg8 +\nKa\nNaturally, not to a black square, since a Bishop check wouldwin the Queen by discovered attack.\nQc4 +\nKa\nBd\nThreatens a decisive Bishop check.\nKb\nBe? +\nKa\nQc5 +\nKb\nQd5 +\nKa\nBb6 +\nKb\nQd7!\nQa\nQc\nThreatens the life of the Queen by 10 Bc7 + Ka7 11 Bb8 + .\n. . .\nQb\n1 0 Qd6 +\nKa\nWhite decides to remove the passed Pawns, lest they becomeobstreperous.\ncontinued\nQxa3 +\n1 2 Qd6 +\n1 3 Qd8+\n14 Qd5 +\n1 5 Qa5 +\n1 6 Qe5 +\n1 7 Qe8 +\n1 8 Qxe4 +\n1 9 Qe8 +\n20 Qa4 +\nQb5!\nKb\nKa\nQb\nQb\nKb\nKa\nQb\nQb\nQb\nKb\nTo which a King move loses instantly: if 21 . . . Kc8, 22 Qc6 +\nwins, or if 21 . . . Ka8, 22 Qa6 + wins.\nQg\nThe best chance; other squares offer the Queen less hope.\nBlack squares are out of the question; e8 is guarded, and theother choices are 21 . . . Qc8 22 Bc5 + Ka8 (on . . . Kc\nQb6 + Kd7 24 Qd6 + and mate at e7) 23 Qa5 + Kb7 24 Qb6 +\nand mate next; or 21 . . . Qa8 22 BaS + Kc8 (22 . . . Ka7 23 Qb\nmate) 23 Qe8 + Kb7 24 Qe4 + ! Ka6 (or 24 . . . Kc8 25 Qe6 +\nKb8-not 25 . . . Kb7 26 Qb6 + and mate next-26 Qd6 + andmate in two) 25 Qc4 + ! and Black has an unhappy choice of\n. . . Kxa5 26 Qa2 + winning the Queen, or 25 . . . Kb7 26 Qc7 +\nand mate in one, or 25 . . . Ka7 26 Qc5 + and mate in two.\nBd8 +\nKc\nOr 22 . . . Ka8 23 Qc6 + Ka7 (or 23 . . . Kb8 24 Bc7 + forcesquick mate) 24 Bb6 + Ka6 25 Bc7 + , and mate in two.\nQc6 + !\nKb\nOf course not 23 . . . Kxd8 24 Qa8 + , winning the Queen.\nBc7 + !\nKc\nOn 24 . . . Ka7, 25 Qb6 + and mate next.\nBd6 +\nKd\nQc7 +\nKe\nQe7 mate\n-- 136 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_119.png",
+    "sourcePdfPage": 135
+  },
+  {
+    "id": 120,
+    "section": "endgame_trainer",
+    "title": "Ending 120",
+    "header": "Mitrofanov, 1 967, Third Prize",
+    "cue": "White to play and win",
+    "solutionText": "A remarkable ending-a great masterpiece. Roycroft says of it,\n\"Great tension. White declines to capture Black's Queen, andhimself offers Black his Bishop four times. A fairy-tale triumphof mind over matter.\"\ng\nal = Q +\nI finstead 1 . . . Re8, 2 f7 a1 = Q + 3 Bxa1 Kc7 (threatens instantmate), 4 fxeB = N + wins. Or if 1 . . . Kc7, 2 Bb6 + forces mate.\nKb7!\nIf 2 Bxa1 Kc7, \"and one of the Rooks mates fiendishly nextmove,\" says Roycroft.\n. . .\nRxg7 +\nhxg\nBut not 3 fxg7 Qxd4.\nQhlgxh8 = Q +\nQxh\nf\nQh\nThe Queen must cover f8 and f6.\nBe\nQxe\nBg5 +\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_120.png",
+    "sourcePdfPage": 137
+  },
+  {
+    "id": 121,
+    "section": "endgame_trainer",
+    "title": "Ending 121",
+    "header": ". . . Kd7.",
+    "cue": "",
+    "solutionText": ".\n•\n.\nQe7 +\nWhite ,may not nowplay 8 f8 = Qmate, as he is in check.\nKxc\nWhite wins.\n8 . . . Qxg5 allows 9 f8 = Qmate. Would you believe that thisbeauty wononly Third Prize in an endgame tourney?\nE N D I N G\nMitrofanov 1 967, First Prize\nWhite to play and win\nA diamond with a flaw, but a diamond nevertheless !\nb6 +\nRe1 !\ng\nKa\nNxe\nhl = Q\nA pretty possibility i s this : If instead 3 . . . Nc4 + 4 Kb5 h1 = Q\ng8 = Q + Bb8 6 a7 Na3 + 7 Kc6 Qh2 8 axb8 = Q + Qxb8 9 b7 +\nKa7 10 Qg1 + Ka6 11 Qb6 mate.\n-- 138 ---------\ng8 = Q +\na\ndxc\nQg5!\nA beautiful sacrifice to win.\nKa\nc7!\nWhite wins.\nBb\nNc6 +\nQxh5 +\nQxg5 +\nBxa\nThe desperate 9 . . . QaS + 10 KxaS Bxb6 + 11 Kxb6 is not stalemate, as Black still has a Knight on the board.\nThe flaw: Oneline of the draw runs this way: 2 . . . Nc4 + 3 KbS\nNxb6 4 Kxb6 Nxe1 5 g7 h1 = Q 6 gB = Q + Bb8 7 Qg7 Qg1 + !\nQxg1 Ba7 + .",
+    "image": "assets/puzzles/endgame_trainer/ending_121.png",
+    "sourcePdfPage": 138
+  },
+  {
+    "id": 122,
+    "section": "endgame_trainer",
+    "title": "Ending 122",
+    "header": "Moravec, 1 925",
+    "cue": "White to play and draw",
+    "solutionText": "A tricky little devil ! One would expect the King to approach the\nPawns, with a view to removing Black'sdangerous Pawn, or to\nsave one of his ownPawns from capture. Both moves are will\no'-the-wisps that lead to Joss.\nObserve these possibilities:\n1 KeS Kg2 2 h4 Kxf2 3 h5 Kg3 4 h6 f2 5 h7 f1 = Q 6 h8 = Q Qa1 + ,\nand Black wins the Queen.\n1 KfS Kg2 2 h4 Kxf2 3 hS Kg3 4 h6 f2 5 h7 f1 = Q + 6 Kg6 Qf8, and\nBlack wins.\nThe right way:\nKd5!\nKg\nBut not 1 . . . Kxh2 2 Ke4 Kg2 3 Ke3, and White wins.\nh\nKxf\nh\nKe\nDrawn.\n-- 140 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_122.png",
+    "sourcePdfPage": 140
+  },
+  {
+    "id": 123,
+    "section": "endgame_trainer",
+    "title": "Ending 123",
+    "header": "Nadareishvili, 1 937",
+    "cue": "White to play and win",
+    "solutionText": "Not so complicated, nor as difficult as most of Nadareishvili'screations, this does have a lovely long-distance mate.\nBd\nb\nBb\nhl =Q+\nBxhl\nKa\nBd5 +\nKbl\nBa\nb\nBb\nbxa\nBg\na\nBh7 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_123.png",
+    "sourcePdfPage": 141
+  },
+  {
+    "id": 124,
+    "section": "endgame_trainer",
+    "title": "Ending 124",
+    "header": "Nadareishvili, 1 948, First Prize",
+    "cue": "White to play and win",
+    "solutionText": "A struggle takes place over the Queening of the Rook Pawn.\nBut just as Black disposes of his most powerful enemy, the blowdescends.\nb5!\nThere is nothing but a draw after 1 Rc6 a2 2 ReS a1 = Q 3 Ra5 +\nQxa5 4 bxa5.\n. . .\nBxb\nd6!\ncxd\nIf instead 2 . . . a2, 3 d7 a1 = Q 4 dB = Q + Kb7 5 Qd5 + and\nWhite wins.\nRxd\nRd\nRa\na\nBd\nBb\nPuts the Rook out of business .\nKe\nKd\nKe\nKf\n1 0 Kg\n1 1 Kxg\n1 2 Bh\n1 3 Be5 mate!\n. Kb\nKb\nKb\nKb\nKb\nKb\nKxa\n142 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_124.png",
+    "sourcePdfPage": 142
+  },
+  {
+    "id": 125,
+    "section": "endgame_trainer",
+    "title": "Ending 125",
+    "header": "Nadareishvili, 1 950",
+    "cue": "White to play and win",
+    "solutionText": "White is outnumbered in material, but he does have twodangerous-looking passed Pawns.\ng\nKf\nIf instead 1 .\n. . e5, 2 g7 Bb3 3 h6 Nf3 4 h7 Ng5 5 g8 = Qwins.\ng\nBh7!\ne\nOn 3 Kxh7 Nf3, 4 g8 = Q Ng5 + forces a draw by perpetualcheck.\n4 e5 +\nKxh\ng8 = Q\nQxg5 +\nh\nKg\n1 0 h\n1 1 h8 = Q\n1 2 Qh6 +\nNf\nNxe\nNf\nNg5 +\nKxg\nc\nc\nc\nc1 = Q\nWhite wins the Queen and the game.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_125.png",
+    "sourcePdfPage": 143
+  },
+  {
+    "id": 126,
+    "section": "endgame_trainer",
+    "title": "Ending 126",
+    "header": "Nadareishvili, 1 955",
+    "cue": "White to play and draw",
+    "solutionText": "White escapes by means of an unusual stalemate idea.\nRf2 +\nThe natural 1 f7 leads to 1 . . . b3 2 f8 = Q h2 3 Rf1 b2 + 4 Kd\nNc4 + 5 Kc3 h1 = Q 6 Rxh1 Rxh1 , and Black wins.\nKa\nf\nh\nRxh\nRxh\nf8 = Q\nbJ\nQxa3 +\nRa\nd5!\nRxa\nOr 6 . . . b2 + 7 Qxb2 + Rxb2 8 Bd4 a3 9 d6 Ka2 10 d7 Rb8 11 Bf6,\nand a draw.\nBd4 +\nBb\nStalemate.\nKa\n-- 144 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_126.png",
+    "sourcePdfPage": 144
+  },
+  {
+    "id": 127,
+    "section": "endgame_trainer",
+    "title": "Ending 127",
+    "header": "_____ _",
+    "cue": "White to play and win",
+    "solutionText": "A lovely ending, quite in keeping with Nadareishvili'ssubtle,\noriginal, and profound style.\nRd7 +\nOf course not 1 Nc3 (to keep the pawn from Queening), forthen 1 . .\n. Rxe7 2 Bxe7 Kxc3 would follow.\nKc\nRc7 +\nKb\nRc3 + !\nKxa\nRaJ +\nKb\nb\nRe\nRa\nRxa\nbxa8 = B!\nNaturally, Queening the Pawn allows a draw by stalemate.\nKa\nBd5 +\nKbl\nBa\nb\n1 0 Bb\nbxa\n1 1 Kd\na\n1 2 Bc2 mate\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_127.png",
+    "sourcePdfPage": 145
+  },
+  {
+    "id": 128,
+    "section": "endgame_trainer",
+    "title": "Ending 128",
+    "header": "Nadareishvili, 1 957",
+    "cue": "White to play and win",
+    "solutionText": "White begins with a discovered check, and then just when\nBlack is about to equalize, finishes with a discovered check andmate.\nRe8 +\nKe\nd\nBxd\nBxd\nNf\ne\nNg5 +\nKg\nNxe\nBxe\nRxd\nBc4 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_128.png",
+    "sourcePdfPage": 146
+  },
+  {
+    "id": 129,
+    "section": "endgame_trainer",
+    "title": "Ending 129",
+    "header": "Nadareishvili, 1 958",
+    "cue": "White to play and win",
+    "solutionText": "Nadareishvili's fund of original ideas never seems to run dry.\nb8 = Q +\nThe alternative 1 g8 = Q + fails after 1 . . . Qxg8 2 b8 = Q + Ke\nQxg8 b1 = Qand Black equalizes.\nQxb\ng8 = Q +\nKc\nQg3 +\nKc\nQg4 +\nKc\nQd7 +\nKb\nc7!\nQg\nIf 6 . . . Qxc7 7 Qb5 mate. On 6 . . . Qf8 7 c8 = Qwins, or if 6 . . .\nQb7, 7 c8 = N + Ka6 8 Qd6 + Qb6 9 Nxb6 b1 = Q 10 Nd5 + Kb\n11 Qc7 + Ka8 12 Qc8 + Qb8 13 Nc7 mate.\nc8 = N + !\nOf course not 7 c8 = Q Qa2 + 8 Kb4 b1 = Q + .\n. . .\nKc\nQd6 +\nKc\nQb4 +\nKd\n1 0 Ne7 +\nWhite wins the Queen and the game.",
+    "image": "assets/puzzles/endgame_trainer/ending_129.png",
+    "sourcePdfPage": 147
+  },
+  {
+    "id": 130,
+    "section": "endgame_trainer",
+    "title": "Ending 130",
+    "header": "Nadareishv ili, 1 961",
+    "cue": "White to play and win",
+    "solutionText": "White has several Rook moves that look good, but only one of\nthem does the trick that forces checkmate.\nRg5!\nIf instead 1 Rxg7 Kh2 2 Kb6 h3 3 Kc5 Kh1 4 Kd4 h2, and Blackdraws. Or if 1 Rg6 (extremely plausible) Kh2 2 Kb6 h3 3 Kc5 Kh\n4 Kd4 h2 5 Rg3 g5 6 Ke3 g4, and Black will be stalemated. Finally,\nif 1 Kb6 g5 ! 2 Kc5 Kh2 3 Ra1 g4 4 Kd4 g3 5 Ke3 g2 6 Kf2 h3 7 Rdl\ng1 = Q + 8 Rxg1 , stalemate. (A lot of play in a simple-lookingposition !)\nKb\nKc\nKd\nKe\nRg\nKf\nRaJ\nKxg\n1 0 Ra1 mate\ng\nKh\nhJ\nKh\nh\ng\ng\ng3 +\nKgl\n-- 148 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_130.png",
+    "sourcePdfPage": 148
+  },
+  {
+    "id": 131,
+    "section": "endgame_trainer",
+    "title": "Ending 131",
+    "header": "Nadareishvili, 1961",
+    "cue": "White to play and draw",
+    "solutionText": "A clever Queen sacrifice at the last moment saves the game for\nWhite.\nRd\nRd1 +\nh\nKa2!\nMoving to the b-file instead would allow White to queen his b\nPawn with check.\nRh\nKa\nBgl\ng\nIf instead 4 . . . d5, 5 b5 d4 6 b6 d3 7 b7 d2 8 b8 = Q d1 = Q\nQg8 + Kb2 10 Rxh2 + Bxh2 11 Qxg6, and the position is drawn.\nb\ng\nb\ng\nb\ng\nb8 = Q\ngxh1 = Q\nQg8 +\nKb\nIf 9 . . . d5 instead, there follows 10 Qxd5 + Qxd5, and White is\nstalemated.\n1 0 Qd5!\nBrilliant! Black must play 10 . . . Qxd5, and White gets the drawby stalemate.",
+    "image": "assets/puzzles/endgame_trainer/ending_131.png",
+    "sourcePdfPage": 149
+  },
+  {
+    "id": 132,
+    "section": "endgame_trainer",
+    "title": "Ending 132",
+    "header": "Nadareishvili, 1 962",
+    "cue": "White to play and win",
+    "solutionText": "It's hard to tell who has the advantage, but it takes only fivemoves to clarify the position.\nb\nBut not 1 Rxb3 + Kxb3 2 b7 Nb6 + 3 Kc7 b1 = Qwith a draw.\n. . .\nb1 = Q\nRxb3 +\nQxb\nOr 2 . . . Kxb3 3 b8 = Q + Kc2 4 Qxb1 + Kxb1 5 Kb7 and Whitewins.\nbxa8 = R + !\nI finstead 3 bxa8 = Q + Kb2 4 Qb7 Ka1 ! 5 Qxb3, and Black gets a\ndraw by stalemate.\nRb\nKxb\nWhite wins.\nKb\nQxb8 +\n-- 150 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_132.png",
+    "sourcePdfPage": 150
+  },
+  {
+    "id": 133,
+    "section": "endgame_trainer",
+    "title": "Ending 133",
+    "header": "Nadareishvili, 1 965",
+    "cue": "White to play and win",
+    "solutionText": "A trickly little devil, which is bound to trap the unwary solverbefore he suspects anydanger.\nKe\nc\ng8 = R!\nIf instead 2 g8 + ! (certainly natural enough) there follows 2 . . .\nd1 = Q + 3 Kxd1 c2 + 4 Kd2 (or 4 Kxc2 stalemate) c1 = Q +\nKxc1 , and the game is drawn by stalemate.\n•\n•\n.\nKb\nRgl\nBut not 3 ReB Kc2 4 Rd8 Kc1 , and Black draws.\nKd\nRfl\nKb\nKd\nKb\nRgl\nKb\nIf 6 .\n.\n.\nd1 = Q + 7 Rxc1 c2 8 Rd2 wins.\nRbl +\nWhite wins.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_133.png",
+    "sourcePdfPage": 151
+  },
+  {
+    "id": 134,
+    "section": "endgame_trainer",
+    "title": "Ending 134",
+    "header": "Nadareishvili, 1 970",
+    "cue": "White to play and draw",
+    "solutionText": "A somewhat complex study, but fascinating nevertheless.\nd\ncl = N\nOn 1 . . . c1 = Qinstead 2 dxe8 = Qwins for White. After Black'sactual move, he's the one who threatens mate.\nBxcl\nBxcl = N\nIf instead 2 .\n. . bxc1 = Q , White does not play 3 dxe8 = Q, since\n·hatallows 3 . . . Qxc7 mate, but continues with 3 c8 = Q Rxc\ndxc8 Qxc8 (on other moves by Black's Queen, 5 Qb7 + forces a\ndraw by stalemate), and White is stalemated.\nMeanwhile, Black threatens mate on the move.\nc8 = N +\nNd6 +\nNcB +\nKb\nKa\nBut not 5 Nxb5 + BxbS 6 Kxb5 Rd8 7 Kc6 Kb8 8 Kd6 Nd3 9 b\nNcS, and Black wins.\nRxc\ndxc8 = N + !\nKb\nNd6 +\nKc\nNxb\nBxb\nStalemate.\n-- 152 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_134.png",
+    "sourcePdfPage": 152
+  },
+  {
+    "id": 135,
+    "section": "endgame_trainer",
+    "title": "Ending 135",
+    "header": "___",
+    "cue": "White to play and draw",
+    "solutionText": "Pawn endings are deceptive. Under a guise of simplicity, theyoften conceal subtleties. Herewith a case in point.\ne\nThe proper starting move. If instead 1 d4 h4 2 e4 h3 3 exd5 h\nd6 + Kxd6 5 Kb8 h1 = Q, and Black wins.\nd\ne\nh\ne\nh\ne\nh\ne8 = R!\nOn 5 e8 = Qthere follows 5 . . . h1 = Q + 6 Qe4 Qf3 7 Qxf\n(there'snothing else!) gxf3, and Black wins.\n. . .\nRe\nh1 = Q +\nQxe4 +\nOr 6 . . . Qc1 7 Re7 + Kd8 8 Rc7! , and White draws.\ndxe\ne\ne\n1 0 e\ne8 = N +\nh\nh\nh\nh\nKc\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_135.png",
+    "sourcePdfPage": 153
+  },
+  {
+    "id": 136,
+    "section": "endgame_trainer",
+    "title": "Ending 136",
+    "header": "1 2 Nd6 +",
+    "cue": "",
+    "solutionText": "Avoiding the perpetual check leads to this: 12 . . . Kd7 13 Kb\nh1 = Q 14 a8 = Q Qxa8 + 15 Kxa8 Kxd6 16 Kb7 Kd5 17 d3, and theposition is a draw.\n1 3 Ne8 +\nDrawn by repetition of position.\nE N D I N G\nNeidze,\nWhite to play and draw\nWhite resolves what might be a troublesome situation with fivedeft moves.\nc\nThreatens mate on the move in twodifferent ways.\nNc5 +\nKb\nQf\nSeems to hold everything. Now if 3 Bc6 + Nb7 + 4 Ka4 (if 4 Ka\nQaS is mate) Qc2 + 5 Kb5 Qc5 + wins for Black.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_136.png",
+    "sourcePdfPage": 154
+  },
+  {
+    "id": 137,
+    "section": "endgame_trainer",
+    "title": "Ending 137",
+    "header": "c8 = Q +",
+    "cue": "",
+    "solutionText": "Bc6 +\nNb\nKa6!\nQxc\nStalemate.\nE N D I N G\nNeidze, Kalandatze,\nWhite to play and winBlack's King seems doomed to be mated. In nearly allvariationshis exit is blocked by Queen and Bishop. For variety there aresome discovered checks that win the Queen.\nexf\nBh\nThe other possibilities are:\n1 . . . Bd8 2 f8 = Q + Qxf8 3 Qc4 + Kd6 4 Qd5 + Ke7 5 Qe6 mate.\n1 . . . Be7 2 Qc4 + Kd6 3 Qd5 + KxdS 4 f8 = Q + , and White winsthe Queen.\n1 . . Bg5 2 f8 = Q + Qxf8 3 Qc4 + Kd6 4 Qb4 + , and White winsthe Queen.\n1 . . . Bg7 2 Qc4 + Kd6 3 QdS + Ke7 4 Qe6 + Kf8 (if 4 . . . Kxe\nf8 = Q + and White wins the Queen) 5 Qe8 mate.\ncontinued",
+    "image": "assets/puzzles/endgame_trainer/ending_137.png",
+    "sourcePdfPage": 155
+  },
+  {
+    "id": 138,
+    "section": "endgame_trainer",
+    "title": "Ending 138",
+    "header": "Qc4 +",
+    "cue": "",
+    "solutionText": "Qd5 +\nQe6 +\nQe8 +\nQe5 +\nQc5 +\nf8 = Q +\nQg5 mate\nKd\nKe\nKf\nKg\nKf\nKg\nQxf\nE N D I N G\nNestorescu, 1 951, First Prize\nWhite to play and win\nThe King must subdue Black'sfleet-footed Rook before applying the finishing touches.\nRc\nWith a powerful threat of mate on the move.\n. . .\nRh\nKg\nTaking the Knight instead wins a piece, but not the game.\n. . .\nReB\nKf\nRh\nA pretty defensive attempt is 3 . . . Re7 + 4 Kf8 Kb8 5 Rd3 andmate follows.\n-- 156 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_138.png",
+    "sourcePdfPage": 156
+  },
+  {
+    "id": 139,
+    "section": "endgame_trainer",
+    "title": "Ending 139",
+    "header": "Bd4",
+    "cue": "",
+    "solutionText": "Rd\nRaJ +\nKbB\nBe5 +\nKc\nRc3 +\nKd\nRc7 mate\nA fine creation by the talented Romanian composer.\nE N D I N G\nOl'myutzky,\nWhite to play and draw\nThis looks like the typical stalemate-in-the-corner theme, butyou may be in for a little surprise.\nKh\nKf\nOr 1 . . . a\n2 Kxg6 Kg8 3 h7 + Kh8 4 Kh6 a3 5 g6 a2 6 g7 mate.\ne\ne\ne6 +\nKxg\nh\nh8 = Q\nStalemate.\na\na\nKxe\na\nal = Q\nQxh\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_139.png",
+    "sourcePdfPage": 157
+  },
+  {
+    "id": 140,
+    "section": "endgame_trainer",
+    "title": "Ending 140",
+    "header": "Pasternak, 1 969",
+    "cue": "White to play and win",
+    "solutionText": "A charming ending, with two Bishop sacrifices (one of themtaken with check), a Queen sacrifice, and for the coup degrace\na pretty Pawn mate. All this in five moves!\na7!\nBxh\nClearly,\n. . . Bxa7 2 BeSmate would not do at all.\nBe8!\nRxe8 +\nOtherwise White makes a newQueen next move.\nKf\nThreatens mate on the move.\n. . .\nRg\na8 = Q\nNow there are two threats of mate on the move. The poor Rookcannot be in two places at once!\nRxa\ng7 mate\n-- 158 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_140.png",
+    "sourcePdfPage": 158
+  },
+  {
+    "id": 141,
+    "section": "endgame_trainer",
+    "title": "Ending 141",
+    "header": "Perkonja, 1 966",
+    "cue": "White to play and draw",
+    "solutionText": "White'smethod for drawing is ingenious. His Knight, paralyzedby a pin, seems irretrievably lost, but the all-important King is\nsaved by the burial alive of a Bishop, and the heartless abandonment of the Knight.\nSomething must be done about the Pawn at d2, which is a bonein the throat, but if 1 Kxd2 Be3 + 2 Kd1 Nc3 + wins a piece,\nwhile 1 Ne2 Be1 threatening 2 . . . Ne3 mate offers dismalprospects. Therefore:\nNb\nNxd\nKcl\nBd\na\nNc3 +\nBe\nKe\nReady to meet the attack on the Knight (5 Bd4) by 5 .\n. . Nxa2 + ,\nwinning the rash Bishop.\nBf\nKf\nBd\nKe\nBf\nd\nBa\nKe\nBb\nd\nReady to meet 10 Bxc3 with 10 . . . dxc3, winning the pinned\nKnight.\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_141.png",
+    "sourcePdfPage": 159
+  },
+  {
+    "id": 142,
+    "section": "endgame_trainer",
+    "title": "Ending 142",
+    "header": "Kf4",
+    "cue": "",
+    "solutionText": "Ba1 !\nKg\n1 2 Kb2!\nBxd\nStalemate.\nE N D I N G\nPeronace,\nWhite to play and draw\nA lovely creation by Peronace, who achieves twostalemateeffects-one at the edge of the board and the other in themiddle.\na\nBe8 +\nOr 1 . . . Be4 + 2 Kd6 Rxf6 + 3 KeS Kd7 4 e8 = Q + Kxe\na8 = Q + Bxa8, and White is stalemated.\nKb\nRxf6 +\nKa\nKb\na8 = Q +\nKxa\nStalemate.\n-- 160 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_142.png",
+    "sourcePdfPage": 160
+  },
+  {
+    "id": 143,
+    "section": "endgame_trainer",
+    "title": "Ending 143",
+    "header": "Petrov, 1 958",
+    "cue": "White to play and win",
+    "solutionText": "White'scombination forces the enemy Rook into a pin. The\nRook's only consolation is that he can choose on which squareto be pinned !\nBlack is behind on material, but he threatens to capture one of\nthe Bishops.\nRd8!\nParries both threats. Now if 1 .\n. . Rxd8 2 Bxd8 wins easily, while\n. .\n. Kxh\n2 Bxf8 is unthinkable.\nSo Black concocts a little scheme which will let him threatenboth Bishops again.\nBxa\nKe\na\nRf4 +\nRa\nNowhow does White save his Bishops?\nBb\nRb\nStronger than 4 . . . Ra3, when 5 Rd4 + followed by 6 Rb\nremoves alldanger.\nRd4 + !\ncontinued\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_143.png",
+    "sourcePdfPage": 161
+  },
+  {
+    "id": 144,
+    "section": "endgame_trainer",
+    "title": "Ending 144",
+    "header": ".",
+    "cue": "",
+    "solutionText": "·Rxd4 6 Kxd4 Kxh4 lets Blackgets away with a draw.\n. . .\nRxd\nBe7!\nA beautiful zwischenzug, which restricts the attacked Rook to\nonesquare of the board !\n. . .\nRf\nBe& +\nNow if 7 .\n.\n.\nRfS, 8 Ke4 wins the pinned Rook.\nKg\nBd&\nWhite wins.\nThe pinned Rook is helpless against the double attack.\nE N D I N G\nPogosyants,\nWhite to play and win\nA lovely twist on an original idea of Reti's.\nRa\n-- 162 --------\nSupports the Pawn, and threatens to advance it to the eighthsquare.\nNd3 +\nKd\nReady to meet 2 . . . Nb4 with 3 a7.\n•\n•\n•\nRe2 +\nA clever defense. Black sacrifices a Rook, regains it, and is\nready to stop the Pawn with his King.\nKxe\nNcl +\nKd\nNxa\nNd5!\nBeautiful ! Black's Knight may not move on pain of capture,\nwhile his King must move, but away from the Pawn !\n•\n•\n•\nKxd\nAs good as any.\na\nWhite wins.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_144.png",
+    "sourcePdfPage": 162
+  },
+  {
+    "id": 145,
+    "section": "endgame_trainer",
+    "title": "Ending 145",
+    "header": "Pogosyants, 1 967",
+    "cue": "White to play and win",
+    "solutionText": "The modest little Pawn at b2 turns out to be the chief actor in\nthis little drama.\nNc\nBe&\nProtecting the Bishop by\n. . . Rb6 or 1 . . . Ra7 does the\nBishop no good, since it is attacked by two pieces, while\n.\n.\n.\nBc8 loses to 2 b4 + Kb6 3 Rd6 + , and after exchanging allthepieces, White has an easily wonPawn ending.\nRd&\nRb&\nb4 +\nKxb\nRd4 +\nKxc\nOr 4 . . . KaS\nb4 mate\nAn artistic arrangement.\n-- 164 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_145.png",
+    "sourcePdfPage": 164
+  },
+  {
+    "id": 146,
+    "section": "endgame_trainer",
+    "title": "Ending 146",
+    "header": "Prokes, 1 941",
+    "cue": "White to play and draw",
+    "solutionText": "That White canforce a draw with his Pawns unable to advanceto the eighth rank, guarded as it is by a Cerberus of a Rook, is\nhard to believe.\nBut White manages it by sacrificing one of his valuable Pawns!\nKf\nKg\na8 = Q!\nRxa\nDrawing the Rook away makes it possible for White's King to\nadvance to the center, in accordance with Steinitz'srules forthe endgame.\nKe\nKf\nKd\nKe\nElse 5 Kd7 assures the draw.\nKc\nThreatens 6 Kb7, which wins the Rook!\n.\n•\n•\nReB\nKd6!\nBut not the ambitious 6 Kb7, when 6 . . .\nKd7 wins for Black.\nRa\nKc\nDrawn by repetition of position.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_146.png",
+    "sourcePdfPage": 165
+  },
+  {
+    "id": 147,
+    "section": "endgame_trainer",
+    "title": "Ending 147",
+    "header": "_____ _",
+    "cue": "White to play and win",
+    "solutionText": "It is not that White's Pawns are stronger than Black's; it'stheaggressive position of his King that makes them so.\nKc\nKa\nb\nb\nOn 2 . . . aS, 3 bSwins at once.\nKc\na4!\nHave your choice !\n. . .\na\nKa\nIf instead 4 . . . axb4, 5 axbS b3 6 b6 + wins quickly. Of if 4 . . .\nbxa4, 5 bS a3 6 b6 + Ka6 7 b7 a2 8 b8 = Q a1 = Q 9 Qb7 mate.\nKc\naxb\nHere if 5 .\n. . bxa4, 6 bS + Ka7 7 Kc7.\naxb5 +\nKa\nKc\nWhite wins.\n-- 166 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_147.png",
+    "sourcePdfPage": 166
+  },
+  {
+    "id": 148,
+    "section": "endgame_trainer",
+    "title": "Ending 148",
+    "header": "Prokes, 1 94 7",
+    "cue": "White to play and win",
+    "solutionText": "I suppose this finish could qualify as a smothered mate by the\nRook.\nNh\nThreatens 2 NF6 followed by 3 Rxh7 mate.\n. . .\nRg5 +\nOn\n.\n.\n.\nRg6 instead, 2 KeSfollowed by 3 Nf6 wins.\nKe\nRxh\nKf&\nh&\nOr 3 .\n. . Rh6 + , when 4 Kf7 is decisive.\nKg&\nKxh\nWhat else is there?\n6 Rh7 mate\nRg5 +\nRg",
+    "image": "assets/puzzles/endgame_trainer/ending_148.png",
+    "sourcePdfPage": 167
+  },
+  {
+    "id": 149,
+    "section": "endgame_trainer",
+    "title": "Ending 149",
+    "header": "Prokes, 1 948",
+    "cue": "White to play and win",
+    "solutionText": "A simple but pleasing study. The obvious 1 exf7 gets Whitenowhere after 1 .\n.\n.\nBxb3 + followed by 2 .\n. . Bxf7. No better is\n1 e7, which yields to\n.\n. . Bxb3 + and 2 . . . Ba4, and the Pawnis halted in its tracks.\nBa5 + !\nBut this changes the complexion of affairs. If now 1 .\n.\n.\nKxb3,\nexf7 wins.\ne\nKc\nb4 mate!\nKxa\nBxb3 +\nBa\n- 168 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_149.png",
+    "sourcePdfPage": 168
+  },
+  {
+    "id": 150,
+    "section": "endgame_trainer",
+    "title": "Ending 150",
+    "header": "Proskorovski, 1 960",
+    "cue": "White to play and draw",
+    "solutionText": "A duel between the lone King against King, Knight, and Pawn\n(somewhat like D'Artagnan'sduels with the King'sguardsmen)\nresults in a surprise stalemate.\nKd\nNcS +\nKc\nNd\nKds\nKe\nKc\nKe\nKb\nNcS +\nKc\nNb\nKb\naS\nKbS\nKdS\nKa\nKc\nStalemate.",
+    "image": "assets/puzzles/endgame_trainer/ending_150.png",
+    "sourcePdfPage": 169
+  },
+  {
+    "id": 151,
+    "section": "endgame_trainer",
+    "title": "Ending 151",
+    "header": "Reti, 1 921",
+    "cue": "White to play and draw",
+    "solutionText": "Reti considered this study of his a trifle. Far from a trifle, it is a\nmasterpiece. In a position where the forces are minimal, Whitefaces what seems to be an insuperable task. He must try to stop\na Pawn that appears farout of his reach, and come to the aid of\nhis own Pawn (his only hope), also a good distance away.\nWhite's King, in short, must be in two places at once! Thesolution is a little miracle of ingenuity.\nKg\nh\nOr 1 . . . Kb6 2 Kf6 Kxc6 ( . . . h4 is the game) 3 KgS and the\nPawn falls.\nKf\nKb\nBlack plays to kill off a possible threat in White's Pawn. If\ninstead 2 . . . h3, 3 Ke7! h2 4 c7 Kb7 5 Kd7 h1 = Q 6 c8 = Q + andthe game is drawn.\nKe5!\nReady to meet 3 . . . Kxc6 with R Kf4, and the Pawn is stopped.\nh\nKd6!\nh\nc\nDrawn.",
+    "image": "assets/puzzles/endgame_trainer/ending_151.png",
+    "sourcePdfPage": 170
+  },
+  {
+    "id": 152,
+    "section": "endgame_trainer",
+    "title": "Ending 152",
+    "header": "Reti, 1 928",
+    "cue": "White to play and draw",
+    "solutionText": "An exquisite miniature (miniature in the number nfpieces, notin the concept).\nWhite's task seems insuperable. His King cannot hope to catchthe enemy Pawn, since 1 Kf7 is met by 1 .\n. . gS, and Black wins.\nNorcan he threaten to Queen his ownPawn; 1 e7 is thwartedby 1 . . . BbS.\n.\nBut there is (as in allReti compositions) a magic move, which at\nfirst sight seems silly.\nKe7!!\nBlocks the pathway of his own Pawn.\nKd6!\ne7!\nKcS\ngS\ng\nBbsGains a move by the attack on the Bishop. Now if 4 . .\n. g3 in\nreply, 5 KxbS draws easily.\nBd\nKd\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_152.png",
+    "sourcePdfPage": 171
+  },
+  {
+    "id": 153,
+    "section": "endgame_trainer",
+    "title": "Ending 153",
+    "header": "5",
+    "cue": "",
+    "solutionText": "Ke\nKc\nKf\nKd\ne8 = Q\nBxe\nKxg\nDrawn.\nE N D I N G\nReti,\nWhite to play and win\nIn this miniature, one of Reti'sfinest creations, the final move is\ntruly brilliant.\nBfS +\nThe first finesse. If instead 1 Bc6 + Kd6 2 Rd4 + Ke5 3 Re4 + Kd\n4 Rxe3 e1 = Q 5 Rxe1 , stalemate!\n.\n•\n•\nKd\n(or •\n•\n.\nKd8)\nRd4 +\nKe\nOn 2 .\n.\n.\nKe5 3 Re4 + KxfS 4 Rxe3 wins.\nReS +\nKd8!\n-- 172 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_153.png",
+    "sourcePdfPage": 172
+  },
+  {
+    "id": 154,
+    "section": "endgame_trainer",
+    "title": "Ending 154",
+    "header": "wins. Now if 4 Rxe3, there follows 4 . .",
+    "cue": "",
+    "solutionText": "is stalemated. But White has a Roland for an Oliver, as the oldfiction writers used to say.\nBd7!\nel = Q\nOf course 4 . .\n. Kxd7 i s met by 5 Rxe3.\ns\nBbsWhite wins.\nThe threat of mate by 6 ReBcan be averted only by 5 . . . Qa5 + ,\n·giving up the Queen.\nE N D I N G\nReti,\nWhite to play and draw\nExquisite timing is required to draw this ending. Thoughtlessplay could lead to zugzwang for White and turn a possible drawinto a loss.\nd\nd7!\nKe\ncontinued\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_154.png",
+    "sourcePdfPage": 173
+  },
+  {
+    "id": 155,
+    "section": "endgame_trainer",
+    "title": "Ending 155",
+    "header": ". . . Bc8 3 Kb8 (on 3 d7, Bxd7 wins) Kd7, and White loses by",
+    "cue": "",
+    "solutionText": "•\n•\n•\nKxd\nKa\nBc\nOn 3 . . . Be2, 4 Kb8 (or 4 Kb7 Ba6 + 5 Kxa6! draws) Ba6 5 Ka\netc. draws.\nKb\nNowBlack is in zugzwang.\nBa\nKa\nDrawn.\nIf Black continues by 5 . . . Kxc7, then 6 Kxa6 Kd6 7 Kb5 Ke\nKc4 Kf4 9 Kd3 Kxg4 10 Ke2 Kg3 11 Kf1 Kh2 12 Kf2 is convincingenough.\nE N D I N G\nRichter, 1 954, First Prize\nWhite to play and win\n-- 1 74 ৢ--------\nA weird Pawnless position in which the possibilities for attackand counterattack would drive mad a player who tried to analyze the various complications.\nNa\nWhite attacks twopieces simultaneously.\nBc\nRf5 +\nKe\nNow it's Black who attacks twopieces simultaneously.\nRf4 +\nKe\nNxc\nBf3 +\nForces White into a Knight fork.\nKc1 !\nNd3 +\nKc\nNxf\nRegains the Rook, but . . .\nBb6 mate\n. . . loses the King.",
+    "image": "assets/puzzles/endgame_trainer/ending_155.png",
+    "sourcePdfPage": 174
+  },
+  {
+    "id": 156,
+    "section": "endgame_trainer",
+    "title": "Ending 156",
+    "header": "Rinck, 1 905",
+    "cue": "White to play and win",
+    "solutionText": "One of the many beautiful endings that Rinck composed on\nthe theme of Queen and minor piece against Queen is this,\nwhere clever play forces Black to choose between losing his\nQueen or his King.\nNg\nPrevents 1 . . . f1 = Q, when 2 Ne3 + ends the short life of the\nQueen.\nKd\nComes to the aid of the Pawn, which nowthreatens to promoteto a Queen.\na8 = Q\nQa2 +\nf1 = Q\nKc\nAnyother move loses the Queen at once by a Queen check or\na Knight fork.\nQa3 +\nKd\nForced, since after 4 .\n. . Kd2, 5 Qb2 + forces either 5 . . . Kd3,\nwhich runs into 6 Qb5 + , or 5 . . . Kd1 , which loses by 6 Ne3 + .\nQcS +\nKe",
+    "image": "assets/puzzles/endgame_trainer/ending_156.png",
+    "sourcePdfPage": 176
+  },
+  {
+    "id": 157,
+    "section": "endgame_trainer",
+    "title": "Ending 157",
+    "header": "Queen.",
+    "cue": "White to play and win",
+    "solutionText": "As somebody once said, \"Black was lucky to have been mated,\nor else he would have lost his Queen next move.\"\nf\ncxb\nf8 = Qbl = Q\nQe7 +\nKd\nQd7 +\nKe\nOn 4 . . . Kc4 instead, 5 Qd3 + Kb4 6 c3 + wins the Queen. Or\nif 4 . . . Ke4, 5 Qf5 + Kd4 6 c3 + does likewise.\nc\nThreat: 6 Qd5 mate.\nQhl\nd4 +\ncxd\nQe7 mate\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_157.png",
+    "sourcePdfPage": 177
+  },
+  {
+    "id": 158,
+    "section": "endgame_trainer",
+    "title": "Ending 158",
+    "header": "Rinck, 1 91 6, First Prize",
+    "cue": "White to play and draw",
+    "solutionText": "Rinck was a miracle worker! In the short space of five moves,\nWhite, whose pieces are so widely scattered, gives up nearly allof them (and throws in an underpromotion for good measure)\nto arrive at an almost incredible draw by stalemate!\nKb7!\nThreatens mate on the move by 2 Ra4 + .\nBxd\nBut not 1 . .\n. c4 2 Rxc4 Bxd1 3 Ra4 + Bxa4 4 b4 mate.\nRa4 +\nBut not the attractive 2 a8 = Q + Na7 and Black wins (3 b4 +\ncxb4 4 Rf4 Bb3 and the threat of 5 . . . Bd5 mate is decisive).\nb4 +\nQd8 +\na8 = B!\nBxa\ncxb\nRxd\nBut not 5 a8 = Q + Na7, and Black wins.\nStalemate.\nThere is no way the King may be allowed a move, normay theimprisoned Bishop be freed.\n-- 178 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_158.png",
+    "sourcePdfPage": 178
+  },
+  {
+    "id": 159,
+    "section": "endgame_trainer",
+    "title": "Ending 159",
+    "header": "Rinck, 1 929",
+    "cue": "White to play and win",
+    "solutionText": "Apparently White'spassed Pawns caneasily be restrained by\nthe Rooks, but three moves are all that are needed to leave\nBlack helpless.\nh\nRhl\na\nRalRdl !\nAnd pauses for a reply!\nWhite wins.\nBlack is faced with an insoluble problem (the hardest kind to\nhandle). To begin with, he is threatened with 4 Rxa1 or 4 Rxh1 .\nBlack canavoid this by\n.\n.\n.\nRhxd1 , but then 4 h8 = Qwins,\nwhile on 3 .\n.\n.\nRaxd1 , the reply 4 a8 = Q + wins.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_159.png",
+    "sourcePdfPage": 179
+  },
+  {
+    "id": 160,
+    "section": "endgame_trainer",
+    "title": "Ending 160",
+    "header": "Rudenko, 1 958",
+    "cue": "White to play and win",
+    "solutionText": "After a lively duel between the Knight and a fleet-footed Queenwho manages to cover every mating threat by the Pawns on theseventh, it is a quiet little Pawn move that enables the Knight to\ninflict mate.\ne\nQa\nWith this, and the next fewmoves, Black's Queen covers e\nand a8, the two squares on which White's Pawns threaten to\nbecome Queens.\nNas\nNb\nNc\nNd\nNe\nQe\nQa\nQc\nQe\nQa\nSo far the Queen has managed to guard ingeniously against\nWhite's Queening threats, but now White throws a monkeywrench into the machinery.\nf7!\nThreatens three mates, of which only twocan be averted.\n8ě\nNxg6 mate\n-- 180 ---------",
+    "image": "assets/puzzles/endgame_trainer/ending_160.png",
+    "sourcePdfPage": 180
+  },
+  {
+    "id": 161,
+    "section": "endgame_trainer",
+    "title": "Ending 161",
+    "header": "Runquist, 1 962",
+    "cue": "White to play and win",
+    "solutionText": "Mate by a pawn is always attractive, whether in the corner of\nthe board or in the center.\nRdl\nBh\nThe Knight needs protection.\nBe7 +\nKg\nThe alternative is 2 . . . Kh5 3 Rh1 Ng4 4 Bd6 Be4 + 5 Kxe4 Nf2 +\n6 Kf3 Nxh1 7 Bxh2, and the Knight does not get outalive.\nRd4 +\nKfS\nThe choice is limited, as 3 . . . Kg3 loses the Knight, while 3 . . .\nKh5 allows mate on the move.\ng4 +\nRf4 +\ne4 mate\nNxg\nBxf",
+    "image": "assets/puzzles/endgame_trainer/ending_161.png",
+    "sourcePdfPage": 181
+  },
+  {
+    "id": 162,
+    "section": "endgame_trainer",
+    "title": "Ending 162",
+    "header": "Sadykov, 1 967",
+    "cue": "White to play and draw",
+    "solutionText": "· s\nThis is one of those unusual endings where the saving devicewhen it comes is almost unbelievable in its suddenness andeffect.\nh\nh8 = Q\nKe\nKd\nNf\nRb8 +\nNd5 +\nRxh\nObviously Black has no time to take the Rook.\nRd4 +\nKd\nRa\nRd8 +\nThis saves one of the Knights.\nKe\nNb\n(or .\n.\n•\nNc2)\nNow the other Knight is out of danger.\nRd4 + !\nNxd\nStalemate.\n-- 182 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_162.png",
+    "sourcePdfPage": 182
+  },
+  {
+    "id": 163,
+    "section": "endgame_trainer",
+    "title": "Ending 163",
+    "header": "Sakhodyakin, 1 931",
+    "cue": "White to play and win",
+    "solutionText": "White concocts a brilliant finish-an epaulet mate with the\nKnights settled on the King'sshoulders.\nh\nNg4 +\nKf\nNxh\nThe capture of the Pawn opens a file for White'seager Rook.\nKg\nNg\nRh2 +\nKg\nRh7 +\nKf8 mate\nRf7 mate\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_163.png",
+    "sourcePdfPage": 183
+  },
+  {
+    "id": 164,
+    "section": "endgame_trainer",
+    "title": "Ending 164",
+    "header": "N",
+    "cue": "White to play and draw",
+    "solutionText": "\"Frustration\" might be said to be the theme of this ending.\nRc\nThe tempting 1 Rxe7 + Kf6 2 Rc7 (but not 2 Re1 Rb1) fails after\n. . . Rb8 + followed by 3 . .\n. Rb7.\nRb8 +\nKxe\nRb\nRxb\nI nitiates a brilliant little combination.\n. . .\n4 Ke6 +\nc1 = Q\nKg\nOf course 4 . .\n. Kf8 leads nowhere after 5 Rb8 + Ke7 6 Rb7 + .\nh5 +\nKxh\nOn 5 . . . Kg5, 6 Rg7 + forces Black to take the Pawn.\nRg\nDrawn!\nBlack cannot release his King. If for example 6 . . . Qf1 , thereply 7 Ke7 prevents 7 . . . Qf8, and Black can donothing to\nforce matters.",
+    "image": "assets/puzzles/endgame_trainer/ending_164.png",
+    "sourcePdfPage": 184
+  },
+  {
+    "id": 165,
+    "section": "endgame_trainer",
+    "title": "Ending 165",
+    "header": "Sakhodyakin, 1 963",
+    "cue": "White to play and draw",
+    "solutionText": ". i.\nKnight and Pawn maneuver cleverly to squeeze out a draw in\nthis little episode.\nNe7 +\nWhite is not tempted by the b-Pawn. It's the advanced h-Pawnthat is di:mgerous.\n. . .\nKe\nThe King moves closer to aid his Pawn by holding back the\nKnight. Naturally he avoids the squares d6, eS, or d4, whichwould allow the Pawn to be impaled on a Knight fork.\nd3 +\nKf\nHere 2 . .\n. Kxd3 would be met by 3 Ng6 h3 4 Nf4 + , and the\nPawn falls.\nd\nh\nNo good comes of 3 . . . Ke4 4 dS KeS 5 Ng6 + .\ndS\nd\nd\nKb\nh\nh1 = Q\nQh2 +\nQd\ncontinued\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_165.png",
+    "sourcePdfPage": 185
+  },
+  {
+    "id": 166,
+    "section": "endgame_trainer",
+    "title": "Ending 166",
+    "header": "move.",
+    "cue": "",
+    "solutionText": "Nc6!\nThreatens to Queen the Pawn if the Knight is taken, while 8 .\n. .\nQxd7 is neatly met by 9 NeS + , winning the Queen.\nDrawn.\nE N 0 I N\nG\nSakhodyakin,\nWhite to play and win\nThe key to the win is to render the Queen hors decombat in\nrather original style.\ng\nQg6 +\nThe Pawn must be disposed of in a hurry.\nKhl\nQxg\nRf4 +\nKh\nOn 3 . . . Kh3, 4 Re3 + ends the affair.\nRf5 +\nKh\n(or •\n.\n•\nKh4)\nRl e5!\ndxe\nRf\n186 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_166.png",
+    "sourcePdfPage": 186
+  },
+  {
+    "id": 167,
+    "section": "endgame_trainer",
+    "title": "Ending 167",
+    "header": "and then the Knight file.",
+    "cue": "",
+    "solutionText": "Rh2 +\nRg2 +\nRxg\na\nWhite wins.\ne\nKg\nKf\nKxg\nE N D I N G\nSarychev\nWhite to play and draw\nAfter some elegant fencing between Bishops and Knights,\nWhite engineers a finale which is simply amazing. This is as\nremarkable a finish as I have ever seen !\nBe\nAttacks one Knight, and threatens to check at d4 and win theother.\nKc\nNd3 +\nNe\ncontinued\nOn 2 . . . Nb2 instead, 3 Bc1 wins the Knight.\nBd\nNfS\nBf\nNf\nIf 4 .\n. . Ng7, 5 Bc2 Nfe3 6 Bxe3 Nxe3 7 Bxh7, and the game is\ndrawn.\nBc\nNd\nBlack's idea is to win one of the pesky Bishops.\nBxh\nNgSIntending on a move of White's Bishop, 7 . . .\nNe4 + (eitherone), which would win a piece and the game.\nBcSMeets the attack with counterattack.\n. . .\nNb\nIt looks as though White must lose a piece.\nBe7!\nNxh\nKb\nDrawn!\nBlack'spieces are paralyzed, and all he can do is wait while theenemy King moves up the board to a7 and eats up the Bishop.\n-- 188 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_167.png",
+    "sourcePdfPage": 187
+  },
+  {
+    "id": 168,
+    "section": "endgame_trainer",
+    "title": "Ending 168",
+    "header": "G 1 68",
+    "cue": "White to play and win",
+    "solutionText": "An attractive miniature, in which Black is mated in the middleof the board, just when his Knight is about to make his escape.\nNe\nKg\nRushes to the aid of his imprisoned Knight.\nBd\nPrevents the King from occupying the central square f6.\n•\n•\n•\nKf\nIntending to move on to e8.\nKf\nKe\nBa\nKe\nKe\nKd\nKd\nNc\nThe Knight finally gets back in play-but at great cost.\nBb4 mate!\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_168.png",
+    "sourcePdfPage": 189
+  },
+  {
+    "id": 169,
+    "section": "endgame_trainer",
+    "title": "Ending 169",
+    "header": "Selesniev",
+    "cue": "White to play and win",
+    "solutionText": "White'smethod is simple. He forces the adverse Rook into oneof twoplausible defensive moves. Then he attacks the Rookand simultaneously threatens mate, leaving Black helpless to\nward offboth threats.\nKg\nThreatens 2 Kf7, which attacks the Rook and threatens mate at\nthe same time.\nKxf\nKf\nWhite wins.\nRxeS\nRe\nShould Black at his second move try\n.\n. . RhS, then 3 Kg\nforces the win.\n-- 190 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_169.png",
+    "sourcePdfPage": 190
+  },
+  {
+    "id": 170,
+    "section": "endgame_trainer",
+    "title": "Ending 170",
+    "header": "Selesniev, 1 91 3",
+    "cue": "White to play and win",
+    "solutionText": "This time the Rook proves no match for the gallivanting Bishop,\nwho roams around the board and forces mate almost singlehandedly.\nf4 + !\nKxf\nOf course not 1 . . . Kh4, when 2 Bh6 followed by 3 Bg5 is mate.\nBh6 +\ngS\nKf2!\nNow the threat is 4 Bg7 followed by 5 Be5 mate.\n. . .\neS\nBf\nIntending the deadly 5 Ba3 and 6 Bc1 mate.\n. . .\nRd\nBa\nexd\nCreates a flight square for the King.\nb\nLures the Rook away.\nRxb\nBd6 mate\n---------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_170.png",
+    "sourcePdfPage": 191
+  },
+  {
+    "id": 171,
+    "section": "endgame_trainer",
+    "title": "Ending 171",
+    "header": "Selesniev, 1 91 5",
+    "cue": "White to play and draw",
+    "solutionText": "When allseems hopeless, White saves the situation by cleverlycreating a perpetual check.\nNe\nReSAttacks the Knight and also prepares to defend by returning to\nthe first rank. The alternative 1 . . . Rd5 would succumb to 2 e7.\ne\nReB\nNd6!\nBut not 3 g6 fxg6 4 Nd6 Kg8 5 Nxc8 Kf7 and Black wins.\n. . .\nRg8!\nOn 3 . . . Rd8 (or 3 .\n.\n.\nRa8) 4 Nxf7 + Kg8 5 Nd8 wins at once.\ng6!\nfxg\nForces, as 4 . . . f6 (or 4 . . . fS) allows 5 Nf7 mate.\nNf7 +\nKh\nNgS +\nKh\nNf7 +\nKh\nBut not 7 . . . Kh5 8 g4 mate.\nNgS +\nKh\nAnd so on, far into the night.\nDrawn by repetition of position.\n-- 192 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_171.png",
+    "sourcePdfPage": 192
+  },
+  {
+    "id": 172,
+    "section": "endgame_trainer",
+    "title": "Ending 172",
+    "header": "Selesniev, 1 921",
+    "cue": "White to play and win",
+    "solutionText": "Selesniev considered this one of his finest compositions, in\nview of the scanty material and the sixPawn checks in succession. Tripled Pawns are usually weak, but this time the columnproves i rresistible!\ne4 + !\nThe obvious 1 BxdS loses after 1 . . . fxg3.\nKxe\nexf3 +\nKeS\nBut not 2 . . . Kxf3 3 Bxd5 + with an easy win.\ngxf4 +\nKe\nfS +\nKeS\nf4 +\nKe\nf3 +\nWhite wins.\nThe King must abandon the Rook, and if 6 . . . Kxf4, 7 Bxd5 h\nKd2 h4 9 Ke2 h3 10 Kf2, and the Pawn is halted.\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_172.png",
+    "sourcePdfPage": 193
+  },
+  {
+    "id": 173,
+    "section": "endgame_trainer",
+    "title": "Ending 173",
+    "header": "Selesniev, 1 927",
+    "cue": "White to play and win",
+    "solutionText": "Selesniev could create little miracles out of deceptively simplepositions.\nexf\nInitiates a powerful threat: 2 f7 Rf8 3 Kg6 and White wins easily.\nKh\nKgSNow the threat is 3 f7 Rf8 (or . . . ReS + ) 4 Kf6 and White wins.\nReS +\nKf\nRhS\nf\nKg\nf8 = Q +\nKxf\nKg4 +\nKmoves\nKxhS\nWhite wins.\nIf Black at his third move tries\nf8 = Q + Kxf8 6 Ke4 + forces the win.\nRd5, then 4 f7 Kg\n-- 194 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_173.png",
+    "sourcePdfPage": 194
+  },
+  {
+    "id": 174,
+    "section": "endgame_trainer",
+    "title": "Ending 174",
+    "header": "Sobalevski, 1 951",
+    "cue": "White to play and win",
+    "solutionText": "This would seem to be a difficult position to analyze, with so\nmany pieces being enprise.\nNh8 + !\nKg\nKxg\nThe alternative 2 Kxh2 would be met by 2 . . . Ne3, threatening\n3 . . . Ng4 + as well as the simple 3 . . . Kxh8.\n. . .\nBf\nPrevents 3 Ng5, when 3 . . . Bxg5 draws for Black.\nNg\nBh\nNg\nBg7!\nClever defense ! On 5 Bd8 in reply there follows 5 . . . Bf\nNe7 + (but not 6 Bxf6, stalemate) Kf8 7 Nh7 + Ke8, and thegame is drawn.\nNe7 +\nBut not 5 . . . Kf8 6 Ne6 + .\nNf7 +\nKh\nRemarkable maneuvering at close quarters.\nKh\nBh\nBf6!\ncontinued\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_174.png",
+    "sourcePdfPage": 195
+  },
+  {
+    "id": 175,
+    "section": "endgame_trainer",
+    "title": "Ending 175",
+    "header": "8",
+    "cue": "",
+    "solutionText": "Kh\nNg8 +\nKhS\n10 Nxf6 +\nKxh\nNf3 mate\nA marvelous production.\nE N D I N G\nStodenetzky,\nWhite to play and win\nBlacʓ meets checkmate at every turn. It'senough to discourage\na King!\nh6!\ngxh\nBlack's best chance. If instead 1 . . . g5 2 c5 d4 3 c6 d3 4 c7 d\nc8 = Q d1 = ! 6 Qh3mate.\nOr if 1 . . . g6 2 g3 + Kg5 (taking the g-Pawn would letWhiteplay 3 cxb5 and Queen with check) 3 cxb5 d4 4 b6 d3 5 b7 d\nb8 = Q d1 = Q 7 Qf4 + KhS 8 Qh4 mate.\nFinally, if 1 . . . g6 2 g3 + Kh5 3 c5 ! b4 4 c6 b3 5 c7 b2 6 c8 = Q\nb1 = Q 7 Qh3 + KgS 8 Qh4 + Kf5 9 Qf4 mate.\ng3 +\nKgS\n196 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_175.png",
+    "sourcePdfPage": 196
+  },
+  {
+    "id": 176,
+    "section": "endgame_trainer",
+    "title": "Ending 176",
+    "header": "Khs 3 c5 b4 4 c6 b3 5 c7 b2 6 c8 = Q b1 = Q 7 Qh3 + Kg5",
+    "cue": "",
+    "solutionText": "cxb\nd\nb\nd\nb\nd\nb8 = Q\nd l = Q\nQf4 +\nKg\nQf6 +\nKh\nQf5 mate\nE N D I N C\nStrycek, 1 967, First Prize\nWhite to play and win\nNo matter how Black captures a Pawn that is offered, it leads to\na mate where his King's exit is blocked by the Rooks.\ne5 +\nKxe\nIf\nRxe5, 2 Qb6 + Ke7 3 Qc7 + Ke6 4 Qd7 mate.\nQxc5 +\nKf\nQxd4 +\nKf\n4 Qe4 mate\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_176.png",
+    "sourcePdfPage": 197
+  },
+  {
+    "id": 177,
+    "section": "endgame_trainer",
+    "title": "Ending 177",
+    "header": "Szental, 1 966",
+    "cue": "White to play and win",
+    "solutionText": "White forces Black'spieces to huddle about the King, whom he\nthen polishes off with a spin mate.\nNe\nOther possibilities are 1 gxf4 Rxh1 , and Black should win, or\ngxh4 c1 = Q 2 Rxc1 Bxc1 , and again Black should win.\nAfter the actual move White threatens 2 g4 + Rxg4 3 Rh3 + Rh\n4 Rg5 + Bxg5 5 Bf3 mate.\ng4 +\nQxe\nRxg\nOr 2 . . . Qxg4 3 ReS + g5 4 Nf6 mate.\nRh3 +\nRh\nRgS +\nBxgS\nBf3 +\nQg\nNg3 mate\nHow embarrassing!\n-- 1 98 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_177.png",
+    "sourcePdfPage": 198
+  },
+  {
+    "id": 178,
+    "section": "endgame_trainer",
+    "title": "Ending 178",
+    "header": "Szijarov, 1 957",
+    "cue": "White to play and win",
+    "solutionText": "White weaves an artful mating netabout the King.\nRd6 + +\nKb\nImmediate loss follows 1 . . . Kc7, by 2 cxb6 + Kxd6 3 bxa7, and\nWhite gets a newQueen and wins.\ncxb\nBe6 +\nRxe\nRb\nIngenious, as after 4 Bxb7 dxe6 the Pawn falls.\nRe5 +\nd\nBxd\nRxb\nBb7 mate\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_178.png",
+    "sourcePdfPage": 199
+  },
+  {
+    "id": 179,
+    "section": "endgame_trainer",
+    "title": "Ending 179",
+    "header": "Tjaulovsky, 1 959",
+    "cue": "White to play and win",
+    "solutionText": "Checkmate on an open board is the last thing you would lookfor in this miniature study.\nRa8 +\nKe\nMoving to a white square allows 2 Nxe5 + , winning Rook and\nBishop.\nBg5 +\nBf\nAgain, there is no choice; 2 .\n.\n.\nKe6 1oses to 3 ReB + , as does\n.\n.\n.\nKd6 to 3 Ra6 + Kd5 4 Ra5 + , in each case winning the\nBishop.\nRa7 +\nRa6 +\nBxf\nKf\nKe\nKf\nRg4 +\nRg\nPins and hopes to win the Bishop.\nNf\nRxf\nRegains his piece-but loses his King!\nRa5! mate\n-- 200 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_179.png",
+    "sourcePdfPage": 200
+  },
+  {
+    "id": 180,
+    "section": "endgame_trainer",
+    "title": "Ending 180",
+    "header": "Tresovski, 1 960",
+    "cue": "White to play and draw",
+    "solutionText": "Quite in the classic style of Kubbel, this ending is simple andelegant.\nRb\nCapturing the Bishop is fatal, as the reply\n. .\n. Kc2 assures the\nQueening of one of the Pawns.\n•\n•\n•\nKc\nOn 1 .\n.\n.\nBcS 2 Rxa4 b2 3 Ra2 followed by removing the Pawndraws.\nRxa\nRaJ +\nRa4 +\nb\nKc\nKcSClearly on 4 . . . KbS, 5 Rxa7 draws easily.\nRaS +\nKc\nRa1 !\nbxa1 = Q\nStalemate.\n----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_180.png",
+    "sourcePdfPage": 201
+  },
+  {
+    "id": 181,
+    "section": "endgame_trainer",
+    "title": "Ending 181",
+    "header": "N G 181",
+    "cue": "White to play and win",
+    "solutionText": "White meets the threat of the united passed Pawns by weaving\na mating net on the other side of the board !\nRc\nNc4 +\nOn 1 . . . a3, the continuation 2 Rxb6 a2 3 Rh1 + Kg7 4 Rxb\nwins for White.\nKe\nRh1 +\nRg1 +\nKf\nThreatens 6 Rh1 mate.\n. . .\nRg7 +\nRh6 +\nRg8 mate\nBd\nKg\nKh\nb1 = Q\nKh\nBh\n(Note that neither 8 Rhxh7 + nor 8 Rgxh7 + is mate.)\n-- 202 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_181.png",
+    "sourcePdfPage": 202
+  },
+  {
+    "id": 182,
+    "section": "endgame_trainer",
+    "title": "Ending 182",
+    "header": "Troitzky",
+    "cue": "White to play and win",
+    "solutionText": "An attractive study in which the Queen proves no match for the\nKnight, who dominates the proceedings.\nRf8!\nQeS\nThe only square on the board on which the Queen does not fallonto a Knight fork.\nNow the Queen is centralized-but still in danger for her life.\nd4!\nQd\nOnce again, only onesquare offers safety.\nRf6!\nQd\nFor the third time, the Queen is restricted to one square!\nNe6 +\nKb\n(or .\n•\n•\nKc8)\nMoving to the third rank instead allows a discovered check,\nwinning the Queen.\nRf8 +\nRf7!\nNd8 +\nWhite wins.\nKb\nQxf\nThe Queen falls, and with it the game.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_182.png",
+    "sourcePdfPage": 203
+  },
+  {
+    "id": 183,
+    "section": "endgame_trainer",
+    "title": "Ending 183",
+    "header": "Troitzky, 1 895",
+    "cue": "White to play and win",
+    "solutionText": "Troitzky is an artist who needs a minimum of material to create\na masterpiece.\nAn interesting feature of this composition is the waythreats of\nKnight forks on white squares suddenly transform into threatsof Knight forks on black squares. This little beauty is one of myfavorite Troitzky studies.\nNg3 +\nKd\nObviously\n. .\n. Kxf4 2 Rf5 mate.\nRc8!\nQxc\nIf she moves along either of the twodiagonals, she falls onto a\nKnight fork at f5.\nNf5 +\nKc\nMoving to a white square loses the Queen by a Knight fork.\nb4 +\nBayonet attack!\nWhite wins.\nThe King must move to a white square-and lose the Queen by\na Knight fork, thus 4 . . . Kc6 5 Ne7 + ; or 4 . . . Kb5 5 Nd6 + ; or\n4 . . . Kd5 5 Ne7 + ; or 4 . . . Kc4 5 Nd6 + .\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_183.png",
+    "sourcePdfPage": 204
+  },
+  {
+    "id": 184,
+    "section": "endgame_trainer",
+    "title": "Ending 184",
+    "header": "Troitzky, 1 897",
+    "cue": "White to play and win",
+    "solutionText": "A neat smothered mate, which Troitzky himself called \"a romantic study.\"\nWhite is ahead in material, but he is threatened with loss of the\nQueen by 1 . . . g2, as well as by 1 . . . Rb1 + .\n(luckily, it's his turn to move.)\nBc6!\nA clever combination, including as it does a sacrifice of the\nQueen . . .\nKe\nBg2 + !\nRb1 +\nRxh\n. . . and a sacrifice of the Bishop!\nKxg\nNf4 +\nKg\nKe\ng\nNe2 mate\n----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_184.png",
+    "sourcePdfPage": 205
+  },
+  {
+    "id": 185,
+    "section": "endgame_trainer",
+    "title": "Ending 185",
+    "header": "G 1 85 _____ _",
+    "cue": "White to play and win",
+    "solutionText": "White'spieces work beautifully together to subdue the enemy\nKing. A simple but artistic production.\nNh\nThreatens instant mate.\n. . .\nBf\nBlack may not move the King, on pain of a Knight fork.\nBf6 +\nBg\nl<e5!\nc\nKe\nc\nKf\nBxf\nKxf\nc\nKf\nc\nKf\nc1 = Q\nNf7 mate",
+    "image": "assets/puzzles/endgame_trainer/ending_185.png",
+    "sourcePdfPage": 206
+  },
+  {
+    "id": 186,
+    "section": "endgame_trainer",
+    "title": "Ending 186",
+    "header": "Troitzky, 1 909",
+    "cue": "White to play and win",
+    "solutionText": "A classic production of the oldmaster.\nNb6!\nWith the immediate threat of mate by 2 Qe3.\n. . .\nQe\nThe King may not move, on pain of losing the Queen.\nNd7!\nWith a newmate threat-3 Qd3.\n•\n•\n•\nKc\nThe King may not move to anyother square, or he will lose his\nQueen. And if 2 . . . Qe4, 3 Qc3 + Kd5 4 Nf6 + wins the Queen.\nQxc7 +\nQcS +\nKb\nKb\nOn 4 . . . Ka4 White forces matters by 5 Nb6 + Kb3 6 Qc3 + Ka\n7 Nd5! Qd7 8 Kc1 .\nQc3 +\nKa\nOr 5 . . . Ka2 6 Kc1 Qe2 7 Qa5 + Kb3 8 Nc5 + Kc4 9 Qa6 + and\nBlack's Queen falls.\ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_186.png",
+    "sourcePdfPage": 207
+  },
+  {
+    "id": 187,
+    "section": "endgame_trainer",
+    "title": "Ending 187",
+    "header": "Qd4 +",
+    "cue": "",
+    "solutionText": "Here if 6 . . . KbS 7 Qc5 + Ka4 8 Nb6 + Kb3 9 Qc3 + Ka2 10 NdSand wins, as in the note to Black's 4th move.\nNcS\nQb\nOn 7 . . . QbS 8 Qa1 + Kb4 9 Qc3 is mate.\nQal +\nKb\nCare is necessary when administering the final touch. If\nQb2 + KaS 10 Qxb8, Black escapes by stalemate.\nNa6 +\nWhite wins.\nA masterpiece!\nE N D I N\nG\nTroitzky,\nWhite to play and winQueen and Knight cooperate beautifully to win the enemy\nQueen by \"domination.\"\nQa3 +\nKd\nSafe temporarily, but the King will be forced to move to c2.\nQaS +\nKc\nForced, since 2 . . . Kd3 loses to 3 Qa6 + , 2 . . . Ke2 loses to\nNg3 + , 2 . . . Kc1 loses to 3 Qa1 + , and 2 . . . Kd1 loses to\nQa1 + Ke2 4 Ng3 + .\nQa2 +\nKc\nObviously the only move left.\nNg\nDomination !\n•\n•\n•\nQf\nOn 4 . . . Qd1 5 Ne4 + forces the King into a Knight fork.\nNe4 +\nKd\nQd2 +\nKxe\nQe2 +\nWhite wins.\nThe King must move to the Bishop file, when 8 Qf2 + wins the\nQueen.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_187.png",
+    "sourcePdfPage": 208
+  },
+  {
+    "id": 188,
+    "section": "endgame_trainer",
+    "title": "Ending 188",
+    "header": "G 1 88 ----",
+    "cue": "White to play and draw",
+    "solutionText": "The situation looks desperate for White. Though he is ahead in\nmaterial, his opponent has two Pawns on the second rank,\nready to promote to Queens.\nBd3 + !\nThe natural 1 Bxc2 fails after 1 . . . b1 = Q 2 Bxb1 Rb2 + 3Kg3 (or\nKg1 Rxb1 + 4 Kf2 Rb2 + 5 Kg3 Rxh2 and Black wins) 3 . . . h4 + ,\nand Black wins the Queen.\n. . .\nKb\nThe King does not care to be disturbed by checks.\nBxc\nb1 = Q\nBxb\nRb2 +\nKg3!\nh4 +\nKxh\nRxh\nBe4 +\nKmoves\nBg2!\nConfines the Rook and threatens to win it by 8 Kg3.\n. . .\nRxg\nStalemate.\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_188.png",
+    "sourcePdfPage": 210
+  },
+  {
+    "id": 189,
+    "section": "endgame_trainer",
+    "title": "Ending 189",
+    "header": "Troitzky, 1 930",
+    "cue": "White to play and win",
+    "solutionText": "Wherein a piece mayseem to have freedom of movement, andyet be hopelessly trapped.\nRg4 +\nKh\nThe King must go to the Rook file, since moving to the Bishopfile allows 2 Rc4 + , winning a Bishop.\nc\nBf\nRf\nBb\nBlack is willing to give up a Bishop, if he canthereby removethe dangerous Pawn.\nRxf\nBxc\nKc\nWhite wins.\nTo Black'ssurprise, the Bishop does not have a decent moveleft. If 5 .\n.\n.\nBg3, 6 RhS + Kg7 7 RgS + and the Bishop falls.\n--------\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_189.png",
+    "sourcePdfPage": 211
+  },
+  {
+    "id": 190,
+    "section": "endgame_trainer",
+    "title": "Ending 190",
+    "header": "Troitzky, 1 935",
+    "cue": "White to play and win",
+    "solutionText": "After twoforceful checks, a quiet move by the King places\nBlack in zugzwang-anymove he makes leads to disaster.\nA typical Troitzky masterpiece.\nQf7 +\nKc\nBest, as 1 . . . Ka4 allows 2 Qc4 + and mate at b4.\nBxg7 +\nKd\nThe only move, as 2 . . . Kb4 loses the Queen after 3 Bf8 + .\nKdl !\nAfter this quiet move, Black is left without a single tenablereply; none of his pieces maymove without loss.\nFor example: if 3 . . . Ke4, 4 Qb7 + , and the King may not go to\na black square on account of a Bishop check exposing his\nQueen, while moving to a white square is met by 4 Qb1 + ,\nwhich wins the Queen by the skewer attack.\nIf 3 . . . Qh2, 4 Qd5 + Ke3 5 Bd4 + ; or if 3 . . . Qh4 (or 3 . . .\nQh1 ), 4 Qb3 + , and the Queen goes.\nFinally, if 3 . . . Ng2, 4 Qb3 + wins the Queen, while 3 . . . Nc\n4 Qb3 + Ke4 5 Qxc2 + does likewise.",
+    "image": "assets/puzzles/endgame_trainer/ending_190.png",
+    "sourcePdfPage": 212
+  },
+  {
+    "id": 191,
+    "section": "endgame_trainer",
+    "title": "Ending 191",
+    "header": "aS",
+    "cue": "",
+    "solutionText": "Qb3 +\nKe\nQb7 +\nWhite wins.\nThis long-distance check finally wins the Queen. A King moveto a white square succumbs to 6 Qb1 + , while a move to a blacksquare is met by 6 BeS + or 6 Bd4 + , and the Queen falls.\nE N D I N G\nUnknown\nWhite to play and draw\nThere is some clever footwork by the Knights in this ending.\nRfl +\ncl = Q\nRxcl +\nKxcl\ne\nfxe\nf\nNeSAttacks the Pawn and threatens, if it Queens, to win the Queenby 5 . . . Nd7 + .\nf8 = Ncontinued\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_191.png",
+    "sourcePdfPage": 213
+  },
+  {
+    "id": 192,
+    "section": "endgame_trainer",
+    "title": "Ending 192",
+    "header": "will draw, since two lone Knights cannot force mate.",
+    "cue": "",
+    "solutionText": "Nec6 +\nKa\ne\nNd\ne\nNf\ne\nNd\ne\n1 0 Nf\nDuplicates Black'searlier threat! He attacks the Queening Pawnin the same fashion.\nNd3 +\nStalemate!\ne1 = N\nNxd\nE N D I N G\nVandecasteele,\nWhite to play and win\nThe minor-piece play is exquisite-a masterpiece if I ever sawone.\nNc\nNa\nThe only move, since 1 . .\n. Nd2 allows 2 Bc3 + .\n-- 214 ----------------\nNa2 +\nNc3 +\nNdS +\nNb6 +\nKa\nKb\nKa\nThe tempting 5 Bc3 allows Black a beautiful escape: 5 . . . e\nBe1 e2 7 Nc3 + Kb4 8 Nb1 + c3 + 9 Bxc3 + Ka4 10 Nxa3 e1 = Q\nBxe1 stalemate!\n•\n•\n.\nKb\nOn 6 . . . Kc5, 7 Na4 + wins the Black Knight.\nNd\nKa\nOf course 7 .\n.\n.\nKc6 loses a piece to 8 Ne5 + .\nNcS +\nKbS\nNxe\nKa\nBlack's Knight is curiously helpless to escape.\n1 0 NcS +\nKbS\nNd\nKa\nHere too 11 . . . Kc6 fails after 12 Ne5 + .\n1 2 Nb6 +\n1 3 Bd\n14 NdS +\n1 5 BelKbs\nKb\nKa\nNbSFinally the Knight is able to make away-but alas! It'stoolate.\n1 6 Nb6 mate\n----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_192.png",
+    "sourcePdfPage": 214
+  },
+  {
+    "id": 193,
+    "section": "endgame_trainer",
+    "title": "Ending 193",
+    "header": "Villaneuve-Escaplon, 1 91 0",
+    "cue": "Either Bishop to play and win",
+    "solutionText": "That the advantage of being \"on the move\" canoffer winningchances is nicely illustrated in this ending.\nWhite moves first:\nBh\nKxh\nRunning away loses : 1 Kg7 2 Qg6 + Kh8 3 Qf6 + Kg8 (on 3 .\n.\n.\nKh7, 4 Bg6 + wins) 4 Bf7 + Kf8 5 Bg6 + and mate in two.\nQh7 +\nKg\nQh3 +\nKf\nQg2 +\nWhite wins the Queen.\nBlack moves first:\nKxh\nKg\nKf\nBh\nQh1 +\nQh4 +\nQg6 +\nBlack wins the Queen and the game.\n-- 216 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_193.png",
+    "sourcePdfPage": 216
+  },
+  {
+    "id": 194,
+    "section": "endgame_trainer",
+    "title": "Ending 194",
+    "header": "Voia, 1 957",
+    "cue": "White to play and draw",
+    "solutionText": "Both Kings race madly down the board, Black's to win the\nKnight, White's to rescue it. In this wide-open position, a drawby stalemate seems rather unlikely.\nNe\nh\nNg\nThere's not time to take the Bishop; the Pawn must be stopped.\nBd\nNhl\nKb\nKf\nKcS\nKe6!\nBc\nAn unfortunate necessity. If Black tries to gain time by abandoning the Bishop, this might happen : 5 .\n. . Kd4 6 Kxd6 Ke\nKcS Kf3 8 Kd4 Kg2 9 Ke3 Kxh1 10 Kf2, stalemate.\nKfS\nKd\nKg\nKe\nKh\nKf\nNg3!\nThe saving move!\n. . .\nBxg\nStalemate.\n---------------- 217 --",
+    "image": "assets/puzzles/endgame_trainer/ending_194.png",
+    "sourcePdfPage": 217
+  },
+  {
+    "id": 195,
+    "section": "endgame_trainer",
+    "title": "Ending 195",
+    "header": "Vukevic",
+    "cue": "White to play and win",
+    "solutionText": "White wins the black Queen, then seems in danger of losinghis own. He evolves a little combination that ends in as pretty a\ncheckmate as you'llever see!\nRfS +\nQxfs\nNe3 +\nKxd\nNxfS +\nKc\nHowdoes the white Queen escape? Answer: she doesn't!\nQxa7 +\nNxa\nb6 +\nKb\nNd6 +\nKa\nb7 mate!\nLovely!\n-- 218 --------",
+    "image": "assets/puzzles/endgame_trainer/ending_195.png",
+    "sourcePdfPage": 218
+  },
+  {
+    "id": 196,
+    "section": "endgame_trainer",
+    "title": "Ending 196",
+    "header": "Wotawa",
+    "cue": "White to play and win",
+    "solutionText": "d e\nWhite'sstrategy is brusque, but effective. He sacrifices both\nRooks-offers that cannot be refused. The resulting Queenending is child's play.\nRd2!\nThreatens both 2 Rxe2, and 2 Rb2 + with mate to follow. Thereply is forced.\nRh1 +\nRe1 !\nAgain there is no choice.\ne\ne8 = Q\nQg6 +\nQf6 +\nQb2 mate\nRxd\nRd\nRxel\nRd\ne1 = Q\nKa\nKb\n---------\n-",
+    "image": "assets/puzzles/endgame_trainer/ending_196.png",
+    "sourcePdfPage": 219
+  },
+  {
+    "id": 197,
+    "section": "endgame_trainer",
+    "title": "Ending 197",
+    "header": "____",
+    "cue": "White to play and win",
+    "solutionText": "The Rook finds a way to break through against anyline of playby the Pawns.\nc3!\n(a)\nd3!\nc\nc\nThreatens Rb6 mate.\n•\n•\n•\nRhl\nAnd the Rook mates.\n(b)\n. . .\nd\nf\ncxd\ng\ndxc\ng\ng\nOr 2 . . . dS and 3 d4 wins; or if 2 . .\n. cxd3 3 c4 g2 4 cSdxcS\nRe1 wins.\ndxc\nc\nRdl\nAnd mate next move.\n(c)\nRhl\nf\ndxc\nd5!\nKb\n-- 220 ----------------",
+    "image": "assets/puzzles/endgame_trainer/ending_197.png",
+    "sourcePdfPage": 220
+  },
+  {
+    "id": 198,
+    "section": "endgame_trainer",
+    "title": "Ending 198",
+    "header": "Rh6 +",
+    "cue": "",
+    "solutionText": "Kc\nThreatens 5 Rc6 mate.\nRh5 mate\nKc\nd\nE N D I N G\nWotawa,\nWhite to play and draw\nWith twopieces enprise, White has his work cutout to emergewith a draw. His method is ingenious.\nNe\nRd2 +\nOn 1 . . . Rd5, 2 Re1 is the simplest way to draw.\nKe\nRe2 +\nThe situation looks bad. If now 3 Kf4, Rxe5 4 Rf2 + Re2 5 Rxe2 +\nBxe2 6 Kg5 Bd3 wins for Black.\nKd4!\nRxe\nRf6!\nWhite attacks twopieces--but his ownRook is under attack!\n.\n•\n•\ngxf\nStalemate.\n---------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_198.png",
+    "sourcePdfPage": 221
+  },
+  {
+    "id": 199,
+    "section": "endgame_trainer",
+    "title": "Ending 199",
+    "header": "Wotawa, 1 952",
+    "cue": "White to play and draw",
+    "solutionText": "It seems incredible that in four moves White canbring about a\nstalemate in the middle of the board.\nWatch some magic moves by White.\nKd\nNe7 (or Nf6)\nAfter 1 . . . RaS, White draws by 2 Ne1 followed by Nd3 and\nNc5.\nFor example, 1 . . . Ra5 2 Ne1 Kf5 3 Nd3 Ke6 4 Nc5 + Kd6(?)\nNb7 + .\nNc\nNd5!\nNb4!\nStalemate.\nRc\nNxd\nNxb",
+    "image": "assets/puzzles/endgame_trainer/ending_199.png",
+    "sourcePdfPage": 222
+  },
+  {
+    "id": 200,
+    "section": "endgame_trainer",
+    "title": "Ending 200",
+    "header": "Yakimchik",
+    "cue": "White to play and win",
+    "solutionText": "There is some lively steppin' in this Knightly duel.\nNg\nStops the passed Pawn, and also heads for c2 or b3.\n. . .\nNg\nNe\nGuards f4 against Nf4 and an annoying check next move.\n•\n•\n•\nNf4!\nWith stalemate in mind.\nNxf\nNxh\nNf\nNd\nh\nb\nb\nb\nBlack seems about to achieve his goal-stalemate.\nKd\nKb\nNd\nThe second Knight decides to take a hand . . .\na1 = Q\nNc3 +\nKxb2 ·\n10 Nc4 mate\n. . . and just in time.\n-----------------\n--",
+    "image": "assets/puzzles/endgame_trainer/ending_200.png",
+    "sourcePdfPage": 223
+  }
+]

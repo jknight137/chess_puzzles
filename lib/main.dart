@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
-import 'screens/puzzle_list_page.dart';
+import 'screens/splash_page.dart';
 
 void main() {
-  runApp(const WoodpeckerApp());
+  runApp(const KnightsGambitApp());
 }
 
-class WoodpeckerApp extends StatelessWidget {
-  const WoodpeckerApp({super.key});
+class KnightsGambitApp extends StatelessWidget {
+  const KnightsGambitApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Woodpecker Trainer',
+      title: "Knight's Gambit",
       theme: ThemeData(
         useMaterial3: true,
         colorSchemeSeed: const Color(0xFF3B82F6),
       ),
-      home: const PuzzleListPage(),
+      home: const SplashPage(),
     );
   }
 }
